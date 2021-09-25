@@ -4,18 +4,16 @@
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	row-gap: var(--global--spacing-vertical); // Add space in case the menu wraps below the site branding.
+	row-gap: calc(0.75 * var(--global--spacing-vertical)); // Add space in case the menu wraps below the site branding.
 
 	.wp-custom-logo & {
 		align-items: center;
 	}
-
 	@include media(mobile) {
-		padding-top: calc(var(--global--spacing-vertical) / 0.75); // 40px
-	}
-
-	@include media(desktop) {
-		padding-top: calc(2.4 * var(--global--spacing-vertical)); // 60px
+		justify-content: space-between;
+		&::before{
+			content: none;
+		}
 	}
 }
 
@@ -23,16 +21,21 @@
 .site-branding {
 	color: var(--branding--color-text);
 	margin-right: 140px;
+	margin-bottom: calc(0.5 * var(--global--spacing-vertical));
 
 	&:last-child {
 		margin-right: 0;
 		width: 100%;
 		text-align: center;
+		@include media(mobile) {
+			width: initial;
+		}
 	}
 
 	@include media(mobile) {
+		order: 0;
 		margin-right: initial;
-		margin-top: 4px; // Align the baseline of the site title with the primary menu
+		margin-top: calc(0.75 * var(--global--spacing-vertical)); // Align the baseline of the site title with the primary menu
 	}
 }
 
@@ -190,7 +193,7 @@
 
 				.site-branding {
 					margin-right: 0;
-					max-width: calc(100% - 160px);
+					max-width: calc(100% - 90px);
 				}
 			}
 		}
