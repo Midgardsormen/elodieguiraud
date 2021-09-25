@@ -6,17 +6,17 @@ $baseline-unit: 10px;
 :root {
 
 	/* Font Family */
-	--global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
-	--global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+	--global--font-primary: 'Montserrat Alternates', sans-serif;
+	--global--font-secondary: 'Montserrat Alternates', sans-serif;
 
 	/* Font Size */
-	--global--font-size-base: 1.25rem; // 20px / 16px
-	--global--font-size-xs: 1rem; // 16px / 16px
-	--global--font-size-sm: 1.125rem; // 18px / 16px
-	--global--font-size-md: 1.25rem; // 20px / 16px
-	--global--font-size-lg: 1.5rem; // 24px / 16px
-	--global--font-size-xl: 2.25rem; // 36px / 16px
-	--global--font-size-xxl: 4rem; // 64px / 16px
+	--global--font-size-base: 0.875rem; // 14px / 16px
+	--global--font-size-xs: 0.75rem; // 16px / 16px
+	--global--font-size-sm: 0.875rem; // 14px / 16px
+	--global--font-size-md: 1rem; // 16px / 16px
+	--global--font-size-lg: 1.20rem; // 20px / 16px
+	--global--font-size-xl: 1.75rem; // 28px / 16px
+	--global--font-size-xxl: 2.375rem; // 38px / 16px
 	--global--font-size-xxxl: 5rem; // 80px / 16px
 	--global--font-size-page-title: var(--global--font-size-xxl);
 	--global--letter-spacing: normal;
@@ -64,12 +64,12 @@ $baseline-unit: 10px;
 	--definition-term--font-family: var(--global--font-primary);
 
 	/* Colors */
-	--global--color-black: #000;
+	--global--color-black: #1d1a1c;
 	--global--color-dark-gray: #28303d;
 	--global--color-gray: #39414d;
 	--global--color-light-gray: #f0f0f0;
 	--global--color-green: #d1e4dd;
-	--global--color-blue: #d1dfe4;
+	--global--color-blue: #4169e1;
 	--global--color-purple: #d1d1e4;
 	--global--color-red: #e4d1d1;
 	--global--color-orange: #e4dad1;
@@ -79,7 +79,7 @@ $baseline-unit: 10px;
 	--global--color-white-50: rgba(255, 255, 255, 0.5); // Used for disabled buttons
 	--global--color-white-90: rgba(255, 255, 255, 0.9); // Used in form fields.
 
-	--global--color-primary: var(--global--color-dark-gray); /* Body text color, site title, footer text color. */
+	--global--color-primary: var(--global--color-black); /* Body text color, site title, footer text color. */
 	--global--color-secondary: var(--global--color-brown); /* Headings */
 	--global--color-primary-hover: var(--global--color-primary);
 	--global--color-background: var(--global--color-white); /* Mint, default body background */
@@ -162,7 +162,7 @@ $baseline-unit: 10px;
 	--primary-nav--font-family: var(--global--font-secondary);
 	--primary-nav--font-family-mobile: var(--global--font-primary);
 	--primary-nav--font-size: var(--global--font-size-md);
-	--primary-nav--font-size-sub-menu: var(--global--font-size-xs);
+	--primary-nav--font-size-sub-menu: var(--global--font-size-sm);
 	--primary-nav--font-size-mobile: var(--global--font-size-sm);
 	--primary-nav--font-size-sub-menu-mobile: var(--global--font-size-sm);
 	--primary-nav--font-size-button: var(--global--font-size-xs);
@@ -239,12 +239,12 @@ $baseline-unit: 10px;
 	}
 }
 
-@media only screen and (min-width: 652px) { // Not using the mixin because it's compiled after this file
-	:root {
-		--global--font-size-xl: 2.5rem; // 40px / 16px
-		--global--font-size-xxl: 6rem; // 96px / 16px
-		--global--font-size-xxxl: 9rem; // 144px / 16px
-		--heading--font-size-h3: 2rem; // 32px / 16px
-		--heading--font-size-h2: 3rem; // 48px / 16px
-	}
-}
+// @media only screen and (min-width: 652px) { // Not using the mixin because it's compiled after this file
+// 	:root {
+// 		--global--font-size-xl: 2.5rem; // 40px / 16px
+// 		--global--font-size-xxl: 6rem; // 96px / 16px
+// 		--global--font-size-xxxl: 9rem; // 144px / 16px
+// 		--heading--font-size-h3: 2rem; // 32px / 16px
+// 		--heading--font-size-h2: 3rem; // 48px / 16px
+// 	}
+// }

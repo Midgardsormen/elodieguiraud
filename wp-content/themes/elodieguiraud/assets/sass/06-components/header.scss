@@ -4,7 +4,7 @@
 	display: flex;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	row-gap: var(--global--spacing-vertical); // Add space in case the menu wraps below the site branding.
+	row-gap: calc(0.75 * var(--global--spacing-vertical)); // Add space in case the menu wraps below the site branding.
 
 	.wp-custom-logo & {
 		align-items: center;
@@ -21,6 +21,7 @@
 .site-branding {
 	color: var(--branding--color-text);
 	margin-right: 140px;
+	margin-bottom: calc(0.5 * var(--global--spacing-vertical));
 
 	&:last-child {
 		margin-right: 0;
@@ -34,7 +35,7 @@
 	@include media(mobile) {
 		order: 0;
 		margin-right: initial;
-		margin-top: 4px; // Align the baseline of the site title with the primary menu
+		margin-top: calc(0.75 * var(--global--spacing-vertical)); // Align the baseline of the site title with the primary menu
 	}
 }
 

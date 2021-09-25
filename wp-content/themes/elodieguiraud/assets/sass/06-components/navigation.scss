@@ -3,9 +3,11 @@
   overflow: hidden;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
+  margin-top: 0.75rem;
   @include media(mobile) {
 	  order: 1;
 	  width: initial;
+    margin-top: calc(0.75 * var(--global--spacing-vertical)); // Align the baseline of the site title with the primary menu
   }
   @include media(desktop) {
 	  border: none;
@@ -17,7 +19,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 15px;
+    width: 20px;
     height: 100%;
     z-index: 10;
     background: rgb(255, 255, 255);
@@ -27,6 +29,7 @@
       rgba(255, 255, 255, 1) 52%,
       rgba(255, 255, 255, 1) 100%
     );
+    opacity: 0.85;
   }
   &::before {
     left: 0;
@@ -63,8 +66,10 @@
   div.custom-menu-class li {
     padding: 0px 20px 0px 0px;
     display: inline;
-    &:last-of-type {
-      padding-right: 0;
+    @include media(mobile) {
+      &:last-of-type {
+        padding-right: 0;
+      }
     }
     ul {
       display: none;
@@ -83,7 +88,7 @@
   justify-content: space-between;
   position: absolute;
   right: 0;
-  top:  calc(2 * var(--global--spacing-vertical));
+  top:  48px;
   padding-top: calc(0.5 * var(--global--spacing-vertical));
   padding-bottom: calc(0.25 * var(--global--spacing-vertical));
 
@@ -147,6 +152,7 @@
     width: 100%;
     z-index: 500;
     background-color: var(--global--color-background);
+    top: 0;
 
     #primary-mobile-menu {
       position: static;
@@ -217,7 +223,7 @@
     @include media(mobile-only) {
       width: 100%;
       position: fixed;
-      z-index: 2; // To be greater than the cover block and embeds.
+      z-index: 22; // To be greater than the cover block and embeds.
     }
 
     > .primary-menu-container {
@@ -304,7 +310,9 @@
       @include media(mobile) {
         margin: 0;
         width: inherit;
-
+        &:hover{
+          background-color: var(--global--color-blue);
+        }
         &:last-child {
           margin-right: 0;
         }
@@ -366,33 +374,15 @@
       @include media(mobile) {
         left: 0;
         margin: 0;
-        min-width: max-content;
+       width:100%;
         position: absolute;
         top: 100%;
         padding-top: 3px;
         transition: all 0.5s ease;
         z-index: 88888;
-
-        &:before,
-        &:after {
-          content: "";
-          display: block;
-          position: absolute;
-          width: 0;
-          top: -10px;
-          left: var(--global--spacing-horizontal);
-          border-style: solid;
-          border-color: var(--primary-nav--border-color) transparent;
-          border-width: 0 7px 10px 7px;
-        }
-
-        &:after {
-          top: -9px;
-          border-color: var(--global--color-background) transparent;
-        }
-
+        background-color: var(--global--color-blue);
         li {
-          background: var(--global--color-background);
+          background-color: var(--global--color-blue);
         }
 
         &.submenu-reposition-left {
@@ -435,6 +425,9 @@
   // Top-level Item Link Colors
   .primary-menu > .menu-item:hover > a {
     color: var(--primary-nav--color-link-hover);
+    @include media(mobile) {
+      color: var(--global--color-white);
+    }
   }
 
   .primary-menu-container {
@@ -453,7 +446,12 @@
           padding-right: var(--primary-nav--padding);
 
           + .sub-menu-toggle {
-            margin-left: calc(5px - var(--primary-nav--padding));
+            margin-left: calc(-20px - var(--primary-nav--padding));
+          }
+        }
+        &.menu-item-has-children {
+          a{
+            padding-right: 20px;
           }
         }
       }
@@ -484,11 +482,14 @@
     &:link,
     &:visited {
       color: var(--primary-nav--color-link-hover);
+      @include media(mobile) {
+        color: var(--global--color-white);
+      }
     }
 
     &:hover {
-      text-decoration: underline;
-      text-decoration-style: dotted;
+      text-decoration: none;
+      background: var(--global--color-blue);
     }
 
     &:focus {
@@ -496,6 +497,7 @@
       z-index: 99999; // Ensure focus styles appear above absolute positioned elements
       outline-offset: 0;
       text-decoration-thickness: 2px;
+      background: var(--global--color-blue);
     }
   }
 
@@ -503,10 +505,18 @@
   .current_page_item > a:first-child {
     text-decoration: underline;
     text-decoration-style: solid;
+    @include media(mobile) {
+      text-decoration: none;
+      background: var(--global--color-blue);
+    }
 
     &:hover {
       text-decoration: underline;
       text-decoration-style: dotted;
+      @include media(mobile) {
+        text-decoration: none;
+        background: var(--global--color-blue);
+      }
     }
   }
 
@@ -516,7 +526,6 @@
     padding: 0;
     list-style: none;
     margin-left: var(--primary-nav--padding);
-    border: 1px solid var(--primary-nav--border-color);
 
     .sub-menu {
       border: none;
@@ -526,7 +535,7 @@
     @include media(mobile) {
       // For nested sub-menus, don't duplicate the padding
       > .menu-item > .sub-menu {
-        padding: 0;
+        padding: 0 0 1.5rem;
       }
     }
 
@@ -545,8 +554,12 @@
         font-style: var(--primary-nav--font-style-sub-menu-mobile);
 
         @include media(mobile) {
+          padding: calc(0.875 * var(--primary-nav--padding)) var(--primary-nav--padding);
           font-size: var(--primary-nav--font-size-sub-menu);
           font-style: var(--primary-nav--font-style);
+          &:hover, &:focus{
+            text-decoration: underline;
+          }
         }
       }
     }
