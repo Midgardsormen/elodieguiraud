@@ -22,3 +22,31 @@
 		}
 	}
 }
+.page-template-blade{
+	.site-main{
+		padding-top: 0;
+	}
+    article{
+		.blade-entry-content{
+			&--background{
+				margin-top: 0;
+				margin-bottom: 0;
+				background-image: var(--blade-background-image);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;
+				padding: var(--global--spacing-vertical) 0 calc(1.2 * var(--global--spacing-vertical));
+			}
+
+		}
+		.blade-entry{
+			&__parallax--background{
+				background-image: var(--blade-parallax-image);
+				background-position: center;
+				background-attachment: fixed;
+				height: 240px;
+				margin: 0;
+			}
+		}
+	}
+}

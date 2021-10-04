@@ -8,6 +8,7 @@ $baseline-unit: 10px;
 	/* Font Family */
 	--global--font-primary: 'Montserrat Alternates', sans-serif;
 	--global--font-secondary: 'Montserrat Alternates', sans-serif;
+	--global--font-custom: 'photograph_signatureregular', cursive;
 
 	/* Font Size */
 	--global--font-size-base: 0.875rem; // 14px / 16px
@@ -17,7 +18,7 @@ $baseline-unit: 10px;
 	--global--font-size-lg: 1.20rem; // 20px / 16px
 	--global--font-size-xl: 1.75rem; // 28px / 16px
 	--global--font-size-xxl: 2.375rem; // 38px / 16px
-	--global--font-size-xxxl: 5rem; // 80px / 16px
+	--global--font-size-xxxl: 3rem; // 80px / 16px
 	--global--font-size-page-title: var(--global--font-size-xxl);
 	--global--letter-spacing: normal;
 
@@ -70,6 +71,7 @@ $baseline-unit: 10px;
 	--global--color-light-gray: #f0f0f0;
 	--global--color-green: #d1e4dd;
 	--global--color-blue: #4169e1;
+	--global--color-light-blue: #d8f1eb;
 	--global--color-purple: #d1d1e4;
 	--global--color-red: #e4d1d1;
 	--global--color-orange: #e4dad1;
@@ -144,9 +146,9 @@ $baseline-unit: 10px;
 	--branding--color-text: var(--global--color-primary);
 	--branding--color-link: var(--global--color-primary);
 	--branding--color-link-hover: var(--global--color-secondary);
-	--branding--title--font-family: var(--global--font-primary);
-	--branding--title--font-size: var(--global--font-size-lg);
-	--branding--title--font-size-mobile: var(--heading--font-size-h4);
+	--branding--title--font-family: var(--global--font-custom);
+	--branding--title--font-size: calc(1.2 * var(--global--font-size-xxxl));
+	--branding--title--font-size-mobile: calc(1.2 * var(--global--font-size-xxl));
 	--branding--title--font-weight: normal;
 	--branding--title--text-transform: uppercase;
 	--branding--description--font-family: var(--global--font-secondary);
@@ -185,9 +187,9 @@ $baseline-unit: 10px;
 	--pagination--font-weight-strong: 600;
 
 	/* Footer */
-	--footer--color-text: var(--global--color-primary);
-	--footer--color-link: var(--global--color-primary);
-	--footer--color-link-hover: var(--global--color-primary-hover);
+	--footer--color-text: var(--global--color-white);
+	--footer--color-link: var(--global--color-white);
+	--footer--color-link-hover: var(--global--color-white);
 	--footer--font-family: var(--global--font-primary);
 	--footer--font-size: var(--global--font-size-sm);
 

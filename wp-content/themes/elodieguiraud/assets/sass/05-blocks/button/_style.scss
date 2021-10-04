@@ -16,7 +16,9 @@ input[type="reset"],
  * Block Options
  */
 .wp-block-button {
-
+	.wp-block-button__link{
+		border-radius: 15px;
+	}
 	// Target the default and filled button states.
 	&:not(.is-style-outline) {
 
@@ -31,18 +33,18 @@ input[type="reset"],
 					color: var(--local--color-background, var(--global--color-background));
 
 					&.has-background {
-						color: var(--global--color-primary);
+						color: var(--global--color-brown);
 					}
 				}
 			}
 
 			// Background-colors
 			&:not(.has-background) {
-				background-color: var(--global--color-primary);
+				background-color: var(--global--color-brown);
 
 				// Nested
 				.has-background & {
-					background-color: var(--local--color-primary, var(--global--color-primary));
+					background-color: var(--local--color-brown, var(--global--color-brown));
 				}
 			}
 		}
@@ -50,9 +52,9 @@ input[type="reset"],
 		// Hover Button color should match parent element foreground color
 		.wp-block-button__link:hover,
 		.wp-block-button__link:active {
-			border-color: currentColor !important;
-			background-color: transparent !important;
-			color: inherit !important;
+			border-color: var(--global--color-blue)  !important;
+			background-color: var(--global--color-blue) !important;
+			color: var(--global--color-white)  !important;
 		}
 	}
 
@@ -70,7 +72,7 @@ input[type="reset"],
 
 			// Text colors
 			&:not(.has-text-color) {
-				color: var(--global--color-primary);
+				color: var(--global--color-brown);
 
 				// Nested
 				.has-background & {
@@ -95,7 +97,7 @@ input[type="reset"],
 		.wp-block-button__link:active {
 
 			border-color: transparent !important;
-			background-color: var(--global--color-primary) !important;
+			background-color: var(--global--color-blue) !important;
 			color: var(--global--color-background) !important;
 
 			.has-background & {

@@ -27,7 +27,7 @@
 	font-family: var(--button--font-family);
 	font-size: var(--button--font-size);
 	line-height: var(--button--line-height);
-	padding: var(--button--padding-vertical) var(--button--padding-horizontal);
+	padding: calc(0.5 * var(--button--padding-vertical)) var(--button--padding-horizontal);
 	text-decoration: none;
 
 	// Standard Button Color Relationship Logic

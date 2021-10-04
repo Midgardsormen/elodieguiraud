@@ -1,10 +1,9 @@
 
 .footer-navigation {
-	margin-top: calc(2 * var(--global--spacing-vertical));
-	margin-bottom: var(--global--spacing-vertical);
 	color: var(--footer--color-text);
-	font-size: var(--global--font-size-xs);
+	font-size: var(--global--font-size-md);
 	font-family: var(--footer--font-family);
+	font-weight: 300;
 }
 
 .footer-navigation-wrapper {
@@ -13,14 +12,16 @@
 	flex-wrap: wrap;
 	list-style: none;
 	padding-left: 0;
-
+	@include media(desktop) {
+		justify-content: flex-end;
+	}
 	li {
 		display: inline;
 		// This is to prevent hover styles from overlapping when the menu wraps.
 		line-height: 3;
 
 		a {
-			padding: calc(1.25 * var(--primary-nav--padding)) var(--primary-nav--padding);
+			padding: var(--primary-nav--padding) var(--primary-nav--padding) calc(0.5 * var(--primary-nav--padding));
 			transition: transform 0.1s ease;
 			color: var(--footer--color-link);
 

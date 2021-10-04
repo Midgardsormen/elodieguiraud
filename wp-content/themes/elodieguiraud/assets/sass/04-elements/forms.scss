@@ -327,3 +327,37 @@ fieldset {
 		}
 	}
 }
+.newsletter-block{
+	display: flex;
+	flex-flow: column;
+	margin-bottom: var(--global--spacing-vertical);
+	&__form-container{
+		margin-top: calc(0.5 * var(--global--spacing-vertical));
+		background-color: var(--global--color-light-blue);
+		padding: 0 var(--global--spacing-horizontal);
+		overflow: hidden;
+		height: 0;
+		transition: all .5s ease-in-out;
+		&.visible{
+			height: 420px;
+		}
+	}
+	&__container-frame{
+		padding: var(--global--spacing-vertical) 0;
+		max-width: var(--responsive--aligndefault-width);
+		margin-left: auto;
+		margin-right: auto;
+	}
+	&__form-description{
+
+		margin-bottom: calc(0.5 * var(--global--spacing-vertical));
+		h2{
+			font-weight: 300;
+			font-size: var(--heading--font-size-h3);
+			margin-bottom: calc(0.5 * var(--global--spacing-vertical));
+		}
+		p{
+			margin-bottom: calc(0.25 * var(--global--spacing-vertical));
+		}
+	}
+}

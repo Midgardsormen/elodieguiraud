@@ -1,0 +1,3676 @@
+# Translation of Plugins - Emails &amp; Newsletters with Jackmail - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Emails &amp; Newsletters with Jackmail - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-02 14:29:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Emails &amp; Newsletters with Jackmail - Stable (latest release)\n"
+
+#: html/settings.php:350
+msgid "I choose my subscription"
+msgstr "Je choisis mon abonnement"
+
+#: core/installation_core.php:322
+msgid "I'm interested"
+msgstr "Ça m’intéresse"
+
+#: core/installation_core.php:320
+msgid "Subscribe to our offers to send as many emails as you want and get access to dedicated support!"
+msgstr "Souscrivez à nos offres pour envoyer autant d’e-mails que vous le souhaitez et accédez à un accompagnement dédié !"
+
+#: core/installation_core.php:318
+msgid "Upgrade your offer!"
+msgstr "Mettez à niveau votre offre !"
+
+#: html/settings.php:349
+msgid "https://www.jackmail.com/pricing?utm_source=pluginjackmail&utm_medium=banner&utm_campaign=changejackmailaccount"
+msgstr "https://www.jackmail.com/fr/tarifs?utm_source=pluginjackmail&utm_medium=banner&utm_campaign=changejackmailaccount"
+
+#: html/settings.php:344
+msgid "Your trial period is still valid"
+msgstr "Votre période d’essai est encore valable"
+
+#: html/campaign_type_campaign_checklist.inc.php:128
+msgid "or reduce your contacts list."
+msgstr "ou réduisez votre liste de contacts."
+
+#: html/campaign_type_campaign_checklist.inc.php:127
+msgid "subscribe to an offer"
+msgstr "souscrivez à une offre"
+
+#: html/campaign_type_campaign_checklist.inc.php:125
+msgid "To send your campaign,"
+msgstr "Pour pouvoir envoyer votre campagne,"
+
+#: html/campaign_type_campaign_checklist.inc.php:123
+msgid "Your current subscription doesn't enable you to send your email to more than 500 recipients."
+msgstr "Votre abonnement actuel ne vous permet pas d’envoyer votre emailing à plus de 500 destinataires."
+
+#: html/campaign_type_campaign_checklist.inc.php:109
+msgid "now!"
+msgstr "maintenant !"
+
+#: html/campaign_type_campaign_checklist.inc.php:108
+msgid "our offers"
+msgstr "nos offres"
+
+#: core/installation_core.php:317
+#: html/campaign_type_campaign_checklist.inc.php:107
+#: html/campaign_type_campaign_checklist.inc.php:126
+msgid "https://www.jackmail.com/pricing?utm_source=pluginjackmail&utm_medium=banner&utm_campaign=upgradeyouroffer"
+msgstr "https://www.jackmail.com/fr/tarifs?utm_source=pluginjackmail&utm_medium=banner&utm_campaign=upgradeyouroffer"
+
+#: html/campaign_type_campaign_checklist.inc.php:106
+msgid "Take advantage of"
+msgstr "Profitez dès à présent de "
+
+#: html/campaign_type_campaign_checklist.inc.php:105
+msgid "left before the end of your test."
+msgstr "avant la fin de votre test."
+
+#: html/campaign_type_campaign_checklist.inc.php:98
+msgid "Currently in trial period, you have only"
+msgstr "Actuellement en période d’essai, il ne vous reste plus que "
+
+#. Author of the plugin
+msgid "Jackmail & Sarbacane"
+msgstr "Jackmail & Sarbacane"
+
+#. Plugin Name of the plugin
+msgid "Emails & Newsletters with Jackmail"
+msgstr "Emails & Newsletters with Jackmail"
+
+#: html/account_connection.inc.php:214
+msgid "Use Jackmail"
+msgstr "Utiliser Jackmail"
+
+#: html/account_connection.inc.php:207
+msgid "Please enter your phone"
+msgstr "Veuillez saisir votre numéro de téléphone"
+
+#: html/account_connection.inc.php:204
+msgid "Phone"
+msgstr "Téléphone"
+
+#: html/account_connection.inc.php:84
+msgid "Please enter your company"
+msgstr "Veuillez indiquer votre entreprise"
+
+#: html/account_connection.inc.php:81
+msgid "Company"
+msgstr "Entreprise"
+
+#: html/account_connection.inc.php:75
+msgid "Student"
+msgstr "Etudiant"
+
+#: html/account_connection.inc.php:74
+msgid "Professional"
+msgstr "Professionnel"
+
+#: html/account_connection.inc.php:42 jackmail-newsletters.php:1210
+msgid "Password length must be at least 8 characters (with number, lowercase, uppercase, special characters)"
+msgstr "Le mot de passe doit comporter au moins 8 caractères (avec chiffres, minuscules, majuscules, caractères spéciaux)"
+
+#: html/template.php:29
+msgid "Go to templates list"
+msgstr "Voir la liste de modèles"
+
+#: html/woocommerce_email_notification.php:27
+msgid "Go to WooCommerce emails list"
+msgstr "Voir la liste d’e-mails WooCommerce"
+
+#: html/woocommerce_email_notification_choice.php:55
+msgid "Edited"
+msgstr "Modifié"
+
+#: html/woocommerce_email_notification_choice.php:54
+msgid "Being edited"
+msgstr "En cours de modification"
+
+#: html/woocommerce_email_notification_choice.php:53
+msgid "Unedited"
+msgstr "Non modifié"
+
+#: html/woocommerce_email_notification_choice.php:32
+#: html/woocommerce_email_notification_choice.php:44
+msgid "Recipient:"
+msgstr "Destinataire :"
+
+#: html/woocommerce_email_notification_choice.php:15
+msgid "Emails configuration"
+msgstr "Configuration des e-mails"
+
+#: html/campaigns.php:74
+msgid "Edit my emails"
+msgstr "Modifier mes e-mails"
+
+#: html/campaigns.php:38 html/campaigns.php:72
+msgid "Improve your conversion with our EmailBuilder"
+msgstr "Améliorer votre conversion avec notre EmailBuilder"
+
+#: html/campaigns.php:37 html/campaigns.php:70
+msgid "Edit your WooCommerce emails"
+msgstr "Modifiez vos e-mails WooCommerce"
+
+#: jackmail-newsletters.php:1329
+msgid "The workflow was deactived"
+msgstr "Le workflow (flux de travaux) a été désactivé."
+
+#: jackmail-newsletters.php:1328
+msgid "The workflow was saved and activated"
+msgstr "Le workflow (flux de travaux) a été sauvegardé et activé."
+
+#: jackmail-newsletters.php:1327
+msgid "The workflow was saved"
+msgstr "Le workflow (flux de travaux) a été sauvegardé"
+
+#: jackmail-newsletters.php:1245
+msgid "Save & activate"
+msgstr "Sauvegarder & activer"
+
+#: woocommerce_email_notification.php:53
+msgid "Edit my WooCommerce emails easily with Jackmail"
+msgstr "Modifier facilement vos e-mails WooCommerce avec Jackmail"
+
+#: woocommerce_email_notification.php:44
+msgid "Edit my WooCommerce emails easily"
+msgstr "Modifier facilement vos e-mails WooCommerce"
+
+#: html/woocommerce_email_notification_choice.php:42
+#: jackmail-newsletters.php:1358 woocommerce_email_notification.php:40
+msgid "Improve your conversion rate by editing WooCommerce emails with our EmailBuilder."
+msgstr "Améliorez votre taux de conversion en modifiant les e-mails WooCommerce avec notre EmailBuilder."
+
+#: jackmail-newsletters.php:1357
+msgid "Edit automatic email"
+msgstr "Modifier les e-mails automatiques"
+
+#: jackmail-newsletters.php:1353
+msgid "Jackmail is hyper connected with WooCommerce: editing your order confirmation emails with Jackmail is as easy as ever!"
+msgstr "Jackmail est ultra-connecté avec WooCommerce : modifier vos e-mails de commande avec Jackmail est toujours aussi facile !"
+
+#: core/woocommerce_email_notification_core.php:116
+#: jackmail-newsletters.php:1099
+msgid "Customer"
+msgstr "Client"
+
+#: core/woocommerce_email_notification_core.php:116
+#: jackmail-newsletters.php:1050
+msgid "Administrator"
+msgstr "Administrateur/administratrice"
+
+#: html/settings.php:154
+msgid "No support for this method"
+msgstr "Aucun support pour cette méthode"
+
+#: html/settings.php:153
+msgid "Personnalize your domain (Difficult)"
+msgstr "Personnaliser votre domaine (Difficile)"
+
+#: html/settings.php:149
+msgid "Buy a domain"
+msgstr "Acheter un domaine"
+
+#: html/settings.php:147
+msgid "Increase your delivrability and personnalize your sending with a custom domain."
+msgstr "Améliorez votre délivrabilité et personnalisez vos envois avec un domaine personnalisé."
+
+#: html/settings.php:146
+msgid "Buy a domain (Easy)"
+msgstr "Acheter un domaine (Easy)"
+
+#: html/settings.php:121
+msgid "Pending"
+msgstr "En attente"
+
+#: html/settings.php:118
+msgid "Valid"
+msgstr "Valide"
+
+#: html/settings.php:115
+msgid "Delegation"
+msgstr "Délégation"
+
+#: html/settings.php:114
+msgid "Purchase"
+msgstr "Acheté"
+
+#: html/settings.php:105
+msgid "Type"
+msgstr "Type"
+
+#: html/settings.php:104
+msgid "Expiration date"
+msgstr "Date d’expiration"
+
+#: html/settings.php:103
+msgid "Registration date"
+msgstr "Date d’inscription"
+
+#: html/settings.php:100
+msgid "Domains saved"
+msgstr "Domaines sauvegardés"
+
+#: html/settings.php:430
+msgid "Options (values)"
+msgstr "Options (valeurs)"
+
+#: core/list_and_campaign_common_core.php:2448
+msgid "Set up your domain to improve your rating"
+msgstr "Configurez votre domaine pour améliorer votre note"
+
+#: html/settings.php:443
+msgid "Next calls:"
+msgstr "Prochains appels :"
+
+#: html/settings.php:440
+msgid "Deactived"
+msgstr "Désactivé"
+
+#: html/settings.php:439
+msgid "Default configuration:"
+msgstr "Configuration par défaut :"
+
+#: html/settings.php:436
+msgid "Crons"
+msgstr "Crons"
+
+#: jackmail-newsletters.php:1306
+msgid "The \"Sender\" field (email) is required"
+msgstr "Le champ « Expéditeur » (e-mail) est obligatoire"
+
+#: jackmail-newsletters.php:1305
+msgid "The \"Sender\" field (name) is required"
+msgstr "Le champ « Expéditeur » (nom) est obligatoire"
+
+#: jackmail-newsletters.php:1304
+msgid "The \"Sender\" field (name and email) is required"
+msgstr "Le champ « Expéditeur » (nom et e-mail) est obligatoire"
+
+#: html/list_and_campaign.inc.php:320
+msgid "Insertion date"
+msgstr "Date d’insertion"
+
+#: html/list_and_campaign.inc.php:317
+msgid "Insertion date GMT"
+msgstr "Date d’insertion GMT"
+
+#: html/campaigns.php:44
+msgid "See the video"
+msgstr "Voir la vidéo"
+
+#: html/campaigns.php:43
+msgid "Annelies will explain how our plugin works in a few minutes"
+msgstr "Annelies vous explique le fonctionnement en quelques minutes"
+
+#: html/campaigns.php:42
+msgid "How to use Jackmail?"
+msgstr "Qu’est-ce que Jackmail ?"
+
+#: html/campaigns.php:30
+msgid "and more ..."
+msgstr "et bien plus..."
+
+#: html/campaigns.php:29
+msgid "Welcome email"
+msgstr "E-mail de bienvenue"
+
+#: html/campaigns.php:27
+msgid "Post notification"
+msgstr "Notification d’article"
+
+#: html/campaigns.php:24
+msgid "Set up an automated emails"
+msgstr "Configurer des e-mails automatiques"
+
+#: html/campaigns.php:20
+msgid "Create and send an email to your recipients in a flash"
+msgstr "Créer et envoyer un e-mail à vos destinataires en un instant"
+
+#: html/statistics_synthesis.inc.php:267
+msgid "See clickers"
+msgstr "Voir les cliqueurs"
+
+#: html/statistics_synthesis.inc.php:151
+msgid "The response rate is the number of useful clicks (without the unsubscribe link clicks) of the number of openers.It measures the relevance of the content of your message and the interest of the recipients."
+msgstr "Le taux de réactivité correspond au nombre de clics utiles (sans les clics sur le lien de désinscription) sur le nombre d’ouvreurs. Il permet de mesurer la pertinence du contenu de votre message et l’intérêt des destinataires."
+
+#: html/statistics_synthesis.inc.php:149
+msgid "Reactivity rate"
+msgstr "Taux de réactivité"
+
+#: html/statistics_synthesis.inc.php:103
+msgid "Openers are recipients who have opened the email at least once."
+msgstr "Les ouvreurs sont les personnes parmi les destinataires qui ont ouvert au moins une fois l’email."
+
+#: html/statistics.php:41 html/statistics_synthesis.inc.php:246
+msgid "Links"
+msgstr "Liens"
+
+#: html/installation.php:172
+msgid "Contact us"
+msgstr "Nous contacter"
+
+#: html/installation.php:168
+msgid "Join the community"
+msgstr "Rejoindre la communauté"
+
+#: html/installation.php:164
+msgid "View documentation"
+msgstr "Voir la documentation"
+
+#: html/statistics_synthesis.inc.php:250 jackmail-newsletters.php:1344
+msgid "URL"
+msgstr "URL"
+
+#: html/statistics_synthesis.inc.php:252 jackmail-newsletters.php:1085
+msgid "Clickers"
+msgstr "Cliqueurs"
+
+#: jackmail-newsletters.php:1084
+msgid "Clicker rate"
+msgstr "Taux de cliqueurs"
+
+#: html/statistics_synthesis.inc.php:125
+msgid "openers"
+msgstr "ouvreurs"
+
+#: html/statistics_synthesis.inc.php:124
+msgid "opener"
+msgstr "ouvreur"
+
+#: html/statistics_synthesis.inc.php:98
+msgid "Openings are the sum of all openings including multiple openings of certain contacts."
+msgstr "Les ouvertures sont la somme de toutes les ouvertures y compris les ouvertures multiples de certains contacts."
+
+#: html/statistics_synthesis.inc.php:68
+msgid "clickers"
+msgstr "cliqueurs"
+
+#: html/statistics_synthesis.inc.php:67
+msgid "clicker"
+msgstr "clics"
+
+#: html/statistics_synthesis.inc.php:41
+msgid "Clicks are the sum of all clicks generated by the campaign."
+msgstr "Les clics sont la somme de tous les clics générés par la campagne."
+
+#: html/statistics_synthesis.inc.php:9
+msgid "Total emails delivered."
+msgstr "Emails délivrés cumulés"
+
+#: html/statistics_links.inc.php:113
+msgid "No"
+msgstr "Non"
+
+#: html/statistics_links.inc.php:112
+msgid "Yes"
+msgstr "Oui"
+
+#: html/statistics_links.inc.php:69
+msgid "Link:"
+msgstr "Lien"
+
+#: html/statistics_links.inc.php:66
+msgid "Previous"
+msgstr "Précédent"
+
+#: html/statistics_links.inc.php:50
+msgid "See more"
+msgstr "Détails"
+
+#: jackmail-newsletters.php:1273 jackmail-newsletters.php:1411
+msgid "Support"
+msgstr "Support"
+
+#: html/statistics.php:34 html/statistics_synthesis.inc.php:306
+msgid "Please buy a premium offer to unlock this feature.<br/><a target=\"blank\" href=\"https://www.jackmail.com/pricing/\">View pricing</a>."
+msgstr "Merci de souscrire à une offre premium pour activer cette fonctionnalité.<br/><a target=\"blank\" href=\"https://www.jackmail.com/pricing/\">Voir nos offres</a>."
+
+#: html/widget_back.php:112
+msgid "GDPR mention"
+msgstr "Information RGPD"
+
+#: html/campaign_type_scenario_settings.inc.php:203
+msgid "after subscription"
+msgstr "après l’inscription"
+
+#: jackmail-newsletters.php:1163
+msgid "is hardbounced"
+msgstr "est hardbounce"
+
+#: html/campaign_type_scenario_settings.inc.php:186
+#: jackmail-newsletters.php:1349
+msgid "Send a welcome email as soon as a new subscriber registers to one of your contact lists."
+msgstr "Envoyez un e-mail de bienvenue dès l’ajout d’un contact dans une de vos listes."
+
+#: widget.php:325
+msgid "Your subscription to our list has been confirmed [Test]"
+msgstr "Votre inscription à notre liste a été confirmé [Test]"
+
+#: widget.php:278
+msgid "You will receive an email to confirm your subscription."
+msgstr "Vous allez recevoir un e-mail afin de confirmer votre inscription."
+
+#: widget.php:201 widget.php:298
+msgid "Error: Email was not saved."
+msgstr "Erreur : l’e-mail n’a pas été enregistré."
+
+#: jackmail_core.php:1711
+msgid "Confirm your form subscription"
+msgstr "Confirmez votre formulaire d’abonnement"
+
+#: jackmail_core.php:1710
+msgid "Widget double optin"
+msgstr "Widget double opt in"
+
+#: jackmail-newsletters.php:1348
+msgid "New subscriber"
+msgstr "Nouvel abonné"
+
+#: jackmail-newsletters.php:1338
+msgid "Uninstall EmailBuilder?"
+msgstr "Désinstaller l’Emailbuilder ?"
+
+#: jackmail-newsletters.php:1265
+msgid "Send \"New subscriber\" worflow linked to this list?"
+msgstr "Envoyez aux « Nouveaux abonnés » le scénario relié à cette liste ?"
+
+#: html/widget_back.php:88
+msgid "Customized Url"
+msgstr "Url de confirmation personnalisée"
+
+#: html/widget_back.php:87
+msgid "Default confirmation message"
+msgstr "Message de confirmation par défaut"
+
+#: html/widget_back.php:79
+msgid "Edit email content"
+msgstr "Modifier le contenu de l’e-mail"
+
+#: html/widget_back.php:73
+msgid "Double optin"
+msgstr "Double optin"
+
+#: html/statistics_header.inc.php:32
+msgid "Segment name"
+msgstr "Nom du segment"
+
+#: html/statistics_header.inc.php:11
+msgid "Hide segments"
+msgstr "Masquer les segments"
+
+#: html/statistics_header.inc.php:8
+msgid "Display segments"
+msgstr "Afficher les segments"
+
+#: html/list_and_campaign.inc.php:47
+msgid "Add / Modify / Delete your contacts from your app with our connectors."
+msgstr "Ajouter/Modifier/Supprimer les données de vos listes de contacts avec nos connecteurs."
+
+#: html/campaign_type_scenario_settings.inc.php:190
+msgid "Send campaign:"
+msgstr "Envoyer la campagne :"
+
+#: html/campaign_checklist.inc.php:154
+msgid "Warning: No confirmation link"
+msgstr "Attention : lien de confirmation absent"
+
+#: jackmail-newsletters.php:1225
+msgid "Publish a content"
+msgstr "Publier un contenu"
+
+#: html/settings.php:422
+msgid "Renew"
+msgstr "Renouveler"
+
+#: html/settings.php:419
+msgid "Token"
+msgstr "Token"
+
+#: html/campaign_type_scenario_settings.inc.php:97
+msgid "latest articles"
+msgstr "derniers articles"
+
+#: html/campaign_type_scenario_settings.inc.php:13
+#: html/campaign_type_scenario_settings.inc.php:72
+msgid "Which post type?"
+msgstr "Quel type de contenu ?"
+
+#: jackmail-newsletters.php:1249
+msgid "Save template & start my campaign"
+msgstr "Sauvegarder le modèle & débuter ma campagne"
+
+#: jackmail-newsletters.php:1178
+msgid "lower than"
+msgstr "inférieur à"
+
+#: jackmail-newsletters.php:1151
+msgid "higher than"
+msgstr "supérieur à"
+
+#: jackmail-newsletters.php:1070
+msgid "before"
+msgstr "avant"
+
+#: html/settings.php:415 html/settings.php:449
+msgid "Rebuild"
+msgstr "Reconstruire"
+
+#: html/settings.php:412
+msgid "Jackmail data"
+msgstr "Données de Jackmail"
+
+#: jackmail-newsletters.php:1390
+msgid "List detail"
+msgstr "Détail de la liste"
+
+#: jackmail-newsletters.php:1303
+msgid "The scenario name has been saved"
+msgstr "Le nom du scénario a été sauvegardé"
+
+#: jackmail-newsletters.php:1286
+msgid "The campaign has been created"
+msgstr "La campagne a été créée"
+
+#: jackmail-newsletters.php:1283
+msgid "The campaign name has been saved"
+msgstr "Le nom de la campagne a été sauvegardé"
+
+#: jackmail-newsletters.php:1241
+msgid "Suspicious addresses"
+msgstr "Liste de contacts suspecte"
+
+#: jackmail-newsletters.php:1240
+msgid "Invalid text format of the message"
+msgstr "Format texte du message invalide"
+
+#: jackmail-newsletters.php:1239
+msgid "Phishing"
+msgstr "Hameçonnage"
+
+#: jackmail-newsletters.php:1238
+msgid "No opt-out link found"
+msgstr "Lien de désinscription introuvable"
+
+#: jackmail-newsletters.php:1237
+msgid "Javascript found"
+msgstr "Javascript trouvé"
+
+#: jackmail-newsletters.php:1236
+msgid "Erroneous images"
+msgstr "Images erronées"
+
+#: jackmail-newsletters.php:1235
+msgid "Subject against Emailing list charter"
+msgstr "Objet hors charte"
+
+#: jackmail-newsletters.php:1234
+msgid "Contact list against Emailing list charter"
+msgstr "Liste hors charte"
+
+#: jackmail-newsletters.php:1233
+msgid "Content nonconform mailing list charter"
+msgstr "Contenu hors charte"
+
+#: jackmail-newsletters.php:1232
+msgid "Sending canceled by the user"
+msgstr "Envoi annulé par l’utilisateur ou l’utilisatrice"
+
+#: html/statistics_monitoring.inc.php:13
+msgid "Retarget this campaign"
+msgstr "Relancer cette campagne"
+
+#: html/statistics_monitoring.inc.php:11
+msgid "Re-send the campaign to people who didn't open/click it"
+msgstr "Renvoyez la même campagne aux non-ouvreurs/non-cliqueurs"
+
+#: html/settings.php:490
+msgid "Lists data:"
+msgstr "Données des listes"
+
+#: jackmail-newsletters.php:1269
+msgid "Shop managers and administrators"
+msgstr "Gestionnaires de boutique et administrateurs/administratrices"
+
+#: jackmail-newsletters.php:1134
+msgid "Error: images are too large"
+msgstr "Erreur : les images sont trop grandes"
+
+#: jackmail-newsletters.php:1133
+msgid "Error: content is too long"
+msgstr "Erreur : le contenu est trop grand"
+
+#: jackmail-newsletters.php:1404
+msgid "Break the limit"
+msgstr "Brisez la limite"
+
+#: jackmail-newsletters.php:1033
+msgid "It's a dev version or a test to fix issues"
+msgstr "C’est une version de dev ou un test pour corriger des erreurs"
+
+#: jackmail-newsletters.php:1243
+msgid "Permissions"
+msgstr "Permissions"
+
+#: jackmail-newsletters.php:1164
+msgid "is unsubscribed"
+msgstr "s’est désinscrit"
+
+#: jackmail-newsletters.php:1159
+msgid "Invalid IP address"
+msgstr "Adresse IP invalide"
+
+#: html/statistics_synthesis.inc.php:200
+msgid "Unsubscriber"
+msgstr "Désinscrit"
+
+#: html/statistics_synthesis.inc.php:181 html/statistics_synthesis.inc.php:203
+#: html/statistics_synthesis.inc.php:371 jackmail-newsletters.php:1342
+msgid "Unsubscribers"
+msgstr "Désinscrits"
+
+#: html/settings.php:471
+msgid "Show data informations"
+msgstr "Afficher les données SQL Jackmail"
+
+#: html/settings.php:388
+msgid "Show server informations"
+msgstr "Montrer les informations du serveur"
+
+#: html/settings.php:377
+msgid "Enable support chat"
+msgstr "Activer le support par livechat"
+
+#: html/settings.php:276
+msgid "User permissions"
+msgstr "Permissions des comptes"
+
+#: html/main.php:66
+msgid "A new version of Jackmail is available. Please update your plugin."
+msgstr "Une nouvelle version de Jackmail est disponible. Veuiller mettre à jour votre extension."
+
+#: html/lists.php:76
+msgid "via Jackmail widget"
+msgstr "via le widget Jackmail"
+
+#: html/lists.php:71
+msgid "See it"
+msgstr "Voir"
+
+#: html/list_detail.php:97
+msgid "Unsubscribe this recipient"
+msgstr "Désabonner"
+
+#: html/list_detail.php:89
+msgid "Clicked"
+msgstr "Cliqué"
+
+#: html/list_detail.php:85
+msgid "Opened"
+msgstr "Ouvert"
+
+#: html/list_detail.php:39
+msgid "Subscriber"
+msgstr "Abonné"
+
+#: html/list_and_campaign.inc.php:226
+msgid "Targeting"
+msgstr "Ciblage"
+
+#: html/installation.php:22
+msgid "in the Jackmail folder has to be editable."
+msgstr "doit être éditable dans le dossier Jackmail."
+
+#: html/installation.php:15
+msgid "in the Jackmail folder doesn't exist."
+msgstr "n’existe pas dans le dossier Jackmail."
+
+#: html/campaign_type_scenario_checklist.inc.php:129
+msgid "To activate a workflow you have to be logged in the Jackmail settings."
+msgstr "Pour activer un scénario, vous devez être connecté dans les paramètres de Jackmail"
+
+#: html/campaign_type_scenario_checklist.inc.php:109
+#: html/woocommerce_email_notification_choice.php:51
+msgid "Status:"
+msgstr "État :"
+
+#: html/campaign_type_campaign_checklist.inc.php:152
+msgid "Please register or sign up with your Jackmail account to send a campaign."
+msgstr "Inscrivez vous ou connectez vous avec votre compte Jackmail pour envoyer une campagne."
+
+#: html/campaign_type_campaign_checklist.inc.php:147
+msgid "Please wait, your campaign is in the process of being send out to the Jackmail platform..."
+msgstr "Veuillez patienter, votre campagne est en cours d’envoi vers les plateformes de Jackmail…"
+
+#: html/campaign_type_campaign_checklist.inc.php:40
+msgid "Check again"
+msgstr "Vérifiez à nouveau"
+
+#: html/campaign_type_campaign_checklist.inc.php:37
+msgid "An error occurred while analyzing the anti-spam score"
+msgstr "Une erreur est survenue pendant l’analyse du score anti-spam"
+
+#: html/campaign_type_campaign_checklist.inc.php:15
+msgid "You could be considered spam if your score is lower than 5"
+msgstr "Vous pourriez être considéré comme courrier indésirable si votre score est inférieur à 5"
+
+#: html/campaign_type_campaign_checklist.inc.php:3
+msgid "Measure your spam score"
+msgstr "Mesurez votre score de spamicité"
+
+#: html/campaign_checklist.inc.php:21
+msgid "Jackmail highly recommands to use your own domain"
+msgstr "Jackmail vous recommande vivement d’utiliser votre domaine"
+
+#: html/account_connection.inc.php:245
+msgid "Lost your password?"
+msgstr "Mot de passe oublié ?"
+
+#: html/account_connection.inc.php:233
+msgid "Please check your email and click the confirmation link."
+msgstr "Merci de vérifier vos e-mails et de cliquer sur le lien de confirmation."
+
+#: html/account_connection.inc.php:230
+msgid "Invalid username or password"
+msgstr "Identifiant ou mot de passe invalide"
+
+#: html/account_connection.inc.php:67
+msgid "Sign in"
+msgstr "Se connecter"
+
+#: jackmail-newsletters.php:1122
+msgid "Editors and administrators"
+msgstr "Editeurs et administrateurs"
+
+#: jackmail-newsletters.php:1051
+msgid "Administrators"
+msgstr "Administrateurs/administratrices"
+
+#: html/settings.php:277
+msgid "Choose which users can access to Jackmail."
+msgstr "Choisissez les comptes qui peuvent accéder à Jackmail."
+
+#: jackmail-newsletters.php:1220
+msgid "Create and send newsletters or automated emails. Capture subscribers with a widget. Import and manage your lists."
+msgstr "Créez et envoyer des newsletters ponctuelles ou automatiques. Collectez des abonnés avec le widget. Importez et gérez vos listes."
+
+#: html/settings.php:486
+msgid "Workflows details data:"
+msgstr "Données des scénarios (détails) :"
+
+#: html/settings.php:482
+msgid "Workflows data:"
+msgstr "Données des scénarios :"
+
+#: html/settings.php:478
+msgid "Campaigns data:"
+msgstr "Données des campagnes :"
+
+#: html/campaign_type_campaign_checklist.inc.php:21
+msgid "These reasons can explain your score:"
+msgstr "Les raisons ci-dessous peuvent expliquer votre score :"
+
+#: html/campaign_type_campaign_checklist.inc.php:18
+msgid "This reason can explain your score:"
+msgstr "La raison ci-dessous peut expliquer votre score :"
+
+#: jackmail-newsletters.php:177
+msgid "<p>The <strong>Jackmail</strong> plugin requires php \"json_encode\" and \"json_decode\" features.</p>"
+msgstr "<p>L’extension <strong>Jackmail</strong> nécessite des fonctionnaltés php « json_encode » et « json_decode ».</p>"
+
+#: jackmail-newsletters.php:170
+msgid "<p>The <strong>Jackmail</strong> plugin requires php \"mb_strtoupper\", \"mb_strtolower\" and \"mb_strlen\" features.</p>"
+msgstr "<p>L’extension <strong>Jackmail</strong> requiert les fonctionnalités de PHP « mb_strtoupper », « mb_strtolower » et « mb_strlen ».</p>"
+
+#: html/statistics_monitoring.inc.php:119
+msgid "Total clicks:"
+msgstr "Clics cumulés :"
+
+#: jackmail-newsletters.php:1231
+msgid "Refused by moderation"
+msgstr "Refusé par la modération"
+
+#: jackmail-newsletters.php:1221
+msgid "Create and send email newsletters, autoresponders, and post notifications without leaving WordPress."
+msgstr "Créez et envoyer des newsletters, messages automatiques et notifications d’articles sans jamais quitter WordPress."
+
+#: html/campaign_type_campaign_checklist.inc.php:119
+msgid "Click here to buy new credits."
+msgstr "Cliquez ici pour mettre à niveau votre offre."
+
+#: html/settings.php:332
+msgid "credit available"
+msgstr "crédit disponible"
+
+#: core/installation_core.php:205
+msgid "Please give a review!"
+msgstr "Notez le !"
+
+#: core/installation_core.php:203
+msgid "You like Jackmail?"
+msgstr "Vous aimez Jackmail ?"
+
+#: jackmail-newsletters.php:1223
+msgid "The Best WordPress popup plugin to help you gain more subscribers, social followers or advertisement. Responsive popups with friendly options"
+msgstr "La meilleure extension WordPress de fenêtres contextuelles pour vous aider à gagner plus d’abonnés, de membres à vos réseaux sociaux et de publicité. Fenêtres contextuelles responsive avec des options sympas."
+
+#: jackmail-newsletters.php:1218
+msgid "Quickly and easily create drag-and-drop forms"
+msgstr "Créez rapidement et facilement des formulaires par glisser-déposer"
+
+#: jackmail-newsletters.php:1216
+msgid "A simple, comprehensive and beautifully constructed email opt-in plugin built to help you quickly grow your mailing list."
+msgstr "Une extension d’e-mail simple, complète et bien conçue, pour vous aider à développer rapidement votre liste de diffusion."
+
+#: html/campaign_type_scenario_checklist.inc.php:73
+msgid "new products are published."
+msgstr "nouveaux articles seront publiés."
+
+#: html/campaign_type_scenario_checklist.inc.php:68
+msgid "when a new product is published."
+msgstr "qand un nouveau produit sera publié."
+
+#: core/installation_core.php:323
+msgid "Not now"
+msgstr "Pas maintenant"
+
+#: html/settings.php:384
+msgid "premium plan"
+msgstr "offre premium"
+
+#: html/settings.php:382
+msgid "Enable notification for subscribe to a"
+msgstr "Activer la notification pour souscrire à une "
+
+#: html/settings.php:338
+msgid "Your plan:"
+msgstr "Votre offre :"
+
+#: html/settings.php:330
+msgid "You have"
+msgstr "Vous avez"
+
+#: html/lists.php:19
+msgid "Search contact in lists"
+msgstr "Rechercher un contact"
+
+#: html/settings.php:30
+msgid "Only forms with an email field are visible in Jackmail"
+msgstr "Seul les formulaires avec un champ e-mail sont visibles dans Jackmail"
+
+#: jackmail-newsletters.php:1219
+msgid "Easily create web forms and manage form entries within the WordPress admin."
+msgstr "Créez facilement des formulaires et gérez les enregistrements depuis le tableau de bord de WordPress."
+
+#: html/settings.php:459
+msgid "Wordfence plugin detected"
+msgstr "Extension Wordfence détectée"
+
+#: html/settings.php:458
+msgid "Wordfence plugin"
+msgstr "Extension Wordfence"
+
+#: html/settings.php:404
+msgid "PHP"
+msgstr "PHP"
+
+#: jackmail-newsletters.php:1208
+msgid "Page link"
+msgstr "Lien de la page"
+
+#: html/settings.php:454
+msgid "Browser"
+msgstr "Navigateur"
+
+#: html/settings.php:396
+msgid "Server"
+msgstr "Serveur"
+
+#: jackmail-newsletters.php:1317
+msgid "The template has been duplicated"
+msgstr "Le modèle a été dupliqué"
+
+#: jackmail-newsletters.php:1071
+msgid "Blacklist"
+msgstr "Liste de blocage"
+
+#: html/settings.php:463
+msgid "Logs:"
+msgstr "Journal d’événements :"
+
+#: html/settings.php:426
+msgid "WordPress"
+msgstr "WordPress"
+
+#: html/settings.php:400
+msgid "Database"
+msgstr "Base de données"
+
+#: html/settings.php:392 html/settings.php:475
+msgid "Refresh display"
+msgstr "Rafraichir l’affichage"
+
+#: core/list_and_campaign_common_core.php:1078
+msgid "Role"
+msgstr "Rôle"
+
+#: core/list_and_campaign_common_core.php:1077
+msgid "Registered date (gmt)"
+msgstr "Date d’enregistrement (gmt)"
+
+#: jackmail-newsletters.php:1356
+msgid "Advise your visitors when new products are available in your WooCommerce store."
+msgstr "Informez vos visiteurs des nouveaux produits disponibles dans votre e-boutique WooCommerce."
+
+#: jackmail-newsletters.php:1175
+msgid "List name must be unique"
+msgstr "Le nom de la liste doit être unique"
+
+#: jackmail-newsletters.php:1140
+msgid "(fields separator must be semicolon, comma, vertical bar or tabulation)"
+msgstr "(le séparateur de champs doit etre le point-virgule, la virgule, la barre verticale ou la tabulation)"
+
+#: jackmail-newsletters.php:389 jackmail_core.php:155
+msgid "WordPress users"
+msgstr "Comptes WordPress"
+
+#: html/list_and_campaign.inc.php:390
+msgid "Field separator is semicolon, comma, vertical bar or tabulation"
+msgstr "Le séparateur de champs doit etre le point-virgule, la virgule, la barre verticale ou la tabulation"
+
+#: html/list_and_campaign.inc.php:37
+msgid "Import your contacts from a CSV, TXT or JSON file."
+msgstr "Importez vos contacts depuis un CSV, un TXT ou un fichier JSON."
+
+#: html/list_and_campaign.inc.php:31
+msgid "Copy/paste your contacts."
+msgstr "Copiez/collez vos contacts."
+
+#: html/campaign_type_scenario_settings.inc.php:158
+#: html/campaign_type_scenario_settings.inc.php:159
+msgid "months"
+msgstr "mois"
+
+#: html/campaign_type_scenario_settings.inc.php:158
+#: html/campaign_type_scenario_settings.inc.php:159
+msgid "month"
+msgstr "mois"
+
+#: jackmail-newsletters.php:1063
+msgid "Article link"
+msgstr "Lien de l’article"
+
+#: html/installation.php:118 html/installation.php:131
+msgid "Skip this step"
+msgstr "Ignorer cette étape"
+
+#: html/campaign_type_scenario_settings.inc.php:136
+msgid "new product"
+msgstr "nouveau produit"
+
+#: html/campaign_type_scenario_settings.inc.php:136
+msgid "new products"
+msgstr "nouveaux produits"
+
+#: html/campaign_type_scenario_settings.inc.php:105
+msgid "latest products in"
+msgstr "derniers produits dans"
+
+#: html/campaign_type_scenario_settings.inc.php:100
+msgid "latest articles in"
+msgstr "derniers articles dans"
+
+#: html/campaign_type_scenario_settings.inc.php:85
+msgid "Number of products:"
+msgstr "Nombre de produits :"
+
+#: html/installation.php:195
+msgid "Any time Jackmail and its Services are used, you expressly acknowledge, knowledge, understanding and acceptance of the Terms and Conditions and EmailBuilder License, without any reservations."
+msgstr "Chaque fois que Jackmail et ses services sont utilisés, vous reconnaissez expressément, connaître, comprendre et accepter les Conditions Générales et la Licence EmailBuilder, sans aucune réservation."
+
+#: html/campaign_type_scenario_settings.inc.php:122
+msgid "As soon as I have"
+msgstr "Dès que j’ai"
+
+#: html/campaign_type_scenario_choice.php:25
+#: html/campaign_type_scenario_choice.php:42 jackmail-newsletters.php:1359
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: html/campaign_type_scenario_choice.php:18
+msgid "Display emails associated with"
+msgstr "Afficher les e-mails liés à"
+
+#. Description of the plugin
+msgid "Create and send responsive newsletter with a professional routing platform and a lot of features: automated emails and newsletters, statistics, email & Live Support etc."
+msgstr "Créez et envoyez gratuitement vos newsletters avec une plateforme d’envoi (SMTP) intégrée. Automation, Responsive, Statistiques, Live Support etc."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.jackmail.com"
+msgstr "https://www.jackmail.com"
+
+#: widget.php:221 widget.php:235 widget.php:308
+msgid "Email saved."
+msgstr "Email enregistré."
+
+#: widget.php:10
+msgid "Create your form and collect submit into your Jackmail contacts list."
+msgstr "Créez votre formulaire et récupérez les données directement dans votre liste de contacts de Jackmail."
+
+#: core/list_and_campaign_common_core.php:1341
+msgid "WooCommerce abandoned carts"
+msgstr "Paniers abandonnées WooCommerce"
+
+#: core/list_and_campaign_common_core.php:1337
+msgid "WooCommerce clients"
+msgstr "Clients WooCommerce"
+
+#: core/list_and_campaign_common_core.php:1019
+msgid "Last abandoned cart (gmt)"
+msgstr "Dernier panier abandonné (gmt)"
+
+#: core/list_and_campaign_common_core.php:948
+msgid "Last order (gmt)"
+msgstr "Dernière commande (gmt)"
+
+#: core/list_and_campaign_common_core.php:947
+msgid "Average cart value"
+msgstr "Panier moyen"
+
+#: core/list_and_campaign_common_core.php:946
+msgid "Income"
+msgstr "Chiffre d’affaire"
+
+#: core/list_and_campaign_common_core.php:945
+msgid "Transactions"
+msgstr "Transactions"
+
+#: core/list_and_campaign_core.php:555
+msgid "You can't edit the campaign."
+msgstr "Vous ne pouvez pas éditer la campagne."
+
+#: core/list_and_campaign_core.php:438
+msgid "The column name has been used already"
+msgstr "Nom de colonne déjà utilisé"
+
+#: core/list_detail_core.php:36 core/list_detail_core.php:74
+msgid "View from"
+msgstr "Depuis"
+
+#: core/list_and_campaign_core.php:314
+msgid "This email already exists in the list"
+msgstr "L’e-mail existe déjà dans la liste"
+
+#: jackmail_core.php:3077
+msgid "List from campaign"
+msgstr "Liste depuis la campagne"
+
+#: jackmail_core.php:7
+msgid "You don't have sufficient permissions to access this page."
+msgstr "Vous n’avez pas les permissions suffisantes pour afficher cette page."
+
+#: jackmail-newsletters.php:1034
+msgid "Other"
+msgstr "Autre"
+
+#: jackmail-newsletters.php:1032
+msgid "I do not need to send campaigns each month"
+msgstr "Je n’ai pas besoin d’envoyer des campagnes chaque mois"
+
+#: jackmail-newsletters.php:1031
+msgid "I find the plugin difficult to use"
+msgstr "Je trouve l’extension difficile à utiliser"
+
+#: jackmail-newsletters.php:1030
+msgid "I think Jackmail is expensive"
+msgstr "Je trouve que Jackmail est trop cher"
+
+#: jackmail-newsletters.php:1029
+msgid "My campaigns have been refused by the moderation team"
+msgstr "Mes campagnes ont été refusées par l’équipe de modération"
+
+#: jackmail-newsletters.php:1028
+msgid "Let us know why:"
+msgstr "Vous pouvez nous indiquer la raison :"
+
+#: jackmail-newsletters.php:1027
+msgid "You will loose all your data and will need to set up Jackmail again."
+msgstr "Vous perdrez toutes vos données et devrez réinstaller Jackmail à nouveau."
+
+#: jackmail-newsletters.php:1026
+msgid "You are about to deactivate Jackmail"
+msgstr "Vous allez désactiver Jackmail"
+
+#: jackmail-newsletters.php:1024
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: jackmail-newsletters.php:1364
+msgid "You will loose your EmailBuilder content"
+msgstr "Vous perdrez votre contenu Emailbuilder"
+
+#: jackmail-newsletters.php:1363
+msgid "You will loose your html content"
+msgstr "Vous perdrez votre contenu html"
+
+#: jackmail-newsletters.php:1362
+msgid "You may select up to 3 segments"
+msgstr "Vous pouvez sélectionner au maximum 3 segments"
+
+#: jackmail-newsletters.php:1361
+msgid "You don't have enough credits available"
+msgstr "Vous n’avez pas assez de crédits disponibles"
+
+#: jackmail-newsletters.php:1360
+msgid "Yesterday"
+msgstr "Hier"
+
+#: jackmail-newsletters.php:1354
+msgid "(Workflows which use only this list will be deactived)"
+msgstr "(Les scénarios qui utilisent seulement cette liste seront désactivés)"
+
+#: jackmail-newsletters.php:1352
+msgid "will be sent to"
+msgstr "va à présent être envoyée à"
+
+#: jackmail-newsletters.php:1351
+msgid "will be scheduled to"
+msgstr "va à présent être programmée pour"
+
+#: jackmail-newsletters.php:1350
+msgid "(Widgets which use this list will be deactived)"
+msgstr "(Les widgets qui utilisent cette liste seront désactivés)"
+
+#: jackmail-newsletters.php:1347
+msgid "Weather"
+msgstr "Météo"
+
+#: jackmail-newsletters.php:1346
+msgid "WEBCOPY LINK"
+msgstr "LIEN COPIE WEB"
+
+#: jackmail-newsletters.php:1345
+msgid "Webcopy"
+msgstr "Copie web"
+
+#: jackmail-newsletters.php:1061
+msgid "Apply"
+msgstr "Appliquer"
+
+#: jackmail-newsletters.php:1343
+msgid "Update contact details"
+msgstr "Mettre à jour un contact"
+
+#: jackmail-newsletters.php:1340
+msgid "Unsubscribe"
+msgstr "Désinscrits"
+
+#: jackmail-newsletters.php:1339
+msgid "UNSUBSCRIBE LINK"
+msgstr "LIEN DESINSCRIPTION"
+
+#: jackmail-newsletters.php:1337
+msgid "TXT record not found"
+msgstr "Enregistrement TXT non trouvé"
+
+#: jackmail-newsletters.php:1336
+msgid "Transport"
+msgstr "Transport"
+
+#: jackmail-newsletters.php:1335
+msgid "Tourism"
+msgstr "Tourisme"
+
+#: jackmail-newsletters.php:1334
+msgid "Tools"
+msgstr "Outils"
+
+#: jackmail-newsletters.php:1333
+msgid "Today"
+msgstr "Aujourd’hui"
+
+#: jackmail-newsletters.php:1332
+msgid "to"
+msgstr "au"
+
+#: jackmail-newsletters.php:1331
+msgid "This week"
+msgstr "Cette semaine"
+
+#: jackmail-newsletters.php:1330
+msgid "This month"
+msgstr "Ce mois-ci"
+
+#: jackmail-newsletters.php:1326
+msgid "The workflow was duplicated"
+msgstr "Le scénario a été dupliqué"
+
+#: jackmail-newsletters.php:1325
+msgid "The workflow was disabled"
+msgstr "Le scénario a été désactivé"
+
+#: jackmail-newsletters.php:1324
+msgid "The workflow was deleted"
+msgstr "Le scénario a été supprimé"
+
+#: jackmail-newsletters.php:1323
+msgid "The workflow was activated"
+msgstr "Le scénario a été activé"
+
+#: jackmail-newsletters.php:1322
+msgid "The user name or the password is incorrect"
+msgstr "Identifiant ou mot de passe de connexion incorrect"
+
+#: jackmail-newsletters.php:1321
+msgid "The test recipient is required"
+msgstr "Le destinataire de test est vide"
+
+#: jackmail-newsletters.php:1320
+msgid "The test email has been sent"
+msgstr "L’e-mail de test a été envoyé"
+
+#: jackmail-newsletters.php:1319
+msgid "The template was saved"
+msgstr "Le modèle a été sauvegardé"
+
+#: jackmail-newsletters.php:1318
+msgid "The template was deleted"
+msgstr "Le modèle a été supprimé"
+
+#: jackmail-newsletters.php:1316
+msgid "The name of the list has been saved"
+msgstr "Nom de la liste sauvegardé"
+
+#: jackmail-newsletters.php:1315
+msgid "The list was saved"
+msgstr "La liste est enregistrée"
+
+#: jackmail-newsletters.php:1314
+msgid "The list was deleted"
+msgstr "La liste a été supprimée"
+
+#: jackmail-newsletters.php:1313
+msgid "The list is empty"
+msgstr "La liste est vide"
+
+#: jackmail-newsletters.php:1312
+msgid "The last 180 days"
+msgstr "Les 180 derniers jours"
+
+#: jackmail-newsletters.php:1311
+msgid "The last 90 days"
+msgstr "Les 90 derniers jours"
+
+#: jackmail-newsletters.php:1310
+msgid "The last 30 days"
+msgstr "Les 30 derniers jours"
+
+#: jackmail-newsletters.php:1309
+msgid "The last 14 days"
+msgstr "Les 14 derniers jours"
+
+#: jackmail-newsletters.php:1308
+msgid "The JSON file is not valid"
+msgstr "Le fichier JSON n’est pas valide"
+
+#: jackmail-newsletters.php:1095
+msgid "Content is empty"
+msgstr "Le contenu est vide"
+
+#: jackmail-newsletters.php:1194
+msgid "No valid contacts found"
+msgstr "Pas de contacts valides détectés"
+
+#: jackmail-newsletters.php:1299
+msgid "The file format is not valid"
+msgstr "Le format du fichier n’est pas valide"
+
+#: jackmail-newsletters.php:1297
+msgid "The email has been opened on a desktop"
+msgstr "L’e-mail a été ouvert sur ordinateur"
+
+#: jackmail-newsletters.php:1296
+msgid "The email has been opened on a mobile"
+msgstr "L’e-mail a été ouvert sur mobile"
+
+#: jackmail-newsletters.php:1295
+msgid "The email has been opened but has not been clicked"
+msgstr "L’e-mail a été ouvert mais pas cliqué"
+
+#: jackmail-newsletters.php:1294
+msgid "The email has been opened and clicked"
+msgstr "L’e-mail a été ouvert et cliqué"
+
+#: jackmail-newsletters.php:1293
+msgid "The email has not been opened"
+msgstr "L’e-mail n’a pas été ouvert"
+
+#: jackmail-newsletters.php:1292
+msgid "The email has been opened"
+msgstr "L’e-mail a été ouvert"
+
+#: jackmail-newsletters.php:1291
+msgid "The column has been deleted"
+msgstr "La colonne a été supprimée"
+
+#: jackmail-newsletters.php:1290
+msgid "The column has been saved"
+msgstr "La colonne a été sauvegardée"
+
+#: jackmail-newsletters.php:1285
+msgid "The campaign has been canceled"
+msgstr "La campagne a été annulée"
+
+#: jackmail-newsletters.php:1287
+msgid "The campaign has been deleted"
+msgstr "La campagne a été supprimée"
+
+#: jackmail-newsletters.php:1288
+msgid "The campaign has been duplicated"
+msgstr "La campagne a été dupliquée"
+
+#: jackmail-newsletters.php:1289
+msgid "The campaign has been saved"
+msgstr "La campagne a été sauvegardée"
+
+#: jackmail-newsletters.php:1284
+msgid "The campaign named"
+msgstr "La campagne"
+
+#: jackmail-newsletters.php:1307
+msgid "The \"Subject\" field is required"
+msgstr "Le champ « Objet » est obligatoire"
+
+#: jackmail-newsletters.php:1302
+msgid "The \"Reply to\" field is required"
+msgstr "Le champ « Répondre à » est obligatoire"
+
+#: jackmail-newsletters.php:1301
+msgid "The \"Message\" field is required"
+msgstr "Le champ « Message » est obligatoire"
+
+#: core/template_core.php:11 jackmail-newsletters.php:1282
+msgid "Template with no name"
+msgstr "Template sans nom"
+
+#: jackmail-newsletters.php:1280
+msgid "Template from"
+msgstr "Template de"
+
+#: jackmail-newsletters.php:1278
+msgid "Technology"
+msgstr "Technologie"
+
+#: jackmail-newsletters.php:1277
+msgid "Symbols"
+msgstr "Symboles"
+
+#: jackmail-newsletters.php:1276
+msgid "Submit form"
+msgstr "Soumission d’un formulaire"
+
+#: jackmail-newsletters.php:1274
+msgid "Downloading"
+msgstr "Téléchargement"
+
+#: jackmail-newsletters.php:1272
+msgid "Sport"
+msgstr "Sport"
+
+#: jackmail-newsletters.php:1270
+msgid "should be editable"
+msgstr "doit être éditable"
+
+#: jackmail-newsletters.php:1267
+msgid "Server message:"
+msgstr "Message serveur :"
+
+#: html/list_detail.php:81 jackmail-newsletters.php:1266
+msgid "Sent"
+msgstr "Envoyé"
+
+#: jackmail-newsletters.php:1264
+msgid "sept."
+msgstr "sept."
+
+#: jackmail-newsletters.php:1263
+msgid "Selected lists have been deleted"
+msgstr "Les listes sélectionnées ont été supprimées"
+
+#: jackmail-newsletters.php:1262
+msgid "Selected date is not valid"
+msgstr "La date sélectionnée est incorrecte"
+
+#: jackmail-newsletters.php:1261
+msgid "Select a period to send out:"
+msgstr "Choisissez la période d’envoi :"
+
+#: jackmail-newsletters.php:1260
+msgid "Sending confirmation"
+msgstr "Confirmation d’envoi"
+
+#: jackmail-newsletters.php:1259
+msgid "Sending"
+msgstr "En cours d’envoi"
+
+#: jackmail-newsletters.php:1258
+msgid "Selection is empty"
+msgstr "La sélection est vide"
+
+#: jackmail-newsletters.php:1257
+msgid "Selection"
+msgstr "La sélection"
+
+#: jackmail-newsletters.php:1256
+msgid "selected categories"
+msgstr "catégories sélectionnées"
+
+#: jackmail-newsletters.php:1255
+msgid "selected category"
+msgstr "catégorie sélectionnée"
+
+#: jackmail-newsletters.php:1254
+msgid "Searching"
+msgstr "Recherche en cours"
+
+#: jackmail-newsletters.php:1251
+msgid "Scheduled sending confirmation"
+msgstr "Confirmation de programmation d’envoi"
+
+#: jackmail-newsletters.php:1250
+msgid "Scheduled"
+msgstr "Programmé"
+
+#: jackmail-newsletters.php:1246
+msgid "Save as template"
+msgstr "Enregistrer comme modèle"
+
+#: jackmail-newsletters.php:1242
+msgid "Remove the selection?"
+msgstr "Retirer la sélection ?"
+
+#: jackmail-newsletters.php:1226
+msgid "Send an automatic email to your recipients whenever you publish new content in any category."
+msgstr "Envoyez automatiquement un e-mail à vos destinataires dès que vous publiez un nouveau contenu dans une catégorie."
+
+#: jackmail-newsletters.php:1213
+msgid "(Period 2):"
+msgstr "(Période 2) :"
+
+#: jackmail-newsletters.php:1212
+msgid "(Period 1):"
+msgstr "(Période 1) :"
+
+#: jackmail-newsletters.php:1211
+msgid "Period"
+msgstr "Période"
+
+#: jackmail-newsletters.php:1205
+msgid "One or more campaign fields are missing"
+msgstr "Un ou plusieurs champs de la campagnes sont manquants"
+
+#: jackmail-newsletters.php:1204
+msgid "oct."
+msgstr "oct."
+
+#: jackmail-newsletters.php:1199
+msgid "Office"
+msgstr "Bureautique"
+
+#: jackmail-newsletters.php:1198
+msgid "Objects"
+msgstr "Objets"
+
+#: jackmail-newsletters.php:1197
+msgid "number"
+msgstr "nombre"
+
+#: jackmail-newsletters.php:1196
+msgid "nov."
+msgstr "nov."
+
+#: jackmail-newsletters.php:1195
+msgid "Not enough credits"
+msgstr "Pas assez de crédits"
+
+#: jackmail-newsletters.php:1193
+msgid "No valids recipients"
+msgstr "Pas de destinataires valides"
+
+#: jackmail-newsletters.php:1192
+msgid "No recipient included in the campaign"
+msgstr "Pas de destinataires dans la campagne"
+
+#: jackmail-newsletters.php:1191
+msgid "No list associated in the campaign"
+msgstr "Pas de liste associée à la campagne"
+
+#: jackmail-newsletters.php:1222
+msgid "Ninja Forms is a ease of use webform builder with a lot of features."
+msgstr "Ninja Forms est un éditeur de formulaire facilite d’utilisation avec beaucoup de fonctionnalités."
+
+#: jackmail-newsletters.php:1190
+msgid "new@example.com"
+msgstr "new@exemple.com"
+
+#: jackmail-newsletters.php:1188
+msgid "Nature"
+msgstr "Nature"
+
+#: core/list_and_campaign_common_core.php:874
+#: core/list_and_campaign_common_core.php:1076 html/settings.php:102
+#: jackmail-newsletters.php:1187
+msgid "Name"
+msgstr "Nom"
+
+#: jackmail-newsletters.php:1186
+msgid "Music"
+msgstr "Musique"
+
+#: jackmail-newsletters.php:1184
+msgid "Monsters"
+msgstr "Monstres"
+
+#: jackmail-newsletters.php:1183
+msgid "Mobile"
+msgstr "Mobile"
+
+#: jackmail-newsletters.php:1182
+msgid "Minute"
+msgstr "Minute"
+
+#: jackmail-newsletters.php:1181
+msgid "may"
+msgstr "mai"
+
+#: jackmail-newsletters.php:1180
+msgid "mar."
+msgstr "mar."
+
+#: jackmail-newsletters.php:1179
+msgid "Mail"
+msgstr "Courrier"
+
+#: jackmail-newsletters.php:1177
+msgid "<span class=\"jackmail_title\">Log out?</span><br/><br/><span class=\"jackmail_grey\">When logging out, you will loose all your data and will need to set up Jackmail again.</span>"
+msgstr "<span class=\"jackmail_title\">Se déconnecter ? </span><br/><br/><span class=\"jackmail_grey\">En vous déconnectant, vous perdrez toutes vos données et vous devrez reconfigurer Jackmail.</span>"
+
+#: jackmail-newsletters.php:1174
+msgid "List name"
+msgstr "Nom de la liste"
+
+#: jackmail-newsletters.php:1173
+msgid "List is empty"
+msgstr "La liste est vide"
+
+#: jackmail-newsletters.php:1172
+msgid "Last week (mon-sun)"
+msgstr "La semaine dernière (lun-dim)"
+
+#: jackmail-newsletters.php:1171
+msgid "Last week (mon-fri)"
+msgstr "La semaine dernière (lun-ven)"
+
+#: core/list_and_campaign_common_core.php:651
+#: core/list_and_campaign_common_core.php:712 jackmail-newsletters.php:1170
+msgid "Lastname"
+msgstr "Nom"
+
+#: jackmail-newsletters.php:1169
+msgid "Last month"
+msgstr "Le mois dernier"
+
+#: jackmail-newsletters.php:1217
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr "Juste une autre extension de formulaire de contact. Simple mais souple d’utilisation."
+
+#: jackmail-newsletters.php:1168
+msgid "july."
+msgstr "juil."
+
+#: jackmail-newsletters.php:1167
+msgid "june"
+msgstr "juin"
+
+#: jackmail-newsletters.php:1165
+msgid "jan."
+msgstr "jan."
+
+#: jackmail-newsletters.php:1160
+msgid "is empty"
+msgstr "est vide"
+
+#: jackmail-newsletters.php:1158
+msgid "Information saved"
+msgstr "Informations sauvegardées"
+
+#: jackmail-newsletters.php:1157
+msgid "Incorrect sub-domain"
+msgstr "Sous-domaine incorrect"
+
+#: jackmail-newsletters.php:1300
+msgid "The last 7 days"
+msgstr "Les 7 derniers jours"
+
+#: jackmail-newsletters.php:1224
+msgid "Import your contact list and send targeted messages to this list."
+msgstr "Importez vote liste de contacts et envoyez des messages ciblés à cette liste."
+
+#: jackmail-newsletters.php:1156
+msgid "Import contacts"
+msgstr "Import des contacts"
+
+#: jackmail-newsletters.php:1154
+msgid "Hours"
+msgstr "Heures"
+
+#: jackmail-newsletters.php:1153
+msgid "Hour"
+msgstr "Heure"
+
+#: jackmail-newsletters.php:1152
+msgid "Hobbies"
+msgstr "Loisirs"
+
+#: jackmail-newsletters.php:1150
+msgid "Heart"
+msgstr "Coeur"
+
+#: jackmail-newsletters.php:1149
+msgid "Health"
+msgstr "Santé"
+
+#: jackmail-newsletters.php:1146
+msgid "Gestures"
+msgstr "Gestes"
+
+#: jackmail-newsletters.php:1145
+msgid "Games"
+msgstr "Jeux"
+
+#: html/templates.php:28 jackmail-newsletters.php:1281
+msgid "Templates gallery"
+msgstr "Galerie de modèles"
+
+#: jackmail-newsletters.php:1073
+msgid "By copy/pasting"
+msgstr "Par copier/coller"
+
+#: jackmail-newsletters.php:1144
+msgid "From campaign"
+msgstr "Depuis une campagne"
+
+#: jackmail-newsletters.php:1143
+msgid "From a list"
+msgstr "Depuis une liste"
+
+#: core/list_and_campaign_common_core.php:650
+#: core/list_and_campaign_common_core.php:711 jackmail-newsletters.php:1142
+msgid "Firstname"
+msgstr "Prénom"
+
+#: jackmail-newsletters.php:1141
+msgid "Food"
+msgstr "Aliments"
+
+#: jackmail-newsletters.php:1139
+msgid "feb."
+msgstr "fev."
+
+#: jackmail-newsletters.php:1138
+msgid "Error while save campaign"
+msgstr "Erreur pendant la sauvegarde la campagne"
+
+#: jackmail-newsletters.php:1137
+msgid "Can't create new template. Error while loading EmailBuilder licence"
+msgstr "Impossible de créer un nouveau modèle. Erreur pendant le chargement de la licence de l’Emailbuilder"
+
+#: jackmail-newsletters.php:1136
+msgid "Error while loading images"
+msgstr "Erreur pendant le chargement des images"
+
+#: html/settings.php:124 jackmail-newsletters.php:1132
+msgid "Error"
+msgstr "Erreur"
+
+#: jackmail-newsletters.php:1131
+msgid "Entry to a list"
+msgstr "Inscription dans une liste"
+
+#: jackmail-newsletters.php:1161
+msgid "is equal to"
+msgstr "est égal à"
+
+#: jackmail-newsletters.php:1130
+msgid "Emoticons"
+msgstr "Emoticônes"
+
+#: jackmail-newsletters.php:1127
+msgid "EmailBuilder is now uninstalled"
+msgstr "L’Emailbuilder est maintenant désinstallé"
+
+#: jackmail-newsletters.php:1126
+msgid "EmailBuilder is now installed"
+msgstr "L’Emailbuilder est maintenant installé"
+
+#: jackmail-newsletters.php:1119
+msgid "Do you confirm this sending?"
+msgstr "Confirmez-vous cet envoi ?"
+
+#: jackmail-newsletters.php:1118
+msgid "Do you confirm this scheduling?"
+msgstr "Confirmez-vous cette programmation ?"
+
+#: jackmail-newsletters.php:1162
+msgid "is different from"
+msgstr "est différent de"
+
+#: jackmail-newsletters.php:1115
+msgid "Desktop"
+msgstr "Desktop"
+
+#: jackmail-newsletters.php:1114
+msgid "Deleted contact"
+msgstr "Contact supprimé"
+
+#: jackmail-newsletters.php:1113
+msgid "Deleted contacts"
+msgstr "Contacts supprimés"
+
+#: jackmail-newsletters.php:1112
+msgid "Delete selection"
+msgstr "Supprimer la sélection"
+
+#: jackmail-newsletters.php:1111
+msgid "Delete column"
+msgstr "Supprimer la colonne"
+
+#: jackmail-newsletters.php:1110
+msgid "Delete list?"
+msgstr "Supprimer la liste ?"
+
+#: jackmail-newsletters.php:1109
+msgid "Delete a contact"
+msgstr "Supprimer un contact"
+
+#: jackmail-newsletters.php:1107
+msgid "dec."
+msgstr "dec."
+
+#: jackmail-newsletters.php:1106
+msgid "Deactivate workflow?"
+msgstr "Désactiver le scénario ?"
+
+#: jackmail-newsletters.php:1102
+msgid "date"
+msgstr "date"
+
+#: jackmail-newsletters.php:1101
+msgid "Data displayed are not up-to-date.<br/>Click ok to reload it before you schedule the campaign."
+msgstr "Les données affichées ne sont pas à jour<br/>Cliquez sur ok pour recharger la page avant de programmer la campagne."
+
+#: jackmail-newsletters.php:1100
+msgid "Data displayed are not up-to-date.<br/>Click ok to reload it before you send the campaign."
+msgstr "Les données affichées ne sont pas à jour.<br/>Cliquez sur ok pour recharger la page avant d’envoyer la campagne."
+
+#: jackmail-newsletters.php:1098
+msgid "Custom workflow"
+msgstr "Scénario personnalisé"
+
+#: jackmail-newsletters.php:1097
+msgid "Creating campaign"
+msgstr "Campagne en cours de création"
+
+#: html/campaign_checklist.inc.php:173 jackmail-newsletters.php:1096
+msgid "Correct"
+msgstr "Corriger"
+
+#: jackmail-newsletters.php:1094
+msgid "contains"
+msgstr "contient"
+
+#: jackmail-newsletters.php:1093
+msgid "Contact saved"
+msgstr "Contact sauvegardé"
+
+#: jackmail-newsletters.php:1092
+msgid "Contact list selection"
+msgstr "Sélection des listes de contacts"
+
+#: jackmail-newsletters.php:1091
+msgid "(Comparison)"
+msgstr "(Comparaison)"
+
+#: jackmail-newsletters.php:1090
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: jackmail-newsletters.php:1088
+msgid "Compare"
+msgstr "Comparer"
+
+#: jackmail-newsletters.php:1087
+msgid "Clothing"
+msgstr "Vêtements"
+
+#: jackmail-newsletters.php:1082
+msgid "Characters"
+msgstr "Personnages"
+
+#: jackmail-newsletters.php:1080
+msgid "Campaigns from"
+msgstr "Campagnes du"
+
+#: jackmail-newsletters.php:1079
+msgid "Period 2:"
+msgstr "Période 2 :"
+
+#: jackmail-newsletters.php:1078
+msgid "Period 1:"
+msgstr "Période 1 :"
+
+#: jackmail-newsletters.php:1072
+msgid "Business"
+msgstr "Business"
+
+#: jackmail-newsletters.php:1043
+msgid "A valid test recipient email address is required"
+msgstr "Le destinataire de test n’est pas un e-mail valide"
+
+#: jackmail-newsletters.php:1042
+msgid "A valid \"Sender\" email address is required"
+msgstr "Une adresse e-mail valide pour le champ « Expéditeur » est obligatoire"
+
+#: jackmail-newsletters.php:1041
+msgid "A valid \"Reply to\" email address is required"
+msgstr "Une adresse e-mail valide pour le champ « Répondre à » est obligatoire"
+
+#: core/list_and_campaign_core.php:318 core/list_and_campaign_core.php:367
+#: jackmail-newsletters.php:1040
+msgid "A valid email address is required"
+msgstr "L’adresse e-mail est non valide"
+
+#: jackmail-newsletters.php:1066
+msgid "aug"
+msgstr "août"
+
+#: jackmail-newsletters.php:1065
+msgid "at"
+msgstr "à"
+
+#: jackmail-newsletters.php:1064
+msgid "Astronomy"
+msgstr "Astronomie"
+
+#: jackmail-newsletters.php:1062
+msgid "apr."
+msgstr "avr."
+
+#: jackmail-newsletters.php:1057
+msgid "An error occurred while the campaign was canceled"
+msgstr "Une erreur est survenue pendant l’annulation de la campagne"
+
+#: jackmail-newsletters.php:1055
+msgid "An error occurred"
+msgstr "Une erreur est survenue"
+
+#: jackmail-newsletters.php:1054
+msgid "All categories"
+msgstr "Toutes les catégories"
+
+#: jackmail-newsletters.php:1053
+msgid "All"
+msgstr "Tout"
+
+#: jackmail-newsletters.php:1048
+msgid "Add a column"
+msgstr "Ajouter une colonne"
+
+#: jackmail-newsletters.php:1044 jackmail-newsletters.php:1398
+msgid "Account"
+msgstr "Compte"
+
+#: jackmail-newsletters.php:1068
+msgid "Create your template, configure your send periodicity, select your recipients and let Jackmail do the rest. "
+msgstr "Créez votre modèle, configurez votre période d’envoi, sélectionnez vos destinataires et laissez Jackmail faire le reste."
+
+#: html/campaigns.php:28 jackmail-newsletters.php:1067
+#: jackmail-newsletters.php:1355
+msgid "Automated newsletter"
+msgstr "Newsletter automatique"
+
+#: jackmail-newsletters.php:1060
+msgid "Animals"
+msgstr "Animaux"
+
+#: jackmail-newsletters.php:1059
+msgid "and from"
+msgstr "et du"
+
+#: jackmail-newsletters.php:1058
+msgid "and"
+msgstr "et"
+
+#: jackmail-newsletters.php:1056
+msgid "An error occurred.<br/>The campaign was not found."
+msgstr "Une erreur est survenue.<br/>La campagne n’a pas été trouvée."
+
+#: jackmail-newsletters.php:1049
+msgid "Add a recipient"
+msgstr "Insérer un contact"
+
+#: jackmail-newsletters.php:1047
+msgid "Activate workflow?"
+msgstr "Activer le scénario ?"
+
+#: jackmail-newsletters.php:1366
+msgid "You must accept the general terms of Jackmail"
+msgstr "Vous devez accepter les conditions générales de Jackmail"
+
+#: jackmail-newsletters.php:1209
+msgid "Password confirmation doesn't match password"
+msgstr "Le mot de passe et la confirmation doivent être identiques"
+
+#: jackmail-newsletters.php:1365
+msgid "You must login or create a Jackmail account"
+msgstr "Vous devez vous connecter ou créer un compte Jackmail"
+
+#: jackmail-newsletters.php:161
+msgid "<p>The <strong>Jackmail</strong> plugin requires php 5.4.0 version or greater.</p>"
+msgstr "<p> L’extension <strong>Jackmail</strong> nécessite une version php 5.4.0 ou une version plus récente.</p>"
+
+#: jackmail-newsletters.php:155 jackmail-newsletters.php:161
+#: jackmail-newsletters.php:170 jackmail-newsletters.php:177
+msgid "Error with the activation process of the Jackmail plugin"
+msgstr "Erreur lors du processus d’activation de l’extension Jackmail"
+
+#: jackmail-newsletters.php:155
+msgid "<p>The <strong>Jackmail</strong> plugin requires WordPress 4.0 version or greater.</p>"
+msgstr "<p>L’extension <strong>Jackmail</strong> nécessite une version WordPress 4.0 ou une version plus récente.</p>"
+
+#: core/installation_core.php:273
+msgid "should be editable."
+msgstr "doit être éditable."
+
+#: core/installation_core.php:269
+msgid "The Php features \"imagecreatefromstring\" or \"getimagesizefromstring\" were not found"
+msgstr "Les fonctionnalités Php « imagecreatefromstring » ou « getimagesizefromstring » n’ont pas été trouvées"
+
+#: core/installation_core.php:266 jackmail-newsletters.php:1166
+msgid "The Php features \"json_encode\" or \"json_decode\" were not found"
+msgstr "Les fonctionnalités Php « json_encode » ou « json_decode » n’ont pas été trouvées"
+
+#: core/installation_core.php:263 jackmail-newsletters.php:1069
+msgid "The Php features \"base64_encode\" or \"base64_decode\" were not found"
+msgstr "Les fonctionnalités Php « base64_encode » ou « base64_decode » n’ont pas été trouvées"
+
+#: core/installation_core.php:260 jackmail-newsletters.php:1147
+msgid "The Php features \"gzdecode\" or \"gzencode\" were not found"
+msgstr "Les fonctionnalités « gzdecode » ou « gzencode » n’ont pas été trouvées"
+
+#: core/installation_core.php:257 jackmail-newsletters.php:1215
+msgid "Please activate the extension \"openssl_random_pseudo_bytes\" on your web server"
+msgstr "Veuillez activer l’extension « openssl_random_pseudo_bytes » sur votre serveur web"
+
+#: core/installation_core.php:245
+msgid "log in again"
+msgstr "identifier à nouveau"
+
+#: core/installation_core.php:245
+msgid "Please"
+msgstr "Merci de vous"
+
+#: core/installation_core.php:241
+msgid "Javascript is currently disabled in your browser. Enable it and enjoy all of Jackmail's features!"
+msgstr "Javascript est actuellement désactivé dans votre navigateur. Afin de profiter de toutes les fonctionnalités de Jackmail, merci d’activer Javascript."
+
+#: core/installation_core.php:240
+msgid "You're currently using an older version of Internet Explorer. Update your browser and enjoy all of Jackmail's features!"
+msgstr "Vous utilisez actuellement une ancienne version d’Internet Explorer. Afin de profiter de toutes les fonctionnalités de Jackmail, merci d’utiliser un navigateur plus récent."
+
+#: core/installation_core.php:234 jackmail-newsletters.php:1227
+msgid "Read more"
+msgstr "En savoir plus"
+
+#: core/installation_core.php:234
+msgid "A new plugin has been activated, do you want to synchronize it with Jackmail?"
+msgstr "Une nouvelle extension a été activée, voulez-vous la synchroniser avec Jackmail ?"
+
+#: html/widget_back.php:42
+msgid "Fields:"
+msgstr "Champs :"
+
+#: html/widget_back.php:28
+msgid "List:"
+msgstr "Liste :"
+
+#: html/widget_back.php:21
+msgid "Title:"
+msgstr "Titre :"
+
+#: html/templates.php:132
+msgid "No templates for this selection"
+msgstr "Pas de modèles pour cette sélection"
+
+#: html/templates.php:119
+msgid "Import template"
+msgstr "Importer un modèle"
+
+#: html/templates.php:55
+msgid "Create template"
+msgstr "Créer un modèle"
+
+#: html/templates.php:36 jackmail-newsletters.php:1081
+msgid "Categories"
+msgstr "Catégories"
+
+#: html/templates.php:28 jackmail-newsletters.php:1185
+msgid "My templates"
+msgstr "Mes modèles"
+
+#: html/templates.php:22 jackmail-newsletters.php:1253
+msgid "Search"
+msgstr "Rechercher"
+
+#: html/template.php:40
+msgid "What's your template name?"
+msgstr "Quel est le nom de votre modèle ?"
+
+#: jackmail-newsletters.php:1248
+msgid "Save template"
+msgstr "Sauvegarder le modèle"
+
+#: html/statistics_technologies.inc.php:152 jackmail-newsletters.php:1206
+msgid "Openings"
+msgstr "Ouvertures"
+
+#: html/statistics_technologies.inc.php:133
+#: html/statistics_technologies.inc.php:149 jackmail-newsletters.php:1117
+msgid "Device category"
+msgstr "Type d’appareil"
+
+#: html/statistics_technologies.inc.php:129
+#: html/statistics_technologies.inc.php:145 jackmail-newsletters.php:1203
+msgid "O.S."
+msgstr "Système d’exploitation"
+
+#: html/statistics_technologies.inc.php:125
+#: html/statistics_technologies.inc.php:141 jackmail-newsletters.php:1129
+msgid "Email client category"
+msgstr "Type de messagerie"
+
+#: html/statistics_technologies.inc.php:121
+#: html/statistics_technologies.inc.php:137 jackmail-newsletters.php:1128
+msgid "Email client"
+msgstr "Messagerie"
+
+#: html/statistics_technologies.inc.php:114
+msgid "Profiles"
+msgstr "Profils"
+
+#: html/statistics_technologies.inc.php:91
+msgid "Second variable"
+msgstr "Variable secondaire"
+
+#: html/statistics_technologies.inc.php:72
+msgid "First variable"
+msgstr "Variable principale"
+
+#: html/statistics_technologies.inc.php:70
+msgid "Profile distribution"
+msgstr "Répartition par profils"
+
+#: html/statistics_technologies.inc.php:47
+msgid "Web based clients"
+msgstr "Webmails"
+
+#: html/statistics_technologies.inc.php:42
+msgid "Desktop clients"
+msgstr "Applications"
+
+#: html/statistics_technologies.inc.php:37
+msgid "Email tools"
+msgstr "Répartition par outils de messageries"
+
+#: html/statistics_technologies.inc.php:15
+msgid "Mobiles / Tablets"
+msgstr "Mobiles/tablettes"
+
+#: html/statistics_technologies.inc.php:10
+msgid "Desktops"
+msgstr "Ordinateurs"
+
+#: html/statistics_technologies.inc.php:5
+msgid "Desktop/mobile distribution"
+msgstr "Répartition par appareils"
+
+#: html/statistics_monitoring.inc.php:127
+msgid "Clicks on mobile:"
+msgstr "Clics sur mobile :"
+
+#: html/statistics_monitoring.inc.php:123
+msgid "Clicks on desktop:"
+msgstr "Clics sur ordinateur :"
+
+#: html/statistics_monitoring.inc.php:115
+msgid "Opens on mobile:"
+msgstr "Ouvertures sur mobile :"
+
+#: html/statistics_monitoring.inc.php:111
+msgid "Opens on desktop:"
+msgstr "Ouvertures sur ordinateur :"
+
+#: html/statistics_monitoring.inc.php:107
+msgid "Total opens:"
+msgstr "Ouvertures cumulées :"
+
+#: html/statistics_monitoring.inc.php:97
+msgid "Clicks:"
+msgstr "Clics :"
+
+#: html/statistics_monitoring.inc.php:96
+msgid "Openings:"
+msgstr "Ouvertures :"
+
+#: html/statistics_monitoring.inc.php:34 jackmail-newsletters.php:1271
+msgid "Simplified reading"
+msgstr "Vue simplifiée"
+
+#: html/statistics_monitoring.inc.php:34 jackmail-newsletters.php:1116
+msgid "Detailed reading"
+msgstr "Vue détaillée"
+
+#: html/statistics_monitoring.inc.php:24
+msgid "Details for selected recipients"
+msgstr "Détail des destinataires sélectionnés"
+
+#: html/statistics_monitoring.inc.php:6
+msgid "unique recipients"
+msgstr "destinataires uniques"
+
+#: html/statistics_monitoring.inc.php:5
+msgid "unique recipient"
+msgstr "destinataire unique"
+
+#: html/statistics_synthesis.inc.php:251 html/statistics_synthesis.inc.php:366
+#: jackmail-newsletters.php:1086
+msgid "Clicks"
+msgstr "Clics"
+
+#: html/statistics_synthesis.inc.php:361 jackmail-newsletters.php:1202
+msgid "Opens"
+msgstr "Ouvertures"
+
+#: html/statistics_synthesis.inc.php:341
+msgid "opted out:"
+msgstr "s’est désinscrit :"
+
+#: html/statistics_synthesis.inc.php:340
+msgid "clicked:"
+msgstr "a cliqué :"
+
+#: html/statistics_synthesis.inc.php:339
+msgid "opened:"
+msgstr "a ouvert :"
+
+#: html/statistics_synthesis.inc.php:321
+msgid "Timeline"
+msgstr "Timeline"
+
+#: html/statistics_links.inc.php:58 html/statistics_links.inc.php:121
+#: html/statistics_monitoring.inc.php:134 html/statistics_synthesis.inc.php:275
+#: html/statistics_synthesis.inc.php:312 html/statistics_synthesis.inc.php:348
+#: html/statistics_technologies.inc.php:197
+msgid "No data"
+msgstr "Pas de données"
+
+#: html/statistics_synthesis.inc.php:278
+msgid "Most reactive contacts"
+msgstr "Contact les plus réactifs"
+
+#: html/statistics_synthesis.inc.php:233
+msgid "Non openers"
+msgstr "Non ouvreurs"
+
+#: html/statistics_synthesis.inc.php:229
+msgid "Bounces"
+msgstr "NPAI"
+
+#: html/statistics_synthesis.inc.php:225
+msgid "Openers"
+msgstr "Ouvreurs"
+
+#: html/statistics_synthesis.inc.php:222
+#: html/statistics_technologies.inc.php:155
+msgid "Distribution"
+msgstr "Répartition"
+
+#: html/statistics_synthesis.inc.php:120
+msgid "openings"
+msgstr "ouvertures"
+
+#: html/statistics_synthesis.inc.php:119
+msgid "opening"
+msgstr "ouverture"
+
+#: html/statistics_synthesis.inc.php:283 jackmail-newsletters.php:1201
+msgid "Opening rate"
+msgstr "Taux d’ouverture"
+
+#: html/statistics_synthesis.inc.php:62
+msgid "click"
+msgstr "clic"
+
+#: html/statistics_synthesis.inc.php:284 jackmail-newsletters.php:1083
+msgid "Click rate"
+msgstr "Taux de clic"
+
+#: html/statistics.php:45
+msgid "Technologies"
+msgstr "Technologies"
+
+#: html/statistics.php:30 html/statistics.php:36
+msgid "Behavioral tracking"
+msgstr "Suivi comportemental"
+
+#: html/statistics.php:25
+msgid "Summary"
+msgstr "Synthèse"
+
+#: html/statistics_campaigns.inc.php:58
+msgid "Campaign name:"
+msgstr "Nom de la campagne :"
+
+#: html/statistics_campaigns.inc.php:54
+#: html/woocommerce_email_notification_choice.php:28
+msgid "Type:"
+msgstr "Type :"
+
+#: html/statistics_campaigns.inc.php:50
+msgid "Last modification:"
+msgstr "Date de modification :"
+
+#: html/statistics_campaigns.inc.php:38
+msgid "emails"
+msgstr "e-mails"
+
+#: html/statistics_campaigns.inc.php:37
+msgid "email"
+msgstr "e-mail"
+
+#: html/statistics_campaigns.inc.php:27
+msgid "Mailing date:"
+msgstr "Date d’envoi :"
+
+#: html/settings.php:367 jackmail-newsletters.php:1207
+msgid "or"
+msgstr "ou"
+
+#: html/settings.php:361
+msgid "My Jackmail account"
+msgstr "Mon compte Jackmail"
+
+#: html/settings.php:356
+msgid "Log out"
+msgstr "Déconnexion"
+
+#: html/settings.php:333
+msgid "credits available"
+msgstr "crédits disponible"
+
+#: html/installation.php:138 html/settings.php:327
+msgid "You are actually connected with"
+msgstr "Vous êtes actuellement connecté avec"
+
+#: html/settings.php:325
+msgid "When logging out, you will loose all your data and will need to set up Jackmail again."
+msgstr "En choisissant de vous déconnecter, vous perdrez l’ensemble de vos données et devrez reconfigurer Jackmail."
+
+#: html/settings.php:324
+msgid "Change Jackmail account"
+msgstr "Changer de compte Jackmail"
+
+#: html/settings.php:320
+msgid "You want to translate the Jackmail plugin to your language ? Get in touch at <a href=\"mailto:hey@jackmail.com\">hey@jackmail.com</a>"
+msgstr "Vous voulez traduire l’extension Jackmail dans votre langue ? Contactez-nous via l’adresse <a href=\"mailto:hey@jackmail.com\">hey@jackmail.com</a>"
+
+#: html/settings.php:318
+msgid "Language"
+msgstr "Langue"
+
+#: html/settings.php:313
+msgid "Uninstall EmailBuilder"
+msgstr "Désinstaller l’Emailbuilder"
+
+#: html/settings.php:305
+msgid "If you don't want use EmailBuilder anymore, click on link bellow."
+msgstr "Si vous ne voulez plus utiliser l’Emailbuilder, cliquez sur le lien ci-dessous."
+
+#: html/settings.php:292
+msgid "It's free!"
+msgstr "C’est gratuit !"
+
+#: html/settings.php:289
+msgid "Create newsletter without knowledges in HTML. Just drag-and-drop your content, import your WordPress posts and create beautiful responsives newsletter."
+msgstr "Créez des newsletters sans connaissances en HTML. Juste en glissant-déposant votre contenu, en important vos articles Worpress et en créer de magnifiques newsletters responsives."
+
+#: html/settings.php:270
+msgid "Activate tracking"
+msgstr "Activer le tracking"
+
+#: html/settings.php:263
+msgid "Use our professionnal sender platform and get data about your recipients. Opens, clicks, technologies, see what happens to their emails after they hit send."
+msgstr "Utilisez notre plateforme de routage professionnel et obtenez des données sur vos destinataires. Ouvertures, clics, technologies, découvrez ce qui arrive à vos e-mails après les avoir envoyés."
+
+#: html/settings.php:258
+msgid "To customize your domain, you must be logged into your Jackmail account."
+msgstr "Pour customiser votre domaine, vous devez être connecté à votre compte Jackmail."
+
+#: html/settings.php:243
+msgid "Updates may take up to two days before being live."
+msgstr "Attention, le délai de propagation peut atteindre 48h dans certains cas."
+
+#: html/settings.php:242
+msgid "Check your sub-domain settings"
+msgstr "Vérifier la configuration de votre sous-domaine"
+
+#: html/settings.php:239
+msgid "Add these NS records with your provider"
+msgstr "Ajouter ces enregistrements NS chez votre fournisseur"
+
+#: html/settings.php:225
+msgid "Add this TXT record with your provider"
+msgstr "Ajouter cet enregistrement TXT chez votre fournisseur"
+
+#: html/settings.php:212
+msgid "Ex: link.example.com"
+msgstr "Ex : link.exemple.com"
+
+#: html/settings.php:208
+msgid "Create a sub-domain"
+msgstr "Créer un sous-domaine"
+
+#: html/settings.php:207 html/settings.php:224 html/settings.php:238
+msgid "Step"
+msgstr "Etape"
+
+#: html/settings.php:201
+msgid "Custom domain is actually not available."
+msgstr "Le domaine personnalisé n’est actuellement pas disponible."
+
+#: html/settings.php:196
+msgid "Modify"
+msgstr "Modifier"
+
+#: html/settings.php:173 html/settings.php:190
+msgid "NS record:"
+msgstr "Enregistrement NS :"
+
+#: html/settings.php:166 html/settings.php:186
+msgid "TXT record:"
+msgstr "Enregistrement TXT :"
+
+#: html/settings.php:159 html/settings.php:182
+msgid "Sub-domain:"
+msgstr "Sous-domaine :"
+
+#: html/settings.php:96
+msgid "By personalizing the name of your domain, you will reassure your subscribers, which will in turn improve the deliverability of your campaigns as well as their click rates."
+msgstr "En personnalisant le nom de votre domaine, vous rassurerez vos abonnés, ce qui améliorera la délivrabilité de vos campagnes ainsi que leurs taux de clics."
+
+#: html/settings.php:94
+msgid "Jackmail allows you to personalize the sender domain name and any links included to your campaigns with your own company name."
+msgstr "Jackmail vous permet de personnaliser le nom de domaine de l’expéditeur, ainsi que l’ensemble des liens contenus dans votre campagnes avec votre propre nom."
+
+#: html/settings.php:92
+msgid "Customize the domain"
+msgstr "Personnalisation du domaine"
+
+#: html/settings.php:73
+msgid "Allow certain IPs to monitor your contact lists and make sure your data in Jackmail are safe."
+msgstr "Autorisés certaines adresse IP à se connecter à vos listes de contacts et améliorer la sécurités de vos listes de contact Jackmail."
+
+#: html/settings.php:70
+msgid "Add an IP restriction"
+msgstr "Ajouter une restriction IP"
+
+#: html/settings.php:57
+msgid "Add / Modify / Delete data from your contact lists from your app with our connectors."
+msgstr "Ajouter/Modifier/Supprimer les données de vos listes de contacts depuis votre application via nos connecteurs."
+
+#: html/settings.php:54
+msgid "Activate connectors"
+msgstr "Activer les connecteurs"
+
+#: html/settings.php:45
+msgid "Warning: these requests should be handled by expert developers. They should not be associated with public webpages (html/form, javascript) but rather with redirection scripts or asynchronous calls hosted on servers (PHP, ASP, JSP…). Please use POST requests and activate IP restriction."
+msgstr "Attention, ces requêtes s’adressent à des développeurs expérimentés. Elles ne doivent pas être employées directement dans des pages accessibles par les internautes (html/form, javascript), mais via des scripts de redirection ou d’appels asynchromes, hébergés côté serveur (PHP, ASP, JSP...). Pour plus de sécurité, utilisez des requêtes POST et activez la restriction IP."
+
+#: html/settings.php:18
+msgid "With Jackmail you can synchronize your account with other plugins and enjoy the efficiency of using your WordPress data without any export/import needed."
+msgstr "Avec Jackmail, vous pouvez synchroniser votre compte avec d’autres extensions et bénéficier de l’efficacité offerte par l’utilisation des données WordPress sans devoir exporter/importer."
+
+#: html/settings.php:16
+msgid "Integrated extensions"
+msgstr "Extensions connectées"
+
+#: html/search.inc.php:120
+msgid "Check out our <span class=\"jackmail_green\">forum</span>"
+msgstr "Consultez notre <span class=\"jackmail_green\">forum</span>"
+
+#: html/search.inc.php:119
+msgid "In our forum"
+msgstr "Via notre forum"
+
+#: html/search.inc.php:114
+msgid "Your input is important and valuable to us. Feel free to share any <span class=\"jackmail_green\">feedback</span>"
+msgstr "Votre contribution est importante et précieuse pour nous. N’hésitez pas à partager vos <span class=\"jackmail_green\">retours</span>"
+
+#: html/search.inc.php:112
+msgid "In the contact form"
+msgstr "Via notre formulaire de contact"
+
+#: html/search.inc.php:107
+msgid "The most common questions are <span class=\"jackmail_green\">here</span>"
+msgstr "Les questions les plus fréquentes sont <span class=\"jackmail_green\">ici</span>"
+
+#: html/search.inc.php:105
+msgid "In the FAQ"
+msgstr "Via notre FAQ"
+
+#: html/search.inc.php:102 jackmail-newsletters.php:1189
+msgid "Need help?"
+msgstr "Besoin d’aide ?"
+
+#: html/search.inc.php:93
+msgid "Help"
+msgstr "Aide"
+
+#: html/search.inc.php:79
+msgid "We suggest to:"
+msgstr "Pouvons-nous vous suggérer :"
+
+#: html/search.inc.php:74
+msgid "No pages"
+msgstr "Aucune page"
+
+#: html/search.inc.php:69 jackmail-newsletters.php:1392
+msgid "Template"
+msgstr "Template"
+
+#: html/search.inc.php:66 jackmail-newsletters.php:1252
+#: jackmail-newsletters.php:1384 jackmail-newsletters.php:1385
+#: jackmail-newsletters.php:1386 jackmail-newsletters.php:1387
+msgid "Workflow"
+msgstr "Scénario"
+
+#: html/search.inc.php:65 jackmail-newsletters.php:1074
+msgid "Campaign"
+msgstr "Campagne"
+
+#: html/search.inc.php:61
+msgid "Webpages"
+msgstr "Pages du site"
+
+#: html/search.inc.php:56 html/statistics_campaigns.inc.php:10
+msgid "No campaigns"
+msgstr "Pas de campagnes"
+
+#: html/search.inc.php:51
+msgid "draft"
+msgstr "brouillon"
+
+#: html/search.inc.php:48
+msgid "Updated on"
+msgstr "Modifié le"
+
+#: html/search.inc.php:30
+msgid "No FAQ"
+msgstr "pas de FAQ"
+
+#: html/search.inc.php:24 html/search.inc.php:83
+msgid "FAQ"
+msgstr "FAQ"
+
+#: html/search.inc.php:20
+msgid "Results:"
+msgstr "Résultats :"
+
+#: html/search.inc.php:15
+msgid "No result was found."
+msgstr "Aucun résultat trouvé."
+
+#: html/search.inc.php:11
+msgid "Press enter to search"
+msgstr "Appuyer sur entrer pour rechercher"
+
+#: html/search.inc.php:8
+msgid "Search..."
+msgstr "Rechercher..."
+
+#: html/main.php:69
+msgid "Update Jackmail"
+msgstr "Mettre à jour Jackmail"
+
+#: html/main.php:64
+msgid "Please update your Jackmail version"
+msgstr "Merci de mettre à jour votre version de Jackmail"
+
+#: html/lists.php:160
+msgid "Don't sync"
+msgstr "Ne pas synchroniser"
+
+#: html/lists.php:158
+msgid "Integrate"
+msgstr "Connecter"
+
+#: html/lists.php:153
+msgid "to your lists in Jackmail."
+msgstr "dans vos listes Jackmail."
+
+#: html/lists.php:151
+msgid "Jackmail Connect allows you to sync your"
+msgstr "Jackmail Connect vous permet de synchroniser "
+
+#: html/lists.php:149
+msgid "Good news!"
+msgstr "Bonne nouvelle !"
+
+#: html/lists.php:137
+msgid "What is a contact list?"
+msgstr "Qu’est-ce qu’une liste de contacts ?"
+
+#: html/lists.php:129
+msgid "You haven't added a contact list yet"
+msgstr "Vous ne disposez actuellement d’aucune liste de contacts"
+
+#: html/lists.php:104
+msgid "unsubscribes"
+msgstr "désinscriptions"
+
+#: html/lists.php:99 html/statistics_synthesis.inc.php:63
+msgid "clicks"
+msgstr "clics"
+
+#: html/lists.php:94
+msgid "opens"
+msgstr "ouvertures"
+
+#: html/lists.php:86 jackmail-newsletters.php:1229
+msgid "recipients"
+msgstr "destinataires"
+
+#: html/lists.php:83 jackmail-newsletters.php:1230
+msgid "recipient"
+msgstr "destinataire"
+
+#: html/lists.php:72
+msgid "via"
+msgstr "via"
+
+#: html/lists.php:66
+msgid "Created on"
+msgstr "Créé le"
+
+#: html/lists.php:16
+msgid "Contact lists"
+msgstr "Liste de contacts"
+
+#: html/list_detail.php:113
+msgid "Opted out:"
+msgstr "Désinscrit :"
+
+#: html/list_detail.php:112
+msgid "Clicked:"
+msgstr "Cliqué :"
+
+#: html/list_detail.php:111
+msgid "Opened:"
+msgstr "Ouvert :"
+
+#: html/list_detail.php:102
+msgid "Include this recipient"
+msgstr "Inscrire ce destinataire"
+
+#: html/list_detail.php:51 jackmail-newsletters.php:1148
+msgid "Hardbounced"
+msgstr "Hardbounce"
+
+#: html/list_detail.php:47 jackmail-newsletters.php:1089
+msgid "Complained"
+msgstr "Plainte"
+
+#: html/list_detail.php:43 jackmail-newsletters.php:1341
+msgid "Unsubscribed"
+msgstr "Désinscrit"
+
+#: html/settings.php:134
+msgid "Active"
+msgstr "Activé"
+
+#: html/list_detail.php:23
+msgid "Found in"
+msgstr "Trouvé dans"
+
+#: core/installation_core.php:311 html/list_and_campaign.inc.php:414
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: core/installation_core.php:311 html/list_and_campaign.inc.php:411
+msgid "A new version of Jackmail is available."
+msgstr "Une nouvelle version de Jackmail est disponible."
+
+#: html/list_and_campaign.inc.php:386
+msgid "Copy paste your contacts"
+msgstr "Copier coller vos contacts"
+
+#: html/list_and_campaign.inc.php:324 html/list_and_campaign.inc.php:373
+#: html/statistics_synthesis.inc.php:273 html/statistics_synthesis.inc.php:302
+#: html/statistics_synthesis.inc.php:308
+msgid "Details"
+msgstr "Détails"
+
+#: html/list_and_campaign.inc.php:312
+msgid "Source"
+msgstr "Source"
+
+#: html/list_and_campaign.inc.php:296
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: html/list_and_campaign.inc.php:278
+msgid "Add a rule"
+msgstr "Ajouter une règle"
+
+#: html/list_and_campaign.inc.php:236
+msgid "columns"
+msgstr "colonnes"
+
+#: html/list_and_campaign.inc.php:236 html/statistics_monitoring.inc.php:28
+msgid "Manage the columns"
+msgstr "Gérer les colonnes"
+
+#: html/list_and_campaign.inc.php:231
+msgid "rules"
+msgstr "règles"
+
+#: html/list_and_campaign.inc.php:228
+msgid "rule"
+msgstr "règle"
+
+#: html/list_and_campaign.inc.php:213
+msgid "Delete from the campaign"
+msgstr "Supprimer de la campagne"
+
+#: html/list_and_campaign.inc.php:203 html/settings.php:43
+msgid "Connectors"
+msgstr "Connecteurs"
+
+#: html/lists.php:119 html/list_and_campaign.inc.php:187
+#: html/list_and_campaign.inc.php:194 html/statistics_monitoring.inc.php:27
+msgid "Export"
+msgstr "Exporter"
+
+#: html/list_and_campaign.inc.php:181
+msgid "From a file"
+msgstr "Depuis un fichier"
+
+#: html/list_and_campaign.inc.php:172
+msgid "Add a contact"
+msgstr "Ajouter un contact"
+
+#: html/list_and_campaign.inc.php:161
+msgid "Contact management"
+msgstr "Gestion des contacts"
+
+#: html/list_and_campaign.inc.php:157
+msgid "Go to lists page"
+msgstr "Liste de contacts"
+
+#: html/list_and_campaign.inc.php:157
+msgid "Go to campaign page"
+msgstr "Créer une campagne"
+
+#: html/lists.php:24 html/lists.php:132 html/list_and_campaign.inc.php:145
+#: jackmail-newsletters.php:1389
+msgid "Create a list"
+msgstr "Créer une liste"
+
+#: html/list_and_campaign.inc.php:140
+msgid "No list available"
+msgstr "Aucune liste disponible"
+
+#: html/list_and_campaign.inc.php:17 html/list_and_campaign.inc.php:27
+#: html/list_and_campaign.inc.php:32 html/list_and_campaign.inc.php:39
+#: html/list_and_campaign.inc.php:49 html/list_and_campaign.inc.php:120
+#: html/list_and_campaign.inc.php:178
+msgid "Import"
+msgstr "Importer"
+
+#: html/list_and_campaign.inc.php:107
+msgid "Total"
+msgstr "Total"
+
+#: html/list_and_campaign.inc.php:93
+msgid "See"
+msgstr "Voir"
+
+#: html/list_and_campaign.inc.php:77
+msgid "lists available"
+msgstr "listes disponibles"
+
+#: html/list_and_campaign.inc.php:74
+msgid "list available"
+msgstr "liste disponible"
+
+#: html/list_and_campaign.inc.php:70
+msgid "Select my lists"
+msgstr "Choisir mes listes"
+
+#: html/list_and_campaign.inc.php:35
+msgid "Select a file"
+msgstr "Sélectionner un fichier"
+
+#: html/list_and_campaign.inc.php:30
+msgid "Copy/paste"
+msgstr "Copier/coller"
+
+#: html/list_and_campaign.inc.php:25
+msgid "Select your contacts' emails from the recipients list"
+msgstr "Sélectionnez les e-mails de vos contacts dans le tableau de destinataires"
+
+#: html/list_and_campaign.inc.php:22
+msgid "Manual entry"
+msgstr "Saisie manuelle"
+
+#: html/list_and_campaign.inc.php:15 html/list_and_campaign.inc.php:61
+msgid "Select a contact list from your WordPress"
+msgstr "Choisissez une liste de destinataires disponible dans votre WordPress"
+
+#: html/list_and_campaign.inc.php:12 html/list_and_campaign.inc.php:58
+#: html/widget_back.php:32
+msgid "Select a list"
+msgstr "Sélectionner une liste"
+
+#: html/list_and_campaign.inc.php:6
+msgid "Select contacts"
+msgstr "Sélection des contacts"
+
+#: html/list.php:86
+msgid "What's your list name?"
+msgstr "Quel est le nom de votre liste ?"
+
+#: html/list.php:77
+msgid "Manage connectors and IP restrictions"
+msgstr "Gérer les connecteurs et les restrictions IP"
+
+#: html/list.php:68
+msgid "Warning: these requests should be handled by expert developers. They should not be associated with public webpages (html/form, javascript) but rather with redirection scripts or asynchronous calls hosted on servers (PHP, ASP, JSP...). Please use POST requests and activate IP restriction."
+msgstr "Attention, ces requêtes s’adressent à des développeurs expérimentés. Elles ne doivent pas être employées directement dans des pages accessibles par les internautes (html/form, javascript), mais via des scripts de redirection ou d’appels asynchrones, hébergés côté serveur (PHP, ASP, JSP...). Pour plus de sécurité, utilisez des requêtes POST et activez la restriction IP."
+
+#: html/list.php:56
+msgid "Settings examples:"
+msgstr "Exemples de réglages :"
+
+#: html/list.php:55
+msgid "Settings example:"
+msgstr "Exemple de réglages :"
+
+#: html/list.php:53 html/list.php:63 html/list.php:72
+msgid "Connectors are not currently activated."
+msgstr "Actuellement, les connecteurs ne sont pas activés."
+
+#: html/list.php:47
+msgid "Url:"
+msgstr "Url :"
+
+#: html/list.php:40
+msgid "The settings boxes correspond to the columns titles in your list."
+msgstr "Les champs passés en paramètres correspondent aux colonnes de votre liste."
+
+#: html/list.php:37
+msgid "Below are the HTTP requests that allow you to include, update or delete data from your lists."
+msgstr "Vous trouvez ci-dessous les différentes requête HTTP vous permettant d’insérer, mettre à jour ou retirer des données de vos listes."
+
+#: html/list.php:35 html/list_and_campaign.inc.php:45
+msgid "API connectors"
+msgstr "Connecteurs API"
+
+#: html/templates.php:17 jackmail-newsletters.php:1279
+#: jackmail-newsletters.php:1391
+msgid "Templates"
+msgstr "Modèles"
+
+#: html/search.inc.php:35 html/statistics_campaigns.inc.php:7
+#: jackmail-newsletters.php:1076 jackmail-newsletters.php:1382
+msgid "Campaigns"
+msgstr "Campagnes"
+
+#: html/installation.php:153
+msgid "Start my first campaign"
+msgstr "Débuter ma première campagne"
+
+#: html/installation.php:151
+msgid "Thanks for your installation"
+msgstr "Merci pour votre installation"
+
+#: html/installation.php:121
+msgid "Any plugins missing? <a href=\"mailto:hey@jackmail.com\">Let us know!</a>"
+msgstr "Y a-t-il des extensions manquantes ? <a href=\"mailto:hey@jackmail.com\">Faites-le nous savoir ! </a>"
+
+#: html/installation.php:115
+msgid "Import data"
+msgstr "Importer les données"
+
+#: html/installation.php:108 html/settings.php:38
+msgid "<a href=\"https://www.jackmail.com/connectors\" target=\"_blank\">Discover it</a>."
+msgstr "<a href=\"https://www.jackmail.com/connectors\" target=\"_blank\">Découvrir</a>."
+
+#: html/installation.php:106 html/settings.php:37
+msgid "You haven't data but Jackmail is compatible with a lot of plugins."
+msgstr "Vous n’avez pas de données mais Jackmail est compatible avec de nombreuses extensions."
+
+#: html/installation.php:91
+msgid "Here is the list of plugins you can activate and synchronize with Jackmail:"
+msgstr "Voici la liste des extensions que vous pouvez activer et synchroniser avec Jackmail :"
+
+#: html/installation.php:88
+msgid "With Jackmail, you can always synchronize your account with other plugins and enjoy the efficiency of using your WordPress data without any export/import needed."
+msgstr "Avec Jackmail, vous pouvez toujours synchroniser votre compte avec d’autres extensions et profiter de l’effficacité offerte par l’utilisation de données WordPress sans devoir exporter/importer."
+
+#: html/installation.php:86
+msgid "Synchronize your WordPress with Jackmail"
+msgstr "Synchronisez votre WordPress avec Jackmail"
+
+#: html/installation.php:78
+msgid "Error while loading EmailBuilder licence."
+msgstr "Erreur pendant le chargement de la licence de l’Emailbuilder."
+
+#: html/installation.php:74 html/main.php:50
+msgid "I accept"
+msgstr "J’accepte"
+
+#: html/installation.php:71 html/main.php:47
+msgid "Decline"
+msgstr "Décliner"
+
+#: html/installation.php:64 html/main.php:41
+msgid "To use EmailBuilder, you need to accept the general terms and conditions of EmailBuilder."
+msgstr "Pour utiliser Emailbuilder, vous devez accepter les conditions générales et les conditions liées à l’Emailbuilder."
+
+#: html/installation.php:62 html/main.php:39 html/settings.php:298
+msgid "Install EmailBuilder"
+msgstr "Installer l’Emailbuilder"
+
+#: html/installation.php:56 html/installation.php:81 html/installation.php:144
+msgid "Continue"
+msgstr "Continuer"
+
+#: html/installation.php:50
+msgid "Reload the page"
+msgstr "Recharger la page"
+
+#: html/installation.php:45
+msgid "The Php features \"imagecreatefromstring\" or \"getimagesizefromstring\" were not found."
+msgstr "Les fonctionnalités Php « imagecreatefromstring » ou « getimagesizefromstring » n’ont pas été trouvées."
+
+#: html/installation.php:41
+msgid "The Php features \"json_encode\" or \"json_decode\" were not found."
+msgstr "Les fonctionnalités Php « json_encode » ou « json_decode » n’ont pas été trouvées."
+
+#: html/installation.php:37
+msgid "The Php features \"base64_decode\" or \"base64_encode\" were not found."
+msgstr "Les fonctionnalités Php « base64_decode » ou « base64_encode » n’ont pas été trouvées."
+
+#: html/installation.php:33
+msgid "The Php features \"gzdecode\" or \"gzencode\" were not found."
+msgstr "Les fonctionnalités Php « gzdecode » ou « gzencode » n’ont pas été trouvées."
+
+#: html/installation.php:28
+msgid "You have to activate the extension \"openssl_random_pseudo_bytes\" on your web server to be able to continue."
+msgstr "Vous devez activer l’extension « openssl_random_pseudo_bytes » sur votre serveur web pour pouvoir continuer."
+
+#: core/installation_core.php:273 html/installation.php:13
+#: html/installation.php:20 jackmail-newsletters.php:1298
+msgid "The file"
+msgstr "Le dossier"
+
+#: html/installation.php:8
+msgid "Thanks for using Jackmail to send your emails!<br/>You are just few clicks away to use the best newsletter plugin."
+msgstr "Merci d’utiliser Jackmail pour envoyer vos e-mails ! <br/>Vous n’êtes plus qu’à quelques clics d’utiliser la meilleure extension de newsletter."
+
+#: html/installation.php:6
+msgid "Welcome to Jackmail"
+msgstr "Bienvenue chez Jackmail"
+
+#: html/campaigns.php:224
+msgid "No campaigns for this selection"
+msgstr "Pas de campagnes pour cette sélection"
+
+#: html/campaigns.php:167 html/campaigns.php:200 html/lists.php:26
+#: html/list_and_campaign.inc.php:213 html/settings.php:197
+#: html/templates.php:95 jackmail-newsletters.php:1108
+msgid "Delete"
+msgstr "Supprimer"
+
+#: html/campaigns.php:159 html/lists.php:115 html/list_and_campaign.inc.php:209
+#: html/search.inc.php:68 html/statistics_header.inc.php:4
+#: html/statistics_synthesis.inc.php:318 jackmail-newsletters.php:1275
+#: jackmail-newsletters.php:1393
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: html/campaigns.php:155 html/templates.php:92
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: html/campaigns.php:145 html/campaigns.php:188 html/templates.php:80
+#: html/woocommerce_email_notification.php:13 jackmail-newsletters.php:1046
+msgid "Actions"
+msgstr "Actions"
+
+#: html/campaigns.php:128
+msgid "by"
+msgstr "par"
+
+#: html/campaigns.php:93 html/settings.php:106
+msgid "Status"
+msgstr "Statut"
+
+#: html/campaigns.php:89
+msgid "Automated workflow"
+msgstr "Scénario"
+
+#: html/campaigns.php:85
+msgid "Email campaign"
+msgstr "Campagne emailing"
+
+#: html/campaigns.php:82
+msgid "Campaign type:"
+msgstr "Type de campagne :"
+
+#: html/campaigns.php:79
+msgid "Campaign history"
+msgstr "Historique de vos envois"
+
+#: html/campaigns.php:58
+msgid "Start my campaign"
+msgstr "Débuter ma campagne"
+
+#: html/campaigns.php:65
+msgid "Schedule workflow execution"
+msgstr "Programmer un scénario"
+
+#: html/campaigns.php:63
+msgid "Set up a workflow based on events"
+msgstr "Automatiser l’envoi d’e-mails via des évènements"
+
+#: html/campaigns.php:61
+msgid "Set up an automated workflow"
+msgstr "Créer un scénario"
+
+#: html/campaigns.php:56
+msgid "Create and send an email to your recipients"
+msgstr "Créer et envoyer un e-mail à vos destinataires"
+
+#: html/campaigns.php:19 html/campaigns.php:54
+msgid "Send a campaign"
+msgstr "Envoyer une campagne"
+
+#: html/campaign_type_scenario_settings.inc.php:171
+msgid "Date of next send:"
+msgstr "Date du prochain envoi :"
+
+#: html/campaign_type_scenario_settings.inc.php:168
+msgid "Date of first send:"
+msgstr "Date du premier envoi :"
+
+#: html/campaign_type_scenario_settings.inc.php:144
+msgid "Schedule recurring sending process"
+msgstr "Définir une fréquence d’envoi"
+
+#: html/campaign_type_scenario_settings.inc.php:134
+msgid "new article"
+msgstr "nouvel article"
+
+#: html/campaign_type_scenario_settings.inc.php:134
+msgid "new articles"
+msgstr "nouveaux articles"
+
+#: html/campaign_type_scenario_settings.inc.php:118
+msgid "Newsletter to be sent:"
+msgstr "Envoi de la newsletter :"
+
+#: html/campaign_type_scenario_settings.inc.php:84
+msgid "Number of articles:"
+msgstr "Nombre d’articles :"
+
+#: html/campaign_type_scenario_settings.inc.php:68
+msgid "Jackmail will automatically send an email to your contacts whenever you publish a new article based on the settings below."
+msgstr "Jackmail enverra automatiquement un e-mail à vos contacts lorsque vous publiez un nouvel article respectant les paramètres ci-dessous."
+
+#: html/campaign_type_scenario_settings.inc.php:47
+#: html/campaign_type_scenario_settings.inc.php:150
+msgid "from"
+msgstr "de"
+
+#: html/campaign_type_scenario_settings.inc.php:41
+msgid "Postpone the sending process"
+msgstr "Différer le process d’envoi"
+
+#: html/campaign_type_scenario_settings.inc.php:35
+msgid "In the coming hour"
+msgstr "Dans l’heure"
+
+#: html/campaign_type_scenario_settings.inc.php:31
+msgid "When should it send?"
+msgstr "Quand doit-il envoyer ?"
+
+#: html/campaign_type_scenario_settings.inc.php:22
+msgid "Which categories?"
+msgstr "Dans quelle(s) catégorie(s) ?"
+
+#: html/campaign_type_scenario_settings.inc.php:10
+msgid "Jackmail will automatically send an email to your list when you publish a new article according to your publication settings below."
+msgstr "Jackmail enverra automatiquement un e-mail à vos contacts lorsque vous publiez un nouvel article conformément aux paramètres indiqués ci-dessous."
+
+#: html/campaign_type_scenario_settings.inc.php:8
+#: html/campaign_type_scenario_settings.inc.php:66
+#: html/campaign_type_scenario_settings.inc.php:184
+#: html/woocommerce_email_notification_choice.php:41
+msgid "Trigger:"
+msgstr "Déclencheur :"
+
+#: html/campaigns.php:21 html/campaigns.php:32 html/campaigns.php:39
+#: html/campaign_type_scenario_choice.php:38
+#: html/campaign_type_scenario_choice.php:48
+msgid "Start"
+msgstr "Commencer"
+
+#: html/campaign_type_scenario_choice.php:15
+msgid "Select a list and create a workflow"
+msgstr "Choisissez une liste pour créer votre scénario"
+
+#: html/campaign_type_scenario_checklist.inc.php:153 html/lists.php:163
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: html/campaign_type_scenario_checklist.inc.php:147
+msgid "Deactivate workflow"
+msgstr "Désactiver le scénario"
+
+#: html/campaign_type_scenario_checklist.inc.php:124
+msgid "Activate workflow"
+msgstr "Activer le scénario"
+
+#: html/campaign_type_scenario_checklist.inc.php:114 html/settings.php:440
+#: jackmail-newsletters.php:1045
+msgid "Actived"
+msgstr "Activé"
+
+#: html/campaign_type_scenario_checklist.inc.php:111
+#: jackmail-newsletters.php:1120
+msgid "Draft"
+msgstr "Brouillon"
+
+#: html/campaign_type_scenario_checklist.inc.php:101
+msgid "In case there are fewer articles published than scheduled in your workflow,<br/>the sending process will be postponed to next deadline."
+msgstr "Si le nombre d’articles publiés est inférieur au nombre défini dans votre scénario,<br/>l’envoi est reporté à la prochaine échéance."
+
+#: html/campaign_type_scenario_checklist.inc.php:94
+msgid "months."
+msgstr "mois."
+
+#: html/campaign_type_scenario_checklist.inc.php:91
+msgid "month."
+msgstr "mois."
+
+#: html/campaign_type_scenario_checklist.inc.php:86 html/settings.php:346
+msgid "days."
+msgstr "jours."
+
+#: html/campaign_type_scenario_checklist.inc.php:83 html/settings.php:347
+msgid "day."
+msgstr "jour."
+
+#: html/campaign_type_scenario_checklist.inc.php:80
+msgid "on and every"
+msgstr "tous les"
+
+#: html/campaign_type_scenario_checklist.inc.php:78
+msgid "Your campaign will be sent from"
+msgstr "Votre campagne sera envoyée à partir du"
+
+#: html/campaign_type_scenario_checklist.inc.php:64
+msgid "new articles are published."
+msgstr "nouveaux articles seront publiés."
+
+#: html/campaign_type_scenario_checklist.inc.php:62
+#: html/campaign_type_scenario_checklist.inc.php:71
+msgid "as soon as"
+msgstr "dès que"
+
+#: html/campaign_type_scenario_checklist.inc.php:59
+msgid "when a new article is published."
+msgstr "dès qu’un nouvel article sera publié."
+
+#: html/campaign_type_scenario_checklist.inc.php:55
+msgid "Your campaign will be sent"
+msgstr "Votre campagne sera envoyée"
+
+#: html/campaign_type_scenario_checklist.inc.php:41
+msgid "an article has been published in all selected categories."
+msgstr "un article a été publié dans les toutes les catégories sélectionnées."
+
+#: html/campaign_type_scenario_checklist.inc.php:38
+msgid "an article has been published in the following category:"
+msgstr "un article a été publié dans la catégorie suivante :"
+
+#: html/campaign_type_scenario_checklist.inc.php:35
+msgid "an article has been published in one of the following categories:"
+msgstr "un article a été publié dans l’une des catégories suivantes :"
+
+#: html/campaign_type_campaign_checklist.inc.php:103
+#: html/campaign_type_scenario_checklist.inc.php:29
+#: html/campaign_type_scenario_settings.inc.php:158
+#: html/campaign_type_scenario_settings.inc.php:159
+#: jackmail-newsletters.php:1104
+msgid "days"
+msgstr "jours"
+
+#: html/campaign_type_campaign_checklist.inc.php:100
+#: html/campaign_type_scenario_checklist.inc.php:26
+#: html/campaign_type_scenario_settings.inc.php:158
+#: html/campaign_type_scenario_settings.inc.php:159
+#: jackmail-newsletters.php:1103
+msgid "day"
+msgstr "jour"
+
+#: html/campaign_type_scenario_checklist.inc.php:20
+#: html/campaign_type_scenario_checklist.inc.php:31
+#: jackmail-newsletters.php:1052
+msgid "after"
+msgstr "après"
+
+#: html/campaign_type_scenario_checklist.inc.php:18
+msgid "hours"
+msgstr "heures"
+
+#: html/campaign_type_scenario_checklist.inc.php:15
+msgid "hour"
+msgstr "heure"
+
+#: html/campaign_type_scenario_checklist.inc.php:10
+msgid "when"
+msgstr "quand"
+
+#: html/campaign_type_scenario_checklist.inc.php:8
+msgid "Send an email"
+msgstr "Envoyer un e-mail"
+
+#: html/campaign_type_campaign_checklist.inc.php:116
+msgid "You don't have enough credits to send your campaign."
+msgstr "Vous n’avez pas assez de crédits pour envoyer la campagne."
+
+#: html/campaign_type_campaign_checklist.inc.php:93
+msgid "Refresh"
+msgstr "Actualiser"
+
+#: html/campaign_type_campaign_checklist.inc.php:90
+msgid "Error while checking the extra credits left."
+msgstr "Erreur pendant la vérification des crédits restants."
+
+#: html/campaign_type_campaign_checklist.inc.php:80
+msgid "Once this campaign is sent, there will be"
+msgstr "Une fois cette campagne envoyée, il vous restera"
+
+#: html/campaign_type_campaign_checklist.inc.php:75
+#: html/campaign_type_campaign_checklist.inc.php:86
+msgid "credits."
+msgstr "crédits."
+
+#: html/campaign_type_campaign_checklist.inc.php:72
+#: html/campaign_type_campaign_checklist.inc.php:83
+msgid "credit."
+msgstr "crédit."
+
+#: html/campaign_type_campaign_checklist.inc.php:69
+msgid "This campaign will use"
+msgstr "Cette campagne utilisera"
+
+#: html/campaign_type_campaign_checklist.inc.php:54
+#: html/campaign_type_campaign_checklist.inc.php:136
+msgid "Schedule the campaign"
+msgstr "Programmer la campagne"
+
+#: html/campaign_type_campaign_checklist.inc.php:50
+msgid "Send immediately"
+msgstr "Envoyer maintenant"
+
+#: html/campaign_type_campaign_checklist.inc.php:45
+#: html/campaign_type_campaign_checklist.inc.php:143
+msgid "Send the campaign"
+msgstr "Envoyer la campagne"
+
+#: html/campaign_checklist_test.inc.php:21
+msgid "1 credit will be used for this test. Do you wish to continue?"
+msgstr "1 crédit sera utilisé pour envoyer ce test. Voulez-vous continuer ?"
+
+#: html/campaign_checklist_test.inc.php:10 jackmail-newsletters.php:1123
+msgid "email@example.com"
+msgstr "email@exemple.com"
+
+#: html/campaign_checklist_test.inc.php:2
+#: html/campaign_checklist_test.inc.php:14
+msgid "Send a test"
+msgstr "Envoyer un test"
+
+#: html/campaign_create.inc.php:136 html/template.php:31
+#: html/woocommerce_email_notification.php:29
+msgid "Reset content"
+msgstr "Réinitialiser"
+
+#: html/campaign_create.inc.php:131
+msgid "Preview"
+msgstr "Aperçu"
+
+#: html/campaign_create.inc.php:118 jackmail-newsletters.php:1214
+msgid "Plain text"
+msgstr "Texte brut"
+
+#: html/campaign_create.inc.php:118 jackmail-newsletters.php:1155
+msgid "Html code"
+msgstr "Code Html"
+
+#: html/campaign_create.inc.php:118 html/settings.php:287 html/settings.php:303
+#: jackmail-newsletters.php:1125
+msgid "EmailBuilder"
+msgstr "Emailbuilder"
+
+#: html/campaign_create.inc.php:108
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: html/campaign_create.inc.php:76 html/statistics_campaigns.inc.php:62
+msgid "Subject:"
+msgstr "Objet :"
+
+#: html/campaign_create.inc.php:74
+msgid "You can personalize your email with data from your list, use ((COLUMN_NAME)) syntax to use it"
+msgstr "Vous pouvez personnaliser votre e-mail avec les données de votre liste, utilisez la syntaxe ((NOM_COLONNE)) pour l’utiliser"
+
+#: html/campaign_create.inc.php:66
+msgid "reply_to@example.com"
+msgstr "repondre@exemple.com"
+
+#: html/campaign_create.inc.php:56
+msgid "Reply to:"
+msgstr "Répondre à :"
+
+#: html/campaign_create.inc.php:54
+msgid "The address used to reply to your email"
+msgstr "L’adresse utilisée pour répondre à votre e-mail"
+
+#: html/campaign_create.inc.php:46
+msgid "See / Edit"
+msgstr "Voir/Modifier"
+
+#: html/campaign_create.inc.php:40
+msgid "To:"
+msgstr "À :"
+
+#: html/campaign_create.inc.php:35
+msgid "sender@example.com"
+msgstr "expediteur@exemple.com"
+
+#: html/campaign_create.inc.php:30
+msgid "Sender"
+msgstr "Expéditeur"
+
+#: html/campaign_create.inc.php:25
+msgid "Sender:"
+msgstr "Expéditeur :"
+
+#: html/campaign_create.inc.php:23
+msgid "The name appears as the sender"
+msgstr "Le nom de l’expéditeur de la campagne"
+
+#: html/campaign_create.inc.php:16
+msgid "Hide"
+msgstr "Masquer"
+
+#: html/campaign_create.inc.php:12
+msgid "Option"
+msgstr "Option"
+
+#: html/campaign_checklist.inc.php:241 html/settings.php:139
+msgid "Activate"
+msgstr "Activer"
+
+#: html/campaigns.php:197 html/campaign_checklist.inc.php:237
+#: jackmail-newsletters.php:1105
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: html/campaign_checklist.inc.php:230
+msgid "Custom domain is actually not available"
+msgstr "Le domaine personnalisé est actuellement  indisponible"
+
+#: html/campaign_checklist.inc.php:225
+msgid "Tracking is disabled"
+msgstr "Le tracking est désactivé"
+
+#: html/campaign_checklist.inc.php:221 html/statistics_links.inc.php:7
+msgid "links"
+msgstr "liens"
+
+#: html/campaign_checklist.inc.php:218 html/statistics_links.inc.php:6
+msgid "link"
+msgstr "lien"
+
+#: html/campaign_checklist.inc.php:215
+msgid "Tracking is enabled"
+msgstr "Le tracking est activé"
+
+#: html/campaign_checklist.inc.php:211 html/settings.php:262
+msgid "Tracking"
+msgstr "Tracking"
+
+#: html/campaigns.php:152 html/campaigns.php:194
+#: html/campaign_checklist.inc.php:201 html/templates.php:89
+#: html/woocommerce_email_notification_choice.php:24
+#: jackmail-newsletters.php:1121
+msgid "Edit"
+msgstr "Editer"
+
+#: html/campaign_checklist.inc.php:192
+msgid "Warning: unknown columns found:"
+msgstr "Avertissement : colonnes inconnues détectées :"
+
+#: html/campaign_checklist.inc.php:183
+msgid "Customized columns"
+msgstr "Colonnes personnalisées"
+
+#: html/campaign_checklist.inc.php:156
+msgid "Warning: No unsubscribe link"
+msgstr "Attention : il manque un lien de désinscription"
+
+#: html/campaign_checklist.inc.php:143
+msgid "Message"
+msgstr "Message"
+
+#: html/campaign_checklist.inc.php:125
+msgid "Subject"
+msgstr "Objet"
+
+#: html/campaign_checklist.inc.php:105 html/list_and_campaign.inc.php:131
+#: html/list_detail.php:26
+msgid "lists"
+msgstr "listes"
+
+#: html/campaign_checklist.inc.php:102 html/list_and_campaign.inc.php:128
+#: html/list_detail.php:25
+msgid "list"
+msgstr "liste"
+
+#: html/campaign_checklist.inc.php:95 jackmail-newsletters.php:1176
+#: jackmail-newsletters.php:1388
+msgid "Lists"
+msgstr "Listes"
+
+#: core/list_core.php:12 html/campaign_checklist.inc.php:92
+#: html/search.inc.php:67 jackmail_core.php:2408
+msgid "List"
+msgstr "Liste"
+
+#: html/campaign_checklist.inc.php:71 html/campaign_create.inc.php:44
+#: html/list_and_campaign.inc.php:101 html/list_and_campaign.inc.php:116
+#: html/list_and_campaign.inc.php:166 html/statistics_campaigns.inc.php:34
+msgid "contacts"
+msgstr "contacts"
+
+#: html/campaign_checklist.inc.php:68 html/campaign_create.inc.php:43
+#: html/list_and_campaign.inc.php:98 html/list_and_campaign.inc.php:113
+#: html/list_and_campaign.inc.php:165 html/statistics_campaigns.inc.php:33
+msgid "contact"
+msgstr "contact"
+
+#: html/campaign_checklist.inc.php:61 html/lists.php:111
+#: html/statistics_synthesis.inc.php:7 html/statistics_synthesis.inc.php:356
+#: jackmail-newsletters.php:1228
+msgid "Recipients"
+msgstr "Destinataires"
+
+#: html/campaign_checklist.inc.php:58
+msgid "Recipient"
+msgstr "Destinataire"
+
+#: html/campaign_checklist.inc.php:37 html/campaign_create.inc.php:61
+msgid "Reply to"
+msgstr "Répondre à "
+
+#: html/campaign_checklist.inc.php:12
+msgid "From"
+msgstr "De"
+
+#: html/campaign_checklist.inc.php:3
+msgid "Check your campaign out"
+msgstr "Vérifiez votre campagne"
+
+#: html/campaign.php:149 html/campaigns.php:163 html/campaigns.php:180
+#: html/campaigns.php:213 html/campaign_checklist_test.inc.php:30
+#: html/list.php:100 html/list_and_campaign.inc.php:397 html/main.php:29
+#: html/settings.php:216 html/template.php:51 html/templates.php:108
+#: jackmail-newsletters.php:1025 jackmail-newsletters.php:1077
+msgid "Cancel"
+msgstr "Annuler"
+
+#: html/campaign.php:146 html/campaigns.php:176 html/campaigns.php:209
+#: html/campaign_checklist_test.inc.php:26 html/list.php:96
+#: html/list_and_campaign.inc.php:394 html/main.php:27
+#: html/statistics_header.inc.php:38 html/template.php:48
+#: html/templates.php:105 html/widget_front.php:56
+msgid "OK"
+msgstr "Valider"
+
+#: html/campaign.php:138 html/list.php:87 html/template.php:41
+msgid "Name:"
+msgstr "Nom :"
+
+#: html/campaign.php:137
+msgid "What's your campaign name?"
+msgstr "Quel est le nom de votre campagne ?"
+
+#: html/campaign.php:127 html/settings.php:219 html/settings.php:233
+msgid "Next"
+msgstr "Suivant"
+
+#: html/campaign.php:58 html/campaign.php:120
+msgid "Checklist"
+msgstr "Checklist"
+
+#: html/campaign.php:53 html/campaign.php:114 html/templates.php:114
+msgid "Create"
+msgstr "Création"
+
+#: html/campaign.php:48 html/campaign.php:108
+msgid "Contacts"
+msgstr "Contacts"
+
+#: html/campaign.php:41 html/campaign.php:101
+#: html/campaign_type_scenario_settings.inc.php:3 html/widget_back.php:101
+#: jackmail-newsletters.php:1268 jackmail-newsletters.php:1394
+msgid "Settings"
+msgstr "Paramètres"
+
+#: html/campaign.php:27 html/campaign.php:31 jackmail-newsletters.php:1247
+msgid "Save campaign"
+msgstr "Enregistrer la campagne"
+
+#: html/campaign.php:21 html/settings.php:248 html/template.php:15
+#: jackmail-newsletters.php:1244
+msgid "Save"
+msgstr "Enregistrer"
+
+#: html/account_connection.inc.php:286
+msgid "Connect"
+msgstr "Se connecter"
+
+#: html/account_connection.inc.php:280
+msgid "An email has been sent to reset your password."
+msgstr "Un e-mail vient de vous être envoyé afin de réinitialiser votre mot de passe."
+
+#: html/account_connection.inc.php:274
+msgid "Reset password"
+msgstr "Réinitialiser mon mot de passe"
+
+#: html/account_connection.inc.php:266
+msgid "We'll send you an email to reset your password"
+msgstr "Nous vous enverrons un e-mail pour réinitaliser votre mot de passe"
+
+#: html/account_connection.inc.php:263 html/campaign.php:80
+#: html/campaign.php:91 html/list_and_campaign.inc.php:65
+#: html/list_detail.php:17 html/settings.php:230 html/settings.php:246
+msgid "Back"
+msgstr "Précédent"
+
+#: html/account_connection.inc.php:227
+msgid "Send the email again"
+msgstr "Renvoyer l’e-mail"
+
+#: html/account_connection.inc.php:224
+msgid "Your account hasn't been activated.<br/>In case you haven't received the activation email, you can always ask to receive it again:"
+msgstr "Votre compte n’a pas été activé.<br/>Si vous n’avez pas reçu le e-mail d’activation, cliquez ici pour le renvoyer :"
+
+#: html/account_connection.inc.php:221
+msgid "Your account has been created successfully. You will receive an activation email shortly"
+msgstr "Votre compte a été créé. Vous allez recevoir un e-mail afin d’activer votre compte"
+
+#: html/account_connection.inc.php:250
+#: html/campaign_type_campaign_checklist.inc.php:161
+#: html/campaign_type_scenario_checklist.inc.php:138 html/settings.php:370
+msgid "Sign in to my account"
+msgstr "Se connecter sur mon compte"
+
+#: html/account_connection.inc.php:64 html/account_connection.inc.php:255
+msgid "Create my account"
+msgstr "Créer mon compte"
+
+#: html/account_connection.inc.php:58
+msgid "I agree with the Jackmail <a href=\"https://www.jackmail.com/terms-conditions\" target=\"_blank\">terms and conditions</a>"
+msgstr "J’accepte les <a href=\"https://www.jackmail.com/terms-conditions\" target=\"_blank\">conditions générales</a> de Jackmail"
+
+#: html/account_connection.inc.php:51
+msgid "Please insert the same password"
+msgstr "Merci de saisir le même mot de passe"
+
+#: html/account_connection.inc.php:48
+msgid "Confirmation"
+msgstr "Confirmation"
+
+#: html/account_connection.inc.php:39 html/account_connection.inc.php:241
+msgid "Password"
+msgstr "Mot de passe"
+
+#: html/account_connection.inc.php:32
+msgid "Email not valid"
+msgstr "L’e-mail n’est pas valide"
+
+#: html/account_connection.inc.php:29 html/account_connection.inc.php:237
+#: html/account_connection.inc.php:270 html/statistics_synthesis.inc.php:282
+#: html/widget_front.php:26 jackmail-newsletters.php:1124
+msgid "Email"
+msgstr "Email"
+
+#: html/account_connection.inc.php:95
+msgid "Please enter your first name"
+msgstr "Le prénom ne peut pas être vide"
+
+#: core/list_and_campaign_common_core.php:944
+#: core/list_and_campaign_common_core.php:1018
+#: core/list_and_campaign_common_core.php:1246
+#: html/account_connection.inc.php:101
+msgid "Last name"
+msgstr "Nom"
+
+#: html/account_connection.inc.php:104
+msgid "Please enter your last name"
+msgstr "Le nom ne peut pas être vide"
+
+#: core/list_and_campaign_common_core.php:943
+#: core/list_and_campaign_common_core.php:1017
+#: core/list_and_campaign_common_core.php:1245
+#: html/account_connection.inc.php:92
+msgid "First name"
+msgstr "Prénom"
+
+#: html/account_connection.inc.php:20
+msgid "Sign in with your Jackmail IDs and reach your data easily."
+msgstr "Connectez vous avec vos identifiants Jackmail et récupérez vos données facilement."
+
+#: html/account_connection.inc.php:17
+msgid "Get <span class=\"jackmail_bold\">100 free credits per day</span> and send your campaign with us."
+msgstr "Obtenez <span class=\"jackmail_bold\">100 crédits gratuits par jour</span> et envoyez vos campagne avec nous."
+
+#: html/account_connection.inc.php:15
+msgid "Create an account, use our high deliverability servers and get statistics of your campaigns."
+msgstr "Créez un compte pour profiter de notre délivrabilité et de statistiques détaillées sur vos campagnes."
+
+#: html/account_connection.inc.php:9
+msgid "Connect to my account"
+msgstr "Connexion à mon compte"
+
+#: html/account_connection.inc.php:6
+#: html/campaign_type_campaign_checklist.inc.php:157
+#: html/campaign_type_scenario_checklist.inc.php:134 html/settings.php:366
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: core/post_core.php:62
+msgid "Exclude from automated newsletter."
+msgstr "Exclure de la newsletter automatique."
+
+#: core/post_core.php:56
+msgid "Please save your post before your create a campaign."
+msgstr "Vous devez enregistrer votre article avant de créer une campagne."
+
+#: core/post_core.php:16 html/list_and_campaign.inc.php:206
+#: html/templates.php:86 jackmail-newsletters.php:1383
+msgid "Create a campaign"
+msgstr "Créer une campagne"
+
+#: core/post_core.php:7 html/campaign_type_scenario_choice.php:21
+#: html/campaign_type_scenario_choice.php:31 html/settings.php:408
+#: jackmail-newsletters.php:1425 jackmail-newsletters.php:1426
+#: woocommerce_email_notification.php:39
+msgid "Jackmail"
+msgstr "Jackmail"
+
+#: core/campaign_scenario_core.php:471 jackmail-newsletters.php:1135
+msgid "Error while checking credits available"
+msgstr "Erreur pendant la vérification des crédits disponibles"
+
+#: core/campaign_scenario_core.php:460
+msgid "You don't have enough credits to activate the workflow"
+msgstr "Vous n’avez pas assez de crédits pour activer le scénario"
+
+#: core/list_and_campaign_common_core.php:1664
+msgid "(workflow):"
+msgstr "(scénario) :"
+
+#: core/list_and_campaign_common_core.php:1662
+msgid "(campaign):"
+msgstr "(campagne) :"
+
+#: core/campaign_scenario_core.php:25 jackmail-newsletters.php:1075
+#: jackmail_core.php:2502
+msgid "Campaign with no name"
+msgstr "Campagne sans nom"

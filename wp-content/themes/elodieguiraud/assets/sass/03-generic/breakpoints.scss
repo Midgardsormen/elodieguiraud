@@ -8,6 +8,7 @@
 
 $default_width: 610px;
 $max_content_width: 1240px;
+$breakpoint_xs: 360px;
 $breakpoint_sm: 482px;
 $breakpoint_md: 592px;
 $breakpoint_lg: 652px;
@@ -17,6 +18,17 @@ $breakpoint_xxl: 1024px;
 // Responsive breakpoints mixin
 @mixin media( $res ) {
 
+	@if tiny-mobile-only == $res {
+		@media only screen and (max-width: #{$breakpoint_xs - 1}) {
+			@content;
+		}
+	}
+
+	@if tiny-mobile == $res {
+		@media only screen and (min-width: #{$breakpoint_xs}) {
+			@content;
+		}
+	}
 	@if mobile-only == $res {
 		@media only screen and (max-width: #{$breakpoint_sm - 1}) {
 			@content;
@@ -111,6 +123,11 @@ $breakpoint_xxl: 1024px;
 /**
  * Extends
  */
+%responsive-full-width {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
 %responsive-aligndefault-width {
 	max-width: var(--responsive--aligndefault-width);
 	margin-left: auto;

@@ -1,9 +1,86 @@
 // Footer
 .site-footer {
-	padding-top: 0;
-	padding-bottom: calc(1.7 * var(--global--spacing-vertical));
-	@extend %responsive-alignwide-width;
-
+	padding: 0 var(--global--spacing-horizontal) calc(1.7 * var(--global--spacing-vertical));
+	background-color: var(--global--color-brown);
+	@extend %responsive-full-width;	
+	@include media(desktop) {
+		padding-top: calc(0.75 * var(--global--spacing-vertical));
+		padding-bottom: calc(0.75 * var(--global--spacing-vertical));
+	}
+	&__container{
+		max-width: var(--responsive--alignwide-width);	
+		margin:0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		@include media(desktop) {
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			text-align: left;
+		}
+	}
+	&__site-logo{
+		font-family: var(--global--font-custom);
+		color: var(--footer--color-text);
+		font-size: calc(1.2 * var(--global--font-size-xl));
+		text-transform: none;
+		@include media(desktop) {
+			margin-right: var(--global--spacing-horizontal);
+		}
+	}
+	&__contact-infos {
+		color: var(--footer--color-text);
+		font-family: var(--footer--font-family);
+		font-weight: 300;
+	}
+	&__third-column {
+		flex: 1;
+		@include media(desktop) {
+			text-align: right;
+		}
+	}
+	&__social-menu {
+		display: flex;
+		justify-content: center;
+		@include media(desktop) {
+			justify-content: flex-end;
+		}
+	}
+	& > .site-info {
+		margin: 0;
+		@include media(desktop) {
+			display: flex;
+			align-items: center;
+		}
+		a {
+			color: var(--footer--color-link);
+	
+			&:link,
+			&:visited,
+			&:active {
+				color: var(--footer--color-link);
+			}
+	
+			&:hover {
+				color: var(--footer--color-link-hover);
+			}
+	
+			&:focus {
+				color: var(--footer--color-link-hover);
+	
+				.is-dark-theme & {
+					color: var(--wp--style--color--link, var(--global--color-background));
+				}
+	
+				// Change colors when the body background is white.
+				.has-background-white & {
+					color: var(--wp--style--color--link, var(--global--color-white));
+				}
+			}
+		}
+	}
 	// Increase the top vertical spacing when there is no widget area.
 	.no-widgets & {
 		margin-top: calc(6 * var(--global--spacing-vertical));
@@ -17,58 +94,3 @@
 	}
 }
 
-// Footer Branding
-.site-footer > .site-info {
-	padding-top: var(--global--spacing-vertical);
-	color: var(--footer--color-text);
-	font-family: var(--footer--font-family);
-	font-size: var(--footer--font-size);
-	line-height: var(--global--line-height-body);
-	border-top: 3px solid var(--global--color-border);
-
-	.site-name {
-		text-transform: var(--branding--title--text-transform);
-		font-size: var(--branding--title--font-size);
-	}
-
-	.powered-by {
-		margin-top: calc(0.5 * var(--global--spacing-vertical));
-	}
-
-	@include media(desktop) {
-		display: flex;
-		align-items: center;
-
-		.powered-by {
-			margin-top: initial;
-			margin-left: auto;
-		}
-	}
-
-	a {
-		color: var(--footer--color-link);
-
-		&:link,
-		&:visited,
-		&:active {
-			color: var(--footer--color-link);
-		}
-
-		&:hover {
-			color: var(--footer--color-link-hover);
-		}
-
-		&:focus {
-			color: var(--footer--color-link-hover);
-
-			.is-dark-theme & {
-				color: var(--wp--style--color--link, var(--global--color-background));
-			}
-
-			// Change colors when the body background is white.
-			.has-background-white & {
-				color: var(--wp--style--color--link, var(--global--color-white));
-			}
-		}
-	}
-}

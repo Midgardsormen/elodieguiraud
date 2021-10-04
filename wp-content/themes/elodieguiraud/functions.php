@@ -462,6 +462,15 @@ function twenty_twenty_one_scripts() {
 		wp_get_theme()->get( 'Version' ),
 		true
 	);
+
+	// Add custom js file.
+	wp_enqueue_script(
+		'global-script',
+		get_template_directory_uri() . '/assets/js/global.js',
+		array(),
+		wp_get_theme()->get( 'Version' ),
+		true
+	);
 }
 add_action( 'wp_enqueue_scripts', 'twenty_twenty_one_scripts' );
 
@@ -637,6 +646,21 @@ function twentytwentyone_add_ie_class() {
 	<?php
 }
 add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
+
+function my_custom_sidebar() {
+	register_sidebar(
+		array (
+			'name' => __( 'Social icon Area', 'your-theme-domain' ),
+			'id' => 'custom-side-bar',
+			'description' => __( 'This is the custom sidebar that you registered using the code snippet. You can change this text by editing this section in the code.', 'your-theme-domain' ),
+			'before_widget' => '<div class="social-icon-container">',
+			'after_widget' => "</div>",
+			'before_title' => '<h3 class="widget-title">',
+			'after_title' => '</h3>',
+		)
+	);
+}
+add_action( 'widgets_init', 'my_custom_sidebar' );
 
 function wpb_custom_new_menu() {
 	register_nav_menu('my-custom-menu',__( 'Top Menu' ));

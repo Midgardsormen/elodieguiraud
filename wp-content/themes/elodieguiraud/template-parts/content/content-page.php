@@ -27,7 +27,7 @@
 	<div class="entry-content">
 		<?php
 		the_content();
-
+		get_template_part( 'template-parts/components/component-newsletter-block' );
 		wp_link_pages(
 			array(
 				'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
@@ -37,8 +37,9 @@
 			)
 		);
 		?>
-	</div><!-- .entry-content -->
 
+	</div><!-- .entry-content -->
+		<?php get_template_part( 'template-parts/components/component-newsletter-block' ); ?>
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer default-max-width">
 			<?php
@@ -55,3 +56,4 @@
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->
+<?php get_template_part( 'template-parts/components/component-newsletter-block' ); ?>

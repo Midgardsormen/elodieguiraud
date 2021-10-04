@@ -26,4 +26,6 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 
 </header><!-- #masthead -->
 	<?php get_template_part( 'template-parts/header/site-nav' ); ?>
-	<?php echo do_shortcode('[metaslider id="54"]'); ?>
+	<?php if ( is_front_page() ) : ?>
+		<?php echo do_shortcode('[metaslider id="54"]'); ?>
+	<?php endif; ?>

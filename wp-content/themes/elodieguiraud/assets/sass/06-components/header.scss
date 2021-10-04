@@ -19,9 +19,10 @@
 
 // Site branding
 .site-branding {
-	color: var(--branding--color-text);
+	color: var(--global--color-blue);
 	margin-right: 140px;
 	margin-bottom: calc(0.5 * var(--global--spacing-vertical));
+	font-family: var(--global--font-custom);
 
 	&:last-child {
 		margin-right: 0;
@@ -37,16 +38,19 @@
 		margin-right: initial;
 		margin-top: calc(0.75 * var(--global--spacing-vertical)); // Align the baseline of the site title with the primary menu
 	}
+	@include media(desktop) {
+		margin-top:0;
+	}
 }
 
 // Site title
 .site-title {
 
-	color: var(--branding--color-link);
+	color: var(--global--color-blue);
 	font-family: var(--branding--title--font-family);
-	font-size: var(--branding--title--font-size-mobile);
+	font-size: 2rem;
 	letter-spacing: normal;
-	text-transform: var(--branding--title--text-transform);
+	text-transform: none;
 	line-height: var(--global--line-height-heading);
 	margin-bottom: calc(var(--global--spacing-vertical) / 6);
 
@@ -67,7 +71,13 @@
 
 	}
 
+	@include media(tiny-mobile) {
+		font-size: var(--branding--title--font-size-mobile);
+	}
 	@include media(mobile) {
+		font-size: calc(0.75 * var(--branding--title--font-size));
+	}
+	@include media(desktop) {
 		font-size: var(--branding--title--font-size);
 	}
 }
@@ -202,4 +212,7 @@
 			justify-content: center;
 		}
 	}
+}
+.home .metaslider .flexslider{
+	margin-bottom: 0;
 }
