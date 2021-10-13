@@ -26,6 +26,13 @@
 		color: var(--footer--color-text);
 		font-size: calc(1.2 * var(--global--font-size-xl));
 		text-transform: none;
+		a{
+			color: var(--global--color-white);
+			text-decoration-color: transparent;
+			&:focus{
+				text-decoration-color: var(--global--color-white);
+			}
+		}
 		@include media(desktop) {
 			margin-right: var(--global--spacing-horizontal);
 		}
@@ -44,6 +51,9 @@
 	&__social-menu {
 		display: flex;
 		justify-content: center;
+		a:focus{
+			outline: 1px dotted var(--global--color-white)!important;
+		}
 		@include media(desktop) {
 			justify-content: flex-end;
 		}

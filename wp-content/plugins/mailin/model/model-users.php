@@ -237,10 +237,11 @@ class SIB_Model_Users {
 	/** Add column to the table */
 	public static function add_user_added_date_column() {
 		global $wpdb;
-		$row = $wpdb->get_results( "SELECT 'user_added_date' FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = '" . $wpdb->prefix . self::TABLE_NAME . "' AND column_name = 'user_added_date'" );
+		$user_added = 'user_added_date';
+		$result     = $wpdb->query( $wpdb->prepare( 'SHOW COLUMNS FROM ' . $wpdb->prefix . self::TABLE_NAME . ' LIKE %s ', $user_added ) ); // db call ok; no-cache ok.
 
-		if ( empty( $row ) ) {
-			$query = 'ALTER TABLE ' . $wpdb->prefix . self::TABLE_NAME . ' ADD user_added_date DATETIME NOT NULL';
+		if ( empty( $result ) ) {
+			$query = 'ALTER TABLE ' . $wpdb->prefix . self::TABLE_NAME . ' ADD COLUMN user_added_date DATETIME NOT NULL';
 			$wpdb->query( $query );
 		}
 	}

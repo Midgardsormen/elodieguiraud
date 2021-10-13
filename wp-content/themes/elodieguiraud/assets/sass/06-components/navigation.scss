@@ -79,6 +79,15 @@
     font-size: 0.875rem;
     white-space: nowrap;
     line-height: 1.5;
+    text-decoration-color: transparent;
+    &:focus{
+      text-decoration-color: var(--global--color-blue);
+    }    
+    @include media(desktop) {
+      &:hover{
+        color: var(--global--color-blue);
+      }
+    }
   }
 }
 // Navigation
@@ -497,7 +506,9 @@
       z-index: 99999; // Ensure focus styles appear above absolute positioned elements
       outline-offset: 0;
       text-decoration-thickness: 2px;
-      background: var(--global--color-blue);
+      @include media(desktop) {
+        background: var(--global--color-blue);
+      }
     }
   }
 

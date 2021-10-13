@@ -116,6 +116,13 @@ In order to create a signup form, you need to:
 
 == Changelog ==
 
+= 3.1.22 =
+* Improved the content of test email.
+* Fixed an issue related to slowness of plugin because of a mysql query.
+
+= 3.1.21 =
+* Fixed an issue with all templates on Sendinblue account not showing on plugin configuration.
+
 = 3.1.20 =
 * Fixing issue with plugin deactivation on update.
 

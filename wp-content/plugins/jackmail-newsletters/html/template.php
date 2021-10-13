@@ -6,16 +6,16 @@
 				<div class="jackmail_header_menu" jackmail-header-menu></div>
 				<div class="jackmail_name">
 					<span jackmail-content-editable ng-click="t.focus_template_name()"
-					      when-enter="t.blur_template_name()" input-value="t.template.name"></span>
+						  when-enter="t.blur_template_name()" input-value="t.template.name"></span>
 					<span ng-hide="t.name_editing" ng-click="t.focus_template_name()" class="dashicons dashicons-edit"></span>
 				</div>
 				<div class="jackmail_header_buttons">
 					<div jackmail-search></div>
-                    <div class="jackmail_campaign_save" jackmail-dropdown-button
-                         button-value="<?php esc_attr_e( 'Save', 'jackmail-newsletters' ) ?>"
-                         titles-clicks-array="t.save_choice_select_title_template"
-                         titles-clicks-array-event="t.save_template_or_create_campaign( key )">
-                    </div>
+					<div class="jackmail_campaign_save" jackmail-dropdown-button
+						 button-value="<?php esc_attr_e( 'Save', 'jackmail-newsletters' ) ?>"
+						 titles-clicks-array="t.save_choice_select_title_template"
+						 titles-clicks-array-event="t.save_template_or_create_campaign( key )">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -28,7 +28,7 @@
 						<input ng-click="t.go_to_templates_list()" class="jackmail_white_button"
 							   type="button" value="<" title="<?php esc_attr_e( 'Go to templates list', 'jackmail-newsletters' ) ?>"/>
 						<input ng-click="t.reset_emailbuilder_content()" class="jackmail_white_button"
-						       type="button" value="<?php esc_attr_e( 'Reset content', 'jackmail-newsletters' ) ?>"/>
+							   type="button" value="<?php esc_attr_e( 'Reset content', 'jackmail-newsletters' ) ?>"/>
 					</div>
 				</div>
 			</div>
@@ -41,14 +41,14 @@
 					<p class="jackmail_text_left"><?php _e( 'Name:', 'jackmail-newsletters' ) ?></p>
 					<p>
 						<input ng-model="t.template.name" ng-enter="t.hide_name_popup()" ng-echap="t.hide_name_popup()"
-					          class="jackmail_name_popup" type="text"/>
+							   class="jackmail_name_popup" type="text"/>
 					</p>
 					<p>
 						<span ng-click="t.hide_name_popup()" class="jackmail_confirm_icon dashicons dashicons-yes"
-						      title="<?php esc_attr_e( 'OK', 'jackmail-newsletters' ) ?>">
+							  title="<?php esc_attr_e( 'OK', 'jackmail-newsletters' ) ?>">
 						</span>
 						<span ng-click="t.hide_name_popup()" class="jackmail_confirm_icon dashicons dashicons-no-alt"
-						      title="<?php esc_attr_e( 'Cancel', 'jackmail-newsletters' ) ?>">
+							  title="<?php esc_attr_e( 'Cancel', 'jackmail-newsletters' ) ?>">
 						</span>
 					</p>
 				</div>

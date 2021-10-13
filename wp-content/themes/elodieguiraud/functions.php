@@ -666,3 +666,30 @@ function wpb_custom_new_menu() {
 	register_nav_menu('my-custom-menu',__( 'Top Menu' ));
   }
   add_action( 'init', 'wpb_custom_new_menu' );
+
+  add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
+
+  add_filter( 'excerpt_length', function($length) {
+    return 20;
+}, PHP_INT_MAX );
+
+// Replaces the excerpt "Read More" text by a link
+function new_excerpt_more($more) {
+	global $post;
+ return '<a class="read-article" href="'. get_permalink($post->ID) . '">... Lire la suite</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+/* Retirer les préfixes sur les pages d'archives */
+function wpc_remove_archive_title_prefix() {
+	if (is_category()) {
+			$title = single_cat_title('', false);
+		} elseif (is_tag()) {
+			$title = single_tag_title('', false);
+		} elseif (is_author()) {
+			$title = '<span class="vcard">' . get_the_author() . '</span>' ;
+		} elseif (is_post_type_archive()) {
+			 $title = post_type_archive_title('', false);
+		}
+	return $title;
+}
+add_filter('get_the_archive_title', 'wpc_remove_archive_title_prefix');

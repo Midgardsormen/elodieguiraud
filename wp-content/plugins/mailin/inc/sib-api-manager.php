@@ -117,11 +117,8 @@ if ( ! class_exists( 'SIB_API_Manager' ) ) {
 			$templates = get_transient( 'sib_template_' . md5( SIB_Manager::$access_key ) );
 
 			if ( false === $templates || false == $templates ) {
-				$mailin = new SendinblueApiClient();
-				$data = array(
-					'templateStatus' => true
-				);
-				$templates = $mailin->getEmailTemplates( $data );
+				$mailin        = new SendinblueApiClient();
+				$templates     = $mailin->getAllEmailTemplates();
 				$template_data = array();
 
 				if ( $mailin->getLastResponseCode() === SendinblueApiClient::RESPONSE_CODE_OK ) {

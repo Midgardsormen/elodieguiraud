@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.8.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-30 13:01:46+0000\n"
+"PO-Revision-Date: 2021-10-05 10:27:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -404,12 +404,12 @@ msgstr "Désolé, vous n’avez pas l’autorisation de passer ce site en HTTPS.
 #: wp-admin/users.php:564
 msgid "Password reset links sent to %s user."
 msgid_plural "Password reset links sent to %s users."
-msgstr[0] "Le lien de réinitialisation du mot de passe à été envoyé à %s compte."
-msgstr[1] "Le lien de réinitialisation du mot de passe à été envoyé à %s comptes."
+msgstr[0] "Le lien de réinitialisation du mot de passe a été envoyé à %s compte."
+msgstr[1] "Le lien de réinitialisation du mot de passe a été envoyé à %s comptes."
 
 #: wp-admin/users.php:561
 msgid "Password reset link sent."
-msgstr "Le lien de réinitialisation du mot de passe à été envoyé."
+msgstr "Le lien de réinitialisation du mot de passe a été envoyé."
 
 #. translators: %s: User's display name.
 #: wp-admin/user-edit.php:688
@@ -5660,7 +5660,7 @@ msgstr "Image d’en-tête actuelle"
 
 #: wp-admin/includes/plugin-install.php:338
 msgid "Search plugins..."
-msgstr "Rechercher des extensions..."
+msgstr "Rechercher des extensions…"
 
 #: wp-admin/includes/meta-boxes.php:138
 msgid "Set status"
@@ -7918,7 +7918,7 @@ msgstr "Trier par :"
 
 #: wp-admin/includes/media.php:3271
 msgid "Displayed on attachment pages."
-msgstr "Affiché sur les pages des fichiers joints."
+msgstr "affichée sur les pages du fichier joint."
 
 #: wp-admin/includes/image-edit.php:215
 msgid "You can edit the image while preserving the thumbnail. For example, you may wish to have a square thumbnail that displays just a section of the image."
@@ -9981,7 +9981,7 @@ msgstr "Les nouveaux comptes reçoivent un message les informant qu’ils ont é
 
 #: wp-admin/includes/image-edit.php:252
 msgid "There are unsaved changes that will be lost. 'OK' to continue, 'Cancel' to return to the Image Editor."
-msgstr "Les modifications qui n’ont pas été enregistrées seront perdues. « OK » pour continuer, « Annuler » pour revenir à l’éditeur d’images."
+msgstr "Les modifications qui n’ont pas été enregistrées seront perdues. « OK » pour continuer, « Annuler » pour revenir à l’éditeur d’image."
 
 #: wp-admin/options-writing.php:34
 msgid "Post via email settings allow you to send your WordPress installation an email with the content of your post. You must set up a secret email account with POP3 access to use this, and any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret."
@@ -10631,7 +10631,7 @@ msgstr "Compte ajouté."
 #: wp-admin/includes/dashboard.php:778
 #: wp-admin/includes/class-wp-ms-users-list-table.php:412
 msgid "View"
-msgstr "Afficher"
+msgstr "Voir"
 
 #: wp-admin/includes/class-wp-users-list-table.php:443
 #: wp-admin/user-edit.php:437

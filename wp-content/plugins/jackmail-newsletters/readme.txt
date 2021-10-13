@@ -4,7 +4,7 @@ Tags: newsletter, newsletters, email, WooCommerce emails & Mailchimp
 Requires at least: 4.0
 Tested up to: 5.8
 Requires PHP : 5.4
-Stable tag: 1.2.18
+Stable tag: 1.2.19
 License: GPLv2
 
 Create and send responsive newsletter with a professional routing platform and a lot of features: automated emails and newsletters, statistics, email & Live Support etc.
@@ -164,6 +164,9 @@ Visit our [help center](https://docs.jackmail.com).
 
 
 == Changelog ==
+
+= 1.2.19 =
+* Widget compatibility for WordPress 5.8
 
 = 1.2.18 =
 * Refused by moderation information

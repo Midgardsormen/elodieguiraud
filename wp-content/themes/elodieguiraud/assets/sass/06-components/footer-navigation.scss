@@ -19,12 +19,12 @@
 		display: inline;
 		// This is to prevent hover styles from overlapping when the menu wraps.
 		line-height: 3;
-
+		font-size: var(--footer--font-size);
 		a {
 			padding: var(--primary-nav--padding) var(--primary-nav--padding) calc(0.5 * var(--primary-nav--padding));
 			transition: transform 0.1s ease;
 			color: var(--footer--color-link);
-
+			text-decoration-color:transparent ;
 			&:link,
 			&:visited,
 			&:active {
@@ -32,6 +32,7 @@
 			}
 
 			&:hover {
+				text-decoration-color:var(--global--color-white) ;
 				text-decoration: underline;
 				text-decoration-style: dotted;
 				text-decoration-skip-ink: none;
@@ -39,7 +40,7 @@
 			}
 
 			&:focus {
-
+				text-decoration-color:var(--global--color-white) ;
 				.is-dark-theme & {
 
 					.svg-icon {

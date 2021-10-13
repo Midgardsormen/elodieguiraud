@@ -3,7 +3,7 @@
 Plugin Name: Emails & Newsletters with Jackmail
 Plugin URI: https://www.jackmail.com
 Description: Create and send responsive newsletter with a professional routing platform and a lot of features: automated emails and newsletters, statistics, email & Live Support etc.
-Version: 1.2.18
+Version: 1.2.19
 Author: Jackmail & Sarbacane
 Author URI: https://www.jackmail.com
 Text Domain: jackmail-newsletters

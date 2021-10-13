@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Emails &amp; Newsletters with Jackmail - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-02 14:29:27+0000\n"
+"PO-Revision-Date: 2021-09-27 09:36:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -349,6 +349,10 @@ msgstr "Taux de réactivité"
 msgid "Openers are recipients who have opened the email at least once."
 msgstr "Les ouvreurs sont les personnes parmi les destinataires qui ont ouvert au moins une fois l’email."
 
+#: html/statistics_synthesis.inc.php:46
+msgid "Clickers are recipients who have clicked at least once on a link in the email."
+msgstr "Les cliqueurs sont les personnes parmi les destinataires qui ont cliqué au moins une fois sur un lien de l'e-mail."
+
 #: html/statistics.php:41 html/statistics_synthesis.inc.php:246
 msgid "Links"
 msgstr "Liens"
@@ -369,6 +373,10 @@ msgstr "Voir la documentation"
 msgid "URL"
 msgstr "URL"
 
+#: jackmail-newsletters.php:1200
+msgid "Opener rate"
+msgstr "Taux d'ouvreur"
+
 #: html/statistics_synthesis.inc.php:252 jackmail-newsletters.php:1085
 msgid "Clickers"
 msgstr "Cliqueurs"
@@ -376,6 +384,10 @@ msgstr "Cliqueurs"
 #: jackmail-newsletters.php:1084
 msgid "Clicker rate"
 msgstr "Taux de cliqueurs"
+
+#: html/statistics_synthesis.inc.php:183
+msgid "Unsubscriptions correspond to the number and rate of recipients who clicked on the unsubscribe link. Unsubscribers are automatically added to the blacklists used during the campaign."
+msgstr "Les désinscriptions correspondent au nombre et au taux de destinataires ayant cliqué sur le lien de désabonnement. Les désinscrits sont automatiquement ajoutés à la liste noire utilisées automatiquement lors de l'envoi de vos campagnes."
 
 #: html/statistics_synthesis.inc.php:125
 msgid "openers"
@@ -433,7 +445,7 @@ msgstr "Support"
 msgid "Please buy a premium offer to unlock this feature.<br/><a target=\"blank\" href=\"https://www.jackmail.com/pricing/\">View pricing</a>."
 msgstr "Merci de souscrire à une offre premium pour activer cette fonctionnalité.<br/><a target=\"blank\" href=\"https://www.jackmail.com/pricing/\">Voir nos offres</a>."
 
-#: html/widget_back.php:112
+#: html/widget_back.php:144
 msgid "GDPR mention"
 msgstr "Information RGPD"
 
@@ -450,15 +462,15 @@ msgstr "est hardbounce"
 msgid "Send a welcome email as soon as a new subscriber registers to one of your contact lists."
 msgstr "Envoyez un e-mail de bienvenue dès l’ajout d’un contact dans une de vos listes."
 
-#: widget.php:325
+#: widget.php:332
 msgid "Your subscription to our list has been confirmed [Test]"
 msgstr "Votre inscription à notre liste a été confirmé [Test]"
 
-#: widget.php:278
+#: widget.php:284
 msgid "You will receive an email to confirm your subscription."
 msgstr "Vous allez recevoir un e-mail afin de confirmer votre inscription."
 
-#: widget.php:201 widget.php:298
+#: widget.php:207 widget.php:304
 msgid "Error: Email was not saved."
 msgstr "Erreur : l’e-mail n’a pas été enregistré."
 
@@ -482,19 +494,27 @@ msgstr "Désinstaller l’Emailbuilder ?"
 msgid "Send \"New subscriber\" worflow linked to this list?"
 msgstr "Envoyez aux « Nouveaux abonnés » le scénario relié à cette liste ?"
 
-#: html/widget_back.php:88
+#: html/widget_back.php:131
+msgid "The double optin feature requires EmailBuilder installation in"
+msgstr "L'option double optin nécessite l'installation de l'Emailbuilder dans"
+
+#: html/widget_back.php:128
+msgid "Double optin:"
+msgstr "Double optin :"
+
+#: html/widget_back.php:113
 msgid "Customized Url"
 msgstr "Url de confirmation personnalisée"
 
-#: html/widget_back.php:87
+#: html/widget_back.php:110
 msgid "Default confirmation message"
 msgstr "Message de confirmation par défaut"
 
-#: html/widget_back.php:79
+#: html/widget_back.php:99
 msgid "Edit email content"
 msgstr "Modifier le contenu de l’e-mail"
 
-#: html/widget_back.php:73
+#: html/widget_back.php:92
 msgid "Double optin"
 msgstr "Double optin"
 
@@ -509,6 +529,14 @@ msgstr "Masquer les segments"
 #: html/statistics_header.inc.php:8
 msgid "Display segments"
 msgstr "Afficher les segments"
+
+#: html/settings.php:307
+msgid "Without EmailBuilder, you will not be able to use automated workflows, templates and widget's double optin."
+msgstr "Sans l'Emaibuilder, vous ne pouvez pas créer de scénarios automatisés, de modèles et utiliser le widget double optin."
+
+#: html/settings.php:291
+msgid "The EmailBuilder allows you can to create automated workflows, templates, and use widget's double optin."
+msgstr "L'Emailbuilder permet de créer des scénarios automatisés, des modèles et utiliser le widget double optin."
 
 #: html/list_and_campaign.inc.php:47
 msgid "Add / Modify / Delete your contacts from your app with our connectors."
@@ -1057,7 +1085,7 @@ msgstr "Créez et envoyez gratuitement vos newsletters avec une plateforme d’e
 msgid "https://www.jackmail.com"
 msgstr "https://www.jackmail.com"
 
-#: widget.php:221 widget.php:235 widget.php:308
+#: widget.php:227 widget.php:241 widget.php:314
 msgid "Email saved."
 msgstr "Email enregistré."
 
@@ -2044,15 +2072,15 @@ msgstr "En savoir plus"
 msgid "A new plugin has been activated, do you want to synchronize it with Jackmail?"
 msgstr "Une nouvelle extension a été activée, voulez-vous la synchroniser avec Jackmail ?"
 
-#: html/widget_back.php:42
+#: html/widget_back.php:54
 msgid "Fields:"
 msgstr "Champs :"
 
-#: html/widget_back.php:28
+#: html/widget_back.php:32
 msgid "List:"
 msgstr "Liste :"
 
-#: html/widget_back.php:21
+#: html/widget_back.php:22
 msgid "Title:"
 msgstr "Titre :"
 
@@ -2100,7 +2128,7 @@ msgstr "Type d’appareil"
 #: html/statistics_technologies.inc.php:129
 #: html/statistics_technologies.inc.php:145 jackmail-newsletters.php:1203
 msgid "O.S."
-msgstr "Système d’exploitation"
+msgstr "Système d'exploitation"
 
 #: html/statistics_technologies.inc.php:125
 #: html/statistics_technologies.inc.php:141 jackmail-newsletters.php:1129
@@ -2796,7 +2824,7 @@ msgid "Select a contact list from your WordPress"
 msgstr "Choisissez une liste de destinataires disponible dans votre WordPress"
 
 #: html/list_and_campaign.inc.php:12 html/list_and_campaign.inc.php:58
-#: html/widget_back.php:32
+#: html/widget_back.php:39
 msgid "Select a list"
 msgstr "Sélectionner une liste"
 
@@ -3477,7 +3505,7 @@ msgstr "Annuler"
 #: html/campaign_checklist_test.inc.php:26 html/list.php:96
 #: html/list_and_campaign.inc.php:394 html/main.php:27
 #: html/statistics_header.inc.php:38 html/template.php:48
-#: html/templates.php:105 html/widget_front.php:56
+#: html/templates.php:105 html/widget_front.php:80
 msgid "OK"
 msgstr "Valider"
 
@@ -3506,7 +3534,7 @@ msgid "Contacts"
 msgstr "Contacts"
 
 #: html/campaign.php:41 html/campaign.php:101
-#: html/campaign_type_scenario_settings.inc.php:3 html/widget_back.php:101
+#: html/campaign_type_scenario_settings.inc.php:3 html/widget_back.php:132
 #: jackmail-newsletters.php:1268 jackmail-newsletters.php:1394
 msgid "Settings"
 msgstr "Paramètres"
@@ -3586,7 +3614,7 @@ msgstr "L’e-mail n’est pas valide"
 
 #: html/account_connection.inc.php:29 html/account_connection.inc.php:237
 #: html/account_connection.inc.php:270 html/statistics_synthesis.inc.php:282
-#: html/widget_front.php:26 jackmail-newsletters.php:1124
+#: html/widget_front.php:31 jackmail-newsletters.php:1124
 msgid "Email"
 msgstr "Email"
 

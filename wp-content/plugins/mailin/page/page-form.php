@@ -990,24 +990,6 @@ For your information, you cannot select a template with the tag [DOUBLEOPTIN].',
 			}
 		}
 
-		/**
-		 * Get template lists of sendinblue
-		 */
-		public static function get_template_lists() {
-			$mailin = new SendinblueApiClient();
-			$data = array(
-				'templateStatus' => true
-			);
-			$response = $mailin->getEmailTemplates( $data );
-			if ( $mailin->getLastResponseCode() === SendinblueApiClient::RESPONSE_CODE_OK) {
-				return $response['templates'];	
-			}
-			else {
-				return null;
-			}
-		}
-
-
 		/** Ajax process when change template id */
 		public static function ajax_change_template() {
 			check_ajax_referer( 'ajax_sib_admin_nonce', 'security' );

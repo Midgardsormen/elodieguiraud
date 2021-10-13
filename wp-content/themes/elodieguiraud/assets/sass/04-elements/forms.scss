@@ -330,7 +330,6 @@ fieldset {
 .newsletter-block{
 	display: flex;
 	flex-flow: column;
-	margin-bottom: var(--global--spacing-vertical);
 	&__form-container{
 		margin-top: calc(0.5 * var(--global--spacing-vertical));
 		background-color: var(--global--color-light-blue);
@@ -338,8 +337,10 @@ fieldset {
 		overflow: hidden;
 		height: 0;
 		transition: all .5s ease-in-out;
+		margin-bottom: var(--global--spacing-vertical);
 		&.visible{
 			height: 420px;
+			margin-bottom: 0;
 		}
 	}
 	&__container-frame{

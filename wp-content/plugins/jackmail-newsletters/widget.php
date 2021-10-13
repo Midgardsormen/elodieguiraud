@@ -40,7 +40,7 @@ class Jackmail_Widget extends WP_Widget {
 		$core          = new Jackmail_Core();
 		$lists         = $this->get_lists();
 		$lists_details = array();
-		foreach ( $lists as $key => $list ) {
+		foreach ( $lists as $list ) {
 			$fields_explode  = $core->explode_fields( $list->fields );
 			$lists_details[] = array(
 				'id'         => $list->id,
@@ -48,12 +48,16 @@ class Jackmail_Widget extends WP_Widget {
 			);
 		}
 		$params_configuration = $this->get_configuration( $instance );
+		$double_optin_scenario_link = '';
+		$double_optin_scenario_id = $core->get_widget_double_optin_scenario();
+		if ( $double_optin_scenario_id !== false ) {
+			$double_optin_scenario_link = 'admin.php?page=jackmail_scenario#/scenario/widget_double_optin/' . $double_optin_scenario_id . '/create';
+		}
 		$params               = array(
 			'lists'                      => $lists,
 			'lists_details'              => $lists_details,
 			'js_lists_details'           => $this->get_json_js( $lists_details ),
-			'id'                         => $core->get_current_timestamp_gmt() . mt_rand( 1000000, 9999999 ),
-			'double_optin_scenario_link' => 'admin.php?page=jackmail_scenario#/scenario/widget_double_optin/' . $core->get_widget_double_optin_scenario() . '/create',
+			'double_optin_scenario_link' => $double_optin_scenario_link,
 			'emailbuilder_installed'     => $core->emailbuilder_installed()
 		);
 		$params               = array_merge( $params, $params_configuration );
@@ -64,7 +68,7 @@ class Jackmail_Widget extends WP_Widget {
 		$update            = $this->get_configuration( $instance );
 		$update['id_list'] = isset( $instance['id_list'] ) ? $instance['id_list'] : '';
 		$update['title']   = isset( $instance['title'] ) ? $instance['title'] : '';
-		$update['fields']  = isset( $instance['fields'] ) ? $instance['fields'] : '[]';
+		$update['fields']  = isset( $instance['fields'] ) && $instance['fields'] !== '' ? $instance['fields'] : '[]';
 		return $update;
 	}
 
@@ -92,7 +96,7 @@ class Jackmail_Widget extends WP_Widget {
 		return array(
 			'id_list'                        => isset( $instance['id_list'] ) ? $instance['id_list'] : '',
 			'title'                          => isset( $instance['title'] ) ? $instance['title'] : '',
-			'fields'                         => isset( $instance['fields'] ) ? $instance['fields'] : '[]',
+			'fields'                         => isset( $instance['fields'] ) && $instance['fields'] !== '' ? $instance['fields'] : '[]',
 			'double_optin'                   => $double_optin,
 			'double_optin_confirmation_type' => $double_optin_confirmation_type,
 			'double_optin_confirmation_url'  => $double_optin_confirmation_url,
@@ -117,6 +121,9 @@ class Jackmail_Widget extends WP_Widget {
 		}
 		if ( isset( $instance['id_list'], $instance['title'], $instance['fields'],
 			$instance['double_optin'], $instance['double_optin_confirmation_type'], $instance['double_optin_confirmation_url'] ) ) {
+			if ( ! isset( $args['widget_id'] ) ) { 
+				$args['widget_id'] = 'jackmail_widget-0';
+			}
 			if ( isset( $args['before_widget'], $args['before_title'], $args['after_title'], $args['after_widget'], $args['widget_id'] ) ) {
 				$id_list      = $instance['id_list'];
 				$widget_id    = substr( $args['widget_id'], 16 );
@@ -163,7 +170,6 @@ class Jackmail_Widget extends WP_Widget {
 						'double_optin_confirmation_url'  => $instance['double_optin_confirmation_url'],
 						'gdpr'                           => $instance['gdpr'],
 						'gdpr_content'                   => strip_tags( $instance['gdpr_content'], '<b><a>' ),
-						'id'                             => $core->get_current_timestamp_gmt() . mt_rand( 1000000, 9999999 ),
 						'list_fields'                    => $core->explode_fields( $list->fields ),
 						'confirm_data'                   => $confirm_data
 					);
@@ -189,7 +195,7 @@ class Jackmail_Widget_Event extends Jackmail_Campaign_Scenario_Core {
 
 		add_action( 'wp_ajax_nopriv_jackmail_front_widget_confirmed', array( $this, 'front_widget_confirmed_callback' ) );
 
-		add_action( 'wp_footer', array( $this, 'front_widget_confirmation_script' ) );
+		add_action( 'wp_footer', array( $this, 'front_widget_scripts' ) );
 
 	}
 
@@ -313,7 +319,8 @@ class Jackmail_Widget_Event extends Jackmail_Campaign_Scenario_Core {
 		die;
 	}
 
-	public function front_widget_confirmation_script() {
+	public function front_widget_scripts() {
+		include plugin_dir_path( __FILE__ ) . 'html/widget_front_script.php';
 		if ( isset( $_GET['jackmail_widget_confirm'] ) ) {
 			$data = $this->core->request_text_data( $_GET['jackmail_widget_confirm'] );
 			$data = str_rot13( base64_decode( $data ) );
@@ -321,11 +328,13 @@ class Jackmail_Widget_Event extends Jackmail_Campaign_Scenario_Core {
 			if ( isset( $data['test'], $data['rand'] ) ) {
 				?>
 				<script>
-					setTimeout( function() {
+					setTimeout( function () {
 						alert( '<?php esc_attr_e( 'Your subscription to our list has been confirmed [Test]', 'jackmail-newsletters' ) ?>' );
 					} );
 				</script>
 				<?php
+			} else if ( isset( $data['rand'] ) ) {
+				include plugin_dir_path( __FILE__ ) . 'html/widget_front_script_double_optin.php';
 			}
 		}
 	}

@@ -163,7 +163,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
  */
 
 .post-thumbnail {
-	@extend %responsive-aligndefault-width;
+	@extend %responsive-alignwide-width;
 	text-align: center;
 
 	.entry-header &,
@@ -188,7 +188,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
 .author-bio {
 	position: relative;
 	font-size: var(--global--font-size-xs);
-	max-width: var(--responsive--aligndefault-width);
+	max-width: var(--responsive--alignwide-width);
 
 	.site-main > article > & {
 		margin-top: calc(2 * var(--global--spacing-vertical));
@@ -206,7 +206,7 @@ body:not(.single) .site-main > article:last-of-type .entry-footer {
 		.author-bio-content {
 			display: inline-block;
 			padding-left: var(--global--spacing-horizontal);
-			max-width: calc(var(--responsive--aligndefault-width) - 90px);
+			max-width: calc(var(--responsive--alignwide-width) - 90px);
 		}
 	}
 

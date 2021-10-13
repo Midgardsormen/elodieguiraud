@@ -33,7 +33,7 @@ $baseline-unit: 10px;
 	--heading--font-size-h6: var(--global--font-size-xs);
 	--heading--font-size-h5: var(--global--font-size-sm);
 	--heading--font-size-h4: var(--global--font-size-lg);
-	--heading--font-size-h3: calc(1.25 * var(--global--font-size-lg));
+	--heading--font-size-h3: calc(1.125 * var(--global--font-size-lg));
 	--heading--font-size-h2: var(--global--font-size-xl);
 	--heading--font-size-h1: var(--global--font-size-page-title);
 
@@ -138,6 +138,7 @@ $baseline-unit: 10px;
 	--entry-header--color-hover: var(--global--color-primary-hover);
 	--entry-header--color-focus: var(--global--color-secondary);
 	--entry-header--font-size: var(--heading--font-size-h2);
+	--archive-entry-header--font-size: var(--global--font-size-lg);
 	--entry-content--font-family: var(--global--font-secondary);
 	--entry-author-bio--font-family: var(--heading--font-family);
 	--entry-author-bio--font-size: var(--heading--font-size-h4);
@@ -182,7 +183,7 @@ $baseline-unit: 10px;
 	--pagination--color-text: var(--global--color-primary);
 	--pagination--color-link-hover: var(--global--color-primary-hover);
 	--pagination--font-family: var(--global--font-secondary);
-	--pagination--font-size: var(--global--font-size-lg);
+	--pagination--font-size: var(--global--font-size-sm);
 	--pagination--font-weight: normal;
 	--pagination--font-weight-strong: 600;
 

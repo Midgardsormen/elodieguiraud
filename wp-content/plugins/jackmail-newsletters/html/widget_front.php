@@ -8,7 +8,6 @@ $before_widget                  = $params['before_widget'];
 $title                          = $params['title'];
 $after_widget                   = $params['after_widget'];
 $fields                         = $params['fields'];
-$id                             = $params['id'];
 $list_fields                    = $params['list_fields'];
 $double_optin                   = $params['double_optin'];
 $double_optin_confirmation_type = $params['double_optin_confirmation_type'];
@@ -18,13 +17,23 @@ $gdpr_content                   = $params['gdpr_content'];
 $confirm_id_list                = $params['confirm_data']['id_list'];
 $confirm_email                  = $params['confirm_data']['email'];
 $confirm_fields                 = $params['confirm_data']['fields'];
+$field_id = $this->get_field_id( '' );
+$nonce_submit = wp_create_nonce( $action_submit . get_option( 'jackmail_front_nonce' ) );
+$nonce_confirm = wp_create_nonce( $action_confirm . get_option( 'jackmail_front_nonce' ) );
+$display_gdpr = ( $gdpr === '1' && $gdpr_content !== '' );
+$display_double_optin_confirm = ( $confirm_id_list !== '' && $confirm_email !== '' && $confirm_fields !== '' );
 echo $before_widget;
 echo $title;
 ?>
-<p id="jackmail_widget_confirmation_<?php esc_attr_e( $id ) ?>"></p>
+<p id="<?php echo $this->get_field_id( 'confirmation' ) ?>"></p>
 <p>
-	<label for="jackmail_widget_email_<?php esc_attr_e( $id ) ?>"><?php _e( 'Email', 'jackmail-newsletters' ) ?></label>
-	<input id="jackmail_widget_email_<?php esc_attr_e( $id ) ?>" name="jackmail_widget_email" type="text" autocomplete="off"/>
+	<label for="<?php echo $this->get_field_id( 'email' ) ?>">
+		<?php _e( 'Email', 'jackmail-newsletters' ) ?>
+	</label>
+	<input id="<?php echo $this->get_field_id( 'email' ) ?>"
+		   name="<?php echo $this->get_field_name( 'email' ) ?>"
+		   type="text"
+		   autocomplete="off"/>
 </p>
 <?php
 foreach ( $list_fields as $key => $field ) {
@@ -32,126 +41,76 @@ foreach ( $list_fields as $key => $field ) {
 	if ( in_array( $i, $fields ) ) {
 	?>
 <p>
-	<label for="jackmail_widget_field<?php echo $i ?>_<?php esc_attr_e( $id ) ?>">
+	<label for="<?php echo $this->get_field_id( 'field' ) . $i ?>">
 		<?php echo htmlentities( ucfirst( mb_strtolower( $field ) ) ) ?>
 	</label>
-	<input id="jackmail_widget_field<?php echo $i ?>_<?php esc_attr_e( $id ) ?>"
-	       name="jackmail_widget_field<?php echo $i ?>"
-	       type="text" autocomplete="off"/>
+	<input id="<?php echo $this->get_field_id( 'name_field' ) . $i ?>>"
+		   class="<?php echo $this->get_field_id( 'name_field' ) ?>"
+		   type="hidden"
+		   value="<?php esc_attr_e( $field ) ?>"/>
+	<input id="<?php echo $this->get_field_id( 'field' ) . $i ?>"
+		   class="<?php echo $this->get_field_id( 'field' ) ?>"
+		   name="<?php echo $this->get_field_name( 'field' ) . $i ?>"
+		   type="text"
+		   autocomplete="off"/>
 </p>
 	<?php
 	}
 }
 ?>
 <?php
-if ( $gdpr === '1' && $gdpr_content !== '' ) {
+if ( $display_gdpr ) {
 ?>
 <p><?php echo $gdpr_content ?></p>
 <?php
 }
 ?>
 <p>
-	<input id="jackmail_widget_submit_<?php esc_attr_e( $id ) ?>"
-	       onclick="submit_jackmail_widget_form_<?php esc_attr_e( $id ) ?>()"
-	       type="button" value="<?php esc_attr_e( 'OK', 'jackmail-newsletters' ) ?>"/>
+	<input id="<?php echo $this->get_field_id( 'submit' ) ?>"
+		   onclick="
+		   event.preventDefault();
+		   submit_jackmail_widget_form(
+			   '<?php esc_attr_e( $field_id ) ?>',
+			   '<?php esc_attr_e( $url ) ?>',
+			   '<?php esc_attr_e( $action_submit ) ?>',
+			   '<?php esc_attr_e( $nonce_submit ) ?>',
+			   '<?php esc_attr_e( $widget_id ) ?>'
+		   )"
+		   type="submit"
+		   value="<?php esc_attr_e( 'OK', 'jackmail-newsletters' ) ?>"
+	/>
 </p>
-<div id="jackmail_widget_container_form_<?php esc_attr_e( $id ) ?>"></div>
-<script type="text/javascript">
-	function submit_jackmail_widget_form_<?php esc_attr_e( $id ) ?>() {
-		var fields = [];
-		<?php
-		foreach ( $list_fields as $key => $field ) {
-			$i = $key + 1;
-			if ( in_array( $i, $fields ) ) {
-		?>
-		fields.push( {
-			'field': '<?php esc_attr_e( $field ) ?>',
-			'value': document.getElementById( 'jackmail_widget_field<?php echo $i ?>_<?php esc_attr_e( $id ) ?>' ).value
-		} );
-		<?php
-			}
-		}
-		?>
-		var data = {
-			action: '<?php esc_attr_e( $action_submit ) ?>',
-			nonce: '<?php esc_attr_e( wp_create_nonce( $action_submit . get_option( 'jackmail_front_nonce' ) ) ) ?>',
-			jackmail_widget_id: '<?php esc_attr_e( $widget_id ) ?>',
-			jackmail_widget_email: document.getElementById( 'jackmail_widget_email_<?php esc_attr_e( $id ) ?>' ).value,
-			jackmail_widget_fields: JSON.stringify( fields )
-		};
-		document.getElementById( 'jackmail_widget_submit_<?php esc_attr_e( $id ) ?>' ).disabled = true;
-		query_jackmail_widget_form_<?php esc_attr_e( $id ) ?>(
-			'<?php esc_attr_e( $url ) ?>',
-			data,
-			function( data ) {
-				data = JSON.parse( data );
-				document.getElementById( 'jackmail_widget_email_<?php esc_attr_e( $id ) ?>' ).value = '';
-				<?php
-				foreach ( $list_fields as $key => $field ) {
-					$i = $key + 1;
-					if ( in_array( $i, $fields ) ) {
-				?>
-				document.getElementById( 'jackmail_widget_field<?php echo $i ?>_<?php esc_attr_e( $id ) ?>' ).value = '';
-				<?php
-					}
-				}
-				?>
-				document.getElementById( 'jackmail_widget_confirmation_<?php esc_attr_e( $id ) ?>' ).innerHTML = data.message;
-				alert( data.message );
-				document.getElementById( 'jackmail_widget_submit_<?php esc_attr_e( $id ) ?>' ).disabled = false;
-			}
-		);
-	}
-	function query_jackmail_widget_form_<?php esc_attr_e( $id ) ?>( url, data, success ) {
-		var params = Object.keys( data ).map(
-			function( k ) {
-				return encodeURIComponent( k ) + '=' + encodeURIComponent( data[ k ] );
-			}
-		).join( '&' );
-		var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject( 'Microsoft.XMLHTTP' );
-		xhr.open( 'POST', url );
-		xhr.onreadystatechange = function() {
-			if ( xhr.readyState > 3 && xhr.status === 200 ) {
-				success( xhr.responseText );
-			}
-		};
-		xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
-		xhr.send( params );
-		return xhr;
-	}
-	<?php if ( $confirm_id_list !== '' && $confirm_email !== '' && $confirm_fields !== '' ) { ?>
-	function confirm_jackmail_widget_form_<?php esc_attr_e( $id ) ?>() {
-		var jackmail_widget_fields = <?php echo $confirm_fields ?>;
-		var data = {
-			action: '<?php esc_attr_e( $action_confirm ) ?>',
-			nonce: '<?php esc_attr_e( wp_create_nonce( $action_confirm . get_option( 'jackmail_front_nonce' ) ) ) ?>',
-			jackmail_widget_id_list: '<?php esc_attr_e( $confirm_id_list ) ?>',
-			jackmail_widget_email: '<?php esc_attr_e( $confirm_email ) ?>',
-			jackmail_widget_fields: JSON.stringify( jackmail_widget_fields )
-		};
-		query_jackmail_widget_form_<?php esc_attr_e( $id ) ?>(
-			'<?php esc_attr_e( $url ) ?>',
-			data,
-			function( data ) {
-				data = JSON.parse( data );
-				document.getElementById( 'jackmail_widget_confirmation_<?php esc_attr_e( $id ) ?>' ).innerHTML = data.message;
-				<?php if ( $double_optin_confirmation_type === 'url' && $double_optin_confirmation_url !== '' ) { ?>
-				if ( data.success === false ) {
-					alert( data.message );
-				} else {
-					window.location.href = '<?php esc_attr_e( $double_optin_confirmation_url ) ?>';
-				}
-				<?php } else { ?>
-				alert( data.message );
-				<?php } ?>
-			}
-		);
-	}
-	setTimeout( function() {
-		confirm_jackmail_widget_form_<?php esc_attr_e( $id ) ?>();
-	} );
-	<?php } ?>
-</script>
+<?php if ( $display_double_optin_confirm ) { ?>
+<span id="jackmail_widget_double_optin_confirm_values">
+	<input id="jackmail_widget_double_optin_confirm_id"
+		   type="hidden"
+		   value="<?php esc_attr_e( $field_id ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_fields"
+		   type="hidden"
+		   value="<?php esc_attr_e( $confirm_fields ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_action_confirm"
+		   type="hidden"
+		   value="<?php esc_attr_e( $action_confirm ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_nonce"
+		   type="hidden"
+		   value="<?php esc_attr_e( $nonce_confirm ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_id_list"
+		   type="hidden"
+		   value="<?php esc_attr_e( $confirm_id_list ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_email"
+		   type="hidden"
+		   value="<?php esc_attr_e( $confirm_email ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_url"
+		   type="hidden"
+		   value="<?php esc_attr_e( $url ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_confirmation_type"
+		   type="hidden"
+		   value="<?php esc_attr_e( $double_optin_confirmation_type ) ?>"/>
+	<input id="jackmail_widget_double_optin_confirm_confirmation_url"
+		   type="hidden"
+		   value="<?php esc_attr_e( $double_optin_confirmation_url ) ?>"/>
+</span>
+<?php } ?>
 <?php
 echo $after_widget;
 ?>

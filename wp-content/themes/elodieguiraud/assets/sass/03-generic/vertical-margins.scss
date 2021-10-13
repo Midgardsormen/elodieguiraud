@@ -89,7 +89,7 @@
  * Block & non-gutenberg content wrapper children
  * - Sets spacing-vertical margin logic
  */
-.site-main > article > *, // apply vertical margins to article level
+
 .site-main > .not-found > *, // apply vertical margins to article level
 .entry-content > *,
 [class*="inner-container"] > *,
@@ -104,7 +104,12 @@
 		margin-bottom: calc(0.666 * var(--global--spacing-vertical));
 	}
 }
-
+.site-main > article > *{
+	margin-top: calc(0.666 * var(--global--spacing-vertical));
+	@include media(mobile) {
+		margin-top: calc(0.666 * var(--global--spacing-vertical));
+	}
+}
 .site-footer > *,
 .widget-area > * {
 	margin-top: calc(0.666 * var(--global--spacing-vertical));
