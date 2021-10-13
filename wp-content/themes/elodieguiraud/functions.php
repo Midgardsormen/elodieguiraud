@@ -670,7 +670,7 @@ function wpb_custom_new_menu() {
   add_image_size( 'category-thumb', 300, 9999 ); //300 pixels wide (and unlimited height)
 
   add_filter( 'excerpt_length', function($length) {
-    return 20;
+    return 25;
 }, PHP_INT_MAX );
 
 // Replaces the excerpt "Read More" text by a link

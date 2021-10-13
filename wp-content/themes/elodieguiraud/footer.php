@@ -16,12 +16,6 @@
 		</div><!-- #primary -->
 	</div><!-- #content -->
 
-	<?php if ($post->post_type !='page') : ?>
-		<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
-	<?php endif; ?>
-
-
-
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-footer__container">
 			<div class="site-info">
@@ -42,11 +36,11 @@
 				</div><!-- .site-name -->
 			</div><!-- .site-info -->
 			<div class="site-footer__contact-infos">
-				<p><span><?php echo do_shortcode('[contact type="phone_number"]'); ?></span>
-				<span><?php echo do_shortcode('[contact type="email_address"]'); ?></span></p>
 				<p><span><?php echo do_shortcode('[contact type="street_number_name"]'); ?></span></p>
 				<p><span><?php echo do_shortcode('[contact type="postcode"]'); ?></span>
 				<span><?php echo do_shortcode('[contact type="location_name"]'); ?></span></p>
+				<p><span><?php echo do_shortcode('[contact type="phone_number"]'); ?></span></p>
+				<P><span><?php echo do_shortcode('[contact type="email_address"]'); ?></span></p>
 
 			</div>
 			<div class="site-footer__third-column">

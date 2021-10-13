@@ -16,7 +16,7 @@ if ( 'aside' === $post_format || 'status' === $post_format ) {
 
 <header class="entry-header">
 	<?php
-	twenty_twenty_one_post_thumbnail();
+	the_post_thumbnail('medium');
 	the_title( sprintf( '<h2 class="entry-title default-max-width"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' );
 	?>
 </header><!-- .entry-header -->

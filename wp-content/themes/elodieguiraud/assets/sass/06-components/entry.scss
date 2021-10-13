@@ -1,13 +1,13 @@
 .entry-title {
 
-	color: var(--entry-header--color);
+	color: var(--global--color-blue);
 	font-size: var(--entry-header--font-size);
 	letter-spacing: var(--heading--letter-spacing-h2);
 	line-height: var(--heading--line-height-h2);
 	overflow-wrap: break-word;
 
 	a {
-		color: var(--entry-header--color-link);
+		color: var(--global--color-blue);
 		text-underline-offset: 0.15em;
 
 		&:hover {
@@ -46,8 +46,26 @@ h1.entry-title {
 .entry-content,
 .entry-summary {
 	font-family: var(--entry-content--font-family);
+	padding-bottom: var(--global--spacing-vertical);
+	&__featured-image{
+		display: block;
+		margin-bottom: var(--global--spacing-vertical);
+		@include media(mobile) {
+			float: left;
+			margin-right: var(--global--spacing-horizontal);
+			width: 45%;
+		}
+		@include media(desktop) {
+			float: left;
+			margin-right: var(--global--spacing-horizontal);
+			width: 33%;
+		}
+	}
+	&__date{
+		margin-bottom: var(--global--spacing-vertical);
+		color: var(--global--color-blue);
+	}
 }
-
 .entry-content {
 	.page-template-blade &{
 		color: var(--global--color-white);

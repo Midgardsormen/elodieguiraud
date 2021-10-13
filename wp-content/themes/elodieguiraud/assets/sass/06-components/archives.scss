@@ -61,10 +61,9 @@ h1.page-title {
 	}
 	&__list-container{
 		display: flex;
-		justify-content: space-between;
 		flex-wrap: wrap;
-		margin: 0;
 		padding: 0;
+		justify-content: space-between;
 		@include media(desktop) {
 			margin:auto;
 			padding: 0 var(--global--spacing-unit);
@@ -75,14 +74,17 @@ h1.page-title {
 		width: 100%;
 		
 		margin-bottom: var(--global--spacing-unit);
+		@include media(laptop) {
+			width: 43%;
+		}
 		@include media(desktop) {
-			width: 49%;
+			width: 30%;
 		}
 		@include media(wide) {
-			width: 33%;
+			width: 30%;
 		}
-		@include media(wide) {
-			width: 32%;
+		@include media(xwide) {
+			width: 21%;
 		}
 		article{
 			border: 1px solid var(--global--color-blue);
@@ -100,7 +102,11 @@ h1.page-title {
 			box-sizing: border-box;
 			padding: var(--global--spacing-unit);
 		}
+		.wp-post-image{
+			margin-bottom: 0;
+		}
 		.entry-title {
+			margin-top: 0;
 			text-decoration: none;
 			color: var(--entry-header--color);
 			font-weight: 300;

@@ -76,7 +76,6 @@
  */
 .entry-header,
 .post-thumbnail,
-.entry-content,
 .entry-footer,
 .author-bio {
 	margin-top: var(--global--spacing-vertical);
@@ -104,12 +103,7 @@
 		margin-bottom: calc(0.666 * var(--global--spacing-vertical));
 	}
 }
-.site-main > article > *{
-	margin-top: calc(0.666 * var(--global--spacing-vertical));
-	@include media(mobile) {
-		margin-top: calc(0.666 * var(--global--spacing-vertical));
-	}
-}
+
 .site-footer > *,
 .widget-area > * {
 	margin-top: calc(0.666 * var(--global--spacing-vertical));

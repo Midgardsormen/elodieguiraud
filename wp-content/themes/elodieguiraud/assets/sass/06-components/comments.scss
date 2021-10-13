@@ -2,6 +2,9 @@
  * Comments Wrapper
  */
 .comments-area {
+	padding-top: var(--global--spacing-vertical);
+	padding-bottom: var(--global--spacing-vertical) ;
+	background-color: var(--global--color-light-blue);
 
 	> * {
 		margin-top: var(--global--spacing-vertical);
@@ -261,7 +264,9 @@
 	&:last-of-type {
 		margin-bottom: 0;
 	}
-
+	&.form-submit{
+		text-align: right;
+	}
 	label,
 	input[type="email"],
 	input[type="text"],
@@ -273,7 +278,26 @@
 		width: 100%;
 		font-weight: var(--form--label-weight);
 	}
-
+	input[type=submit]:not(:hover):not(:active):not(.has-background){
+		order: var(--button--border-width) solid transparent;
+		border-radius: 15px;
+		cursor: pointer;
+		font-weight: var(--button--font-weight);
+		font-family: var(--button--font-family);
+		font-size: var(--button--font-size);
+		line-height: var(--button--line-height);
+		padding: calc(0.5 * var(--button--padding-vertical)) var(--button--padding-horizontal);
+		text-decoration: none;
+		background-color: transparent;
+		border-color: var(--global--color-brown);
+		color: var(--global--color-brown);
+	}
+	input[type=submit]:hover, input[type=submit]:focus{
+		border-color: transparent !important;
+		background-color: var(--global--color-blue) !important;
+		color: var(--global--color-background) !important;
+		border-radius: 15px;
+	}
 	&.comment-form-cookies-consent {
 		display: flex;
 	}

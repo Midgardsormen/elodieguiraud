@@ -207,8 +207,8 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 	--form--color-text: var(--global--color-dark-gray);
 	--form--color-ranged: var(--global--color-secondary);
 	--form--label-weight: 500;
-	--form--border-color: var(--global--color-secondary);
-	--form--border-width: 3px;
+	--form--border-color: transparent;
+	--form--border-width: 0;
 	--form--border-radius: 0;
 	--form--spacing-unit: calc(0.5 * var(--global--spacing-unit));
 
@@ -901,7 +901,6 @@ template {
  */
 .entry-header,
 .post-thumbnail,
-.entry-content,
 .entry-footer,
 .author-bio {
 	margin-top: var(--global--spacing-vertical);
@@ -931,16 +930,6 @@ template {
 	.wp-block-post-template :where(li > *) {
 		margin-top: calc(0.666 * var(--global--spacing-vertical));
 		margin-bottom: calc(0.666 * var(--global--spacing-vertical));
-	}
-}
-
-.site-main > article > * {
-	margin-top: calc(0.666 * var(--global--spacing-vertical));
-}
-@media only screen and (min-width: 482px) {
-
-	.site-main > article > * {
-		margin-top: calc(0.666 * var(--global--spacing-vertical));
 	}
 }
 
@@ -4145,9 +4134,9 @@ table.wp-calendar-table caption {
 }
 
 .singular .entry-header {
-	border-bottom: 3px solid var(--global--color-border);
-	padding-bottom: calc(2 * var(--global--spacing-vertical));
-	margin-bottom: calc(3 * var(--global--spacing-vertical));
+	border-bottom: none;
+	padding-bottom: calc(0.75 * var(--global--spacing-vertical));
+	margin-bottom: 0;
 }
 
 .home .entry-header {
@@ -4158,7 +4147,7 @@ table.wp-calendar-table caption {
 
 .singular .has-post-thumbnail .entry-header {
 	border-bottom: none;
-	padding-bottom: calc(1.3 * var(--global--spacing-vertical));
+	padding-bottom: calc(0.75 * var(--global--spacing-vertical));
 	margin-bottom: 0;
 }
 
@@ -4244,7 +4233,7 @@ table.wp-calendar-table caption {
 }
 
 .entry-title {
-	color: var(--entry-header--color);
+	color: var(--global--color-blue);
 	font-size: var(--entry-header--font-size);
 	letter-spacing: var(--heading--letter-spacing-h2);
 	line-height: var(--heading--line-height-h2);
@@ -4252,7 +4241,7 @@ table.wp-calendar-table caption {
 }
 
 .entry-title a {
-	color: var(--entry-header--color-link);
+	color: var(--global--color-blue);
 	text-underline-offset: 0.15em;
 }
 
@@ -4294,6 +4283,37 @@ h1.entry-title {
 .entry-content,
 .entry-summary {
 	font-family: var(--entry-content--font-family);
+	padding-bottom: var(--global--spacing-vertical);
+}
+
+.entry-content__featured-image,
+.entry-summary__featured-image {
+	display: block;
+	margin-bottom: var(--global--spacing-vertical);
+}
+@media only screen and (min-width: 482px) {
+
+	.entry-content__featured-image,
+	.entry-summary__featured-image {
+		float: right;
+		margin-left: var(--global--spacing-horizontal);
+		width: 45%;
+	}
+}
+@media only screen and (min-width: 822px) {
+
+	.entry-content__featured-image,
+	.entry-summary__featured-image {
+		float: right;
+		margin-left: var(--global--spacing-horizontal);
+		width: 33%;
+	}
+}
+
+.entry-content__date,
+.entry-summary__date {
+	margin-bottom: var(--global--spacing-vertical);
+	color: var(--global--color-blue);
 }
 
 .page-template-blade .entry-content {
@@ -4517,10 +4537,9 @@ h1.page-title {
 .search__list-container,
 .blog__list-container {
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
-	margin: 0;
 	padding: 0;
+	justify-content: space-between;
 }
 @media only screen and (min-width: 822px) {
 
@@ -4539,12 +4558,20 @@ h1.page-title {
 	width: 100%;
 	margin-bottom: var(--global--spacing-unit);
 }
+@media only screen and (min-width: 652px) {
+
+	.archive__list-item,
+	.search__list-item,
+	.blog__list-item {
+		width: 43%;
+	}
+}
 @media only screen and (min-width: 822px) {
 
 	.archive__list-item,
 	.search__list-item,
 	.blog__list-item {
-		width: 49%;
+		width: 30%;
 	}
 }
 @media only screen and (min-width: 1480px) {
@@ -4552,15 +4579,15 @@ h1.page-title {
 	.archive__list-item,
 	.search__list-item,
 	.blog__list-item {
-		width: 33%;
+		width: 30%;
 	}
 }
-@media only screen and (min-width: 1480px) {
+@media only screen and (min-width: 1640px) {
 
 	.archive__list-item,
 	.search__list-item,
 	.blog__list-item {
-		width: 32%;
+		width: 21%;
 	}
 }
 
@@ -4590,9 +4617,16 @@ h1.page-title {
 	padding: var(--global--spacing-unit);
 }
 
+.archive__list-item .wp-post-image,
+.search__list-item .wp-post-image,
+.blog__list-item .wp-post-image {
+	margin-bottom: 0;
+}
+
 .archive__list-item .entry-title,
 .search__list-item .entry-title,
 .blog__list-item .entry-title {
+	margin-top: 0;
 	text-decoration: none;
 	color: var(--entry-header--color);
 	font-weight: 300;
@@ -4627,6 +4661,12 @@ h1.page-title {
 /**
  * Comments Wrapper
  */
+.comments-area {
+	padding-top: var(--global--spacing-vertical);
+	padding-bottom: var(--global--spacing-vertical);
+	background-color: var(--global--color-light-blue);
+}
+
 .comments-area > * {
 	margin-top: var(--global--spacing-vertical);
 	margin-bottom: var(--global--spacing-vertical);
@@ -4877,6 +4917,10 @@ h1.page-title {
 	margin-bottom: 0;
 }
 
+.comment-form > p.form-submit {
+	text-align: left;
+}
+
 .comment-form > p label,
 .comment-form > p input[type=email],
 .comment-form > p input[type=text],
@@ -4887,6 +4931,29 @@ h1.page-title {
 	margin-bottom: calc(.5 * var(--global--spacing-unit));
 	width: 100%;
 	font-weight: var(--form--label-weight);
+}
+
+.comment-form > p input[type=submit]:not(:hover):not(:active):not(.has-background) {
+	order: var(--button--border-width) solid transparent;
+	border-radius: 15px;
+	cursor: pointer;
+	font-weight: var(--button--font-weight);
+	font-family: var(--button--font-family);
+	font-size: var(--button--font-size);
+	line-height: var(--button--line-height);
+	padding: calc(0.5 * var(--button--padding-vertical)) var(--button--padding-horizontal);
+	text-decoration: none;
+	background-color: transparent;
+	border-color: var(--global--color-brown);
+	color: var(--global--color-brown);
+}
+
+.comment-form > p input[type=submit]:hover,
+.comment-form > p input[type=submit]:focus {
+	border-color: transparent !important;
+	background-color: var(--global--color-blue) !important;
+	color: var(--global--color-background) !important;
+	border-radius: 15px;
 }
 
 .comment-form > p.comment-form-cookies-consent {
