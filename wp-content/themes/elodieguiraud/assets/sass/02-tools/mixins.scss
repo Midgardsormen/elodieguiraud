@@ -49,13 +49,20 @@
 
 		// Background-colors
 		&:not(.has-background) {
-			background-color: var(--global--color-primary);
-
+			background-color: transparent;
+			border-color: var(--global--color-brown);
+			color: var(--global--color-brown);
 			// Nested
 			.has-background & {
 				background-color: var(--local--color-primary, var(--global--color-primary));
 			}
 		}
+	}
+	&:not(.has-background):hover, &:not(.has-background):focus{
+		border-color: transparent !important;
+		background-color: var(--global--color-blue) !important;
+		color: var(--global--color-background) !important;
+		border-radius: 15px;
 	}
 
 	// Hover Button color should match parent element foreground color

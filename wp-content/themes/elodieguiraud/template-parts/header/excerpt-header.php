@@ -15,8 +15,10 @@ if ( 'aside' === $post_format || 'status' === $post_format ) {
 ?>
 
 <header class="entry-header">
+	<a href="<?php echo esc_url( get_permalink()); ?>">
+		<?php the_post_thumbnail('medium');?>
+	</a>
 	<?php
-	the_post_thumbnail('medium');
 	the_title( sprintf( '<h2 class="entry-title default-max-width"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' );
 	?>
 </header><!-- .entry-header -->

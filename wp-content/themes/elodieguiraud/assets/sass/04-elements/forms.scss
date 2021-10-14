@@ -19,7 +19,7 @@ input[type="color"],
 	line-height: var(--global--line-height-body);
 	padding: var(--form--spacing-unit);
 	// Gives a little more space for the outline offset.
-	margin: 0 2px;
+	margin: 5px 2px 0;
 	max-width: 100%;
 
 	&:focus {
@@ -327,7 +327,7 @@ fieldset {
 		}
 	}
 }
-.newsletter-block{
+.newsletter-block, .full-width-form{
 	display: flex;
 	flex-flow: column;
 	&__form-container{
@@ -360,5 +360,57 @@ fieldset {
 		p{
 			margin-bottom: calc(0.25 * var(--global--spacing-vertical));
 		}
+	}
+}
+.full-width-form{
+	&__container-frame{
+		max-width: var(--responsive--alignwide-width);
+	}
+	&__form-container{
+		&.visible{
+			height: auto;
+		}
+		form{
+			p{
+				margin-bottom: calc(0.5 * var(--global--spacing-vertical));
+			}
+		}
+	}
+	&__column-frame {
+		margin-bottom: calc(0.5* var(--global--spacing-vertical));
+	}
+	@include media(desktop) {
+		&__column-frame {
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		&__column {
+			width: 45%;
+		}
+
+	}
+	input.wpcf7-form-control.has-spinner.wpcf7-submit {
+		order: 1;
+	}
+	.wp-block-button {
+		display: flex;
+	}
+	input[type=text], 
+	input[type=email], 
+	input[type=url], 
+	input[type=password], 
+	input[type=search], 
+	input[type=number], 
+	input[type=tel], 
+	input[type=date], 
+	input[type=month], 
+	input[type=week], 
+	input[type=time], 
+	input[type=datetime], 
+	input[type=datetime-local], 
+	input[type=color], 
+	.site textarea{
+		width: 100%;
 	}
 }
