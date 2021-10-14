@@ -328,6 +328,7 @@ fieldset {
 	}
 }
 .newsletter-block, .full-width-form{
+	clear: both;
 	display: flex;
 	flex-flow: column;
 	&__form-container{

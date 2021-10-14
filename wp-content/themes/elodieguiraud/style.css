@@ -1390,6 +1390,7 @@ fieldset input[type=radio] + label, fieldset input[type=checkbox] + label {
 }
 
 .newsletter-block, .full-width-form {
+  clear: both;
   display: flex;
   flex-flow: column;
 }
