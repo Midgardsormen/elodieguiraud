@@ -68,6 +68,7 @@
 				margin: 0;
 			}
 			&__custom-section{
+				padding: calc(0.5* var(--global--spacing-vertical)) ;
 				h2{
 					color: var(--global--color-blue);
 					margin-bottom: calc(0.5* var(--global--spacing-vertical));
@@ -76,7 +77,9 @@
 					margin-top: calc(0.25* var(--global--spacing-vertical));
 					margin-bottom: calc(0.25* var(--global--spacing-vertical));
 				}			
-				padding: calc(0.5* var(--global--spacing-vertical)) ;
+				p {
+					margin-bottom: var(--global--spacing-vertical);
+				}
 			}
 		}
 	}
